@@ -1,8 +1,12 @@
 h1{
 	text-align: center;
 }
+nav{
+	text-align: center;
+	font-size: 300%;
+}
 body{
-	background-color: rgb(71, 37, 42);
+	background-color: rgb(201, 187, 189);
 	font-size: 200%;
 	color: white;
 }
