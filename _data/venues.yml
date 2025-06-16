@@ -1,9 +1,41 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+# Template venues kept for reference - uncomment if needed
+# "AJP":
+#   url: https://aapt.scitation.org/journal/ajp
+#   color: "#00369f"
+# "PhysRev":
+#   url: https://journals.aps.org/
 
-"PhysRev":
-  url: https://journals.aps.org/
+# Venues from Zesun Ahmed Mia's publications
+# Defines abbreviations and colors for publication venues
 
-"Vision":
-  color: "#009f36"
+"IEEE TCDS":
+  color: "#1f77b4"
+  description: IEEE Transactions on Cognitive and Developmental Systems
+
+"Matter":
+  color: "#ff7f0e"
+  description: Matter (Cell Press)
+
+"iCACCESS":
+  color: "#2ca02c"
+  description: International Conference on Accessibility and Computing for Persons with Disabilities
+
+"ICECE":
+  color: "#d62728"
+  description: International Conference on Electrical, Computer and Communication Engineering
+
+"IEEE ISIEA":
+  color: "#9467bd"
+  description: IEEE Symposium on Industrial Electronics and Applications
+
+"ICO":
+  color: "#8c564b"
+  description: International Conference on Optimization
+
+"ICCIT":
+  color: "#e377c2"
+  description: International Conference on Computer and Information Technology
+
+"OpenReview":
+  color: "#7f7f7f"
+  description: OpenReview Preprint

@@ -1,14 +1,17 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - zesun33  # Zesun Ahmed Mia's GitHub username
 
 repo_description_lines_max: 2
 
 github_repos:
+  # Academic website repository
+  - zesun33/zesun33.github.io
+  
+  # Research-related tools and frameworks
   - alshedivat/al-folio
+  - pytorch/pytorch
+  - tensorflow/tensorflow
+  
+  # Development tools
   - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - microsoft/vscode

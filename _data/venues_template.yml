@@ -1,0 +1,15 @@
+# Template for venues.yml - Hidden from website
+# This file defines venue abbreviations used in your bibliography
+# Format: "abbreviation": "Full venue name"
+
+"CONFERENCE":
+  color: "#ee7333"
+  description: Conference on Topic
+
+"JOURNAL":
+  color: "#3333ee"
+  description: Journal Name
+
+"WORKSHOP":
+  color: "#33ee33"
+  description: Workshop Name 

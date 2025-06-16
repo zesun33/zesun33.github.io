@@ -1,0 +1,19 @@
+# Template for repositories.yml - Hidden from website
+# This file shows examples of how to configure GitHub user and repository showcases
+
+github_users:
+  - your-github-username  # Replace with actual GitHub username
+  - collaborator-username # Add collaborators if desired
+
+repo_description_lines_max: 2
+
+github_repos:
+  # Your own repositories
+  - your-username/repo-name
+  - your-username/another-repo
+  
+  # Popular tools you use or contribute to
+  - alshedivat/al-folio
+  - jekyll/jekyll
+  - pytorch/pytorch
+  # Add more repositories as needed 

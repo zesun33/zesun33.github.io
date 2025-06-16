@@ -1,34 +1,66 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+# Coauthors from Zesun Ahmed Mia's publications
+# Automatically links author names in bibliography to their profiles
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"sengupta":
+  - firstname: ["Abhronil"]
+    url: https://www.sengupta.psu.edu/
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"bal":
+  - firstname: ["Malyaban"]
+    url: # Add URL when available
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"zhang":
+  - firstname: ["Tao", "Hao"]
+    url: # Add URLs when available
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"hu":
+  - firstname: ["Mingjie"]
+    url: # Add URL when available
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"mao":
+  - firstname: ["Wei"]
+    url: # Add URL when available
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"ahmed":
+  - firstname: ["Kazi Toukir"]
+    url: # Add URL when available
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"saquib":
+  - firstname: ["Nazmus Saadat"]
+    url: # Add URL when available
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"himel":
+  - firstname: ["Mehedi Hasan"]
+    url: # Add URL when available
+
+"limon":
+  - firstname: ["Mehedi Hossen"]
+    url: # Add URL when available
+
+"subrina":
+  - firstname: ["Samia"]
+    url: # Add URL when available
+
+"fahim":
+  - firstname: ["KM Ashraful Hoque"]
+    url: # Add URL when available
+
+"khalid":
+  - firstname: ["Md Jubair Hasan"]
+    url: # Add URL when available
+
+"rasheduzzaman":
+  - firstname: ["Mirza"]
+    url: # Add URL when available
+
+"islam":
+  - firstname: ["Md Moinul", "Saiful"]
+    url: # Add URL when available
+
+"haque":
+  - firstname: ["Monjurul"]
+    url: # Add URL when available
+
+"rahman":
+  - firstname: ["SMA Mohaiminur"]
+    url: # Add URL when available
