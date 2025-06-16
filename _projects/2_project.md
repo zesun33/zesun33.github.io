@@ -1,12 +1,66 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: Neuromorphic Devices with Hydrogen Gradients
+description: Self-sensitizable devices for enhanced synaptic plasticity
+img: assets/img/2.jpg
 importance: 2
 category: work
-giscus_comments: true
+related_publications: true
 ---
+
+## Self-Sensitizable Neuromorphic Devices Based on Adaptive Hydrogen Gradient
+
+This collaborative research project focuses on developing innovative neuromorphic devices that utilize adaptive hydrogen gradients to achieve enhanced synaptic plasticity and learning capabilities.
+
+### Project Overview
+
+The research demonstrates a breakthrough in neuromorphic computing by creating self-sensitizable devices that can adapt and learn through hydrogen gradient manipulation. This work represents a significant advancement in brain-inspired computing technologies.
+
+### Key Features
+
+🧠 **Synaptic Plasticity**: Enhanced learning capabilities mimicking biological neural networks
+
+⚡ **Self-Sensitization**: Adaptive behavior without external programming
+
+🔬 **Hydrogen Gradients**: Novel use of hydrogen dynamics for device operation
+
+### Research Contributions
+
+**Technical Innovation**: Development of adaptive hydrogen gradient technology for neuromorphic applications
+
+**Material Science**: Advanced understanding of hydrogen behavior in neuromorphic devices
+
+**Computing Applications**: New pathways for brain-inspired computing systems
+
+### Collaborative Research
+
+This project involved extensive collaboration with an international research team, bringing together expertise in:
+
+- Materials Science and Engineering
+- Neuromorphic Computing
+- Hydrogen Dynamics
+- Device Physics
+
+### Research Team
+
+**Principal Investigators**: 
+- Tao Zhang (Lead)
+- Mingjie Hu
+- **Md Zesun Ahmed Mia** (Contributing Researcher)
+- Hao Zhang, Wei Mao, and others
+
+**Institutions**: Multiple international research institutions
+
+### Publication Impact
+
+Published in **Matter** (Elsevier, 2024), Vol. 7, No. 5, pages 1799-1816, this work has garnered significant attention in the neuromorphic computing community.
+
+### Future Directions
+
+The research opens new avenues for:
+- Advanced neuromorphic computing architectures
+- Bio-inspired learning systems
+- Energy-efficient computing solutions
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
