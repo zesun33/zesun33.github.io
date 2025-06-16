@@ -1,80 +1,54 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
-category: fun
+title: Future Research Directions
+description: Upcoming research initiatives and collaborative opportunities
+img: assets/img/5.jpg
+importance: 5
+category: future
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Future Research Initiatives
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This section outlines potential research directions and collaborative opportunities that align with my academic interests and expertise.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+### 🔮 **Emerging Research Areas**
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+**Advanced Neuromorphic Systems**
+- Next-generation brain-inspired computing architectures
+- Integration of biological principles with artificial systems
+- Energy-efficient cognitive computing platforms
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+**Quantum-Inspired Machine Learning**
+- Quantum advantage in neural network training
+- Hybrid classical-quantum algorithms
+- Quantum-enhanced optimization techniques
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+**Sustainable Computing Technologies**
+- Green AI and energy-efficient algorithms
+- Sustainable hardware design principles
+- Environmental impact reduction in computing
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+### 🤝 **Collaboration Opportunities**
 
-{% raw %}
+**Interdisciplinary Research**
+- Materials science and computational modeling
+- Neuroscience and artificial intelligence  
+- Accessibility technology and social impact
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+**Industry Partnerships**
+- Technology transfer and commercialization
+- Real-world application development
+- Innovation and entrepreneurship
 
-{% endraw %}
+### 📈 **Long-term Vision**
+
+My research vision focuses on developing technologies that:
+- Address real-world societal challenges
+- Advance fundamental scientific understanding
+- Bridge theoretical concepts with practical applications
+- Promote inclusive and accessible technology
+
+---
+
+*Interested in potential collaboration or discussing research opportunities? Please feel free to reach out!*

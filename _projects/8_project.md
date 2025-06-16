@@ -1,12 +1,15 @@
 ---
 layout: page
-title: project 8
-description: an other project with a background image and giscus comments
-img: assets/img/9.jpg
-importance: 2
-category: work
-giscus_comments: true
+title: template project 8
+description: (hidden template project)
+img: assets/img/8.jpg
+importance: 8
+category: hidden
+related_publications: false
+published: false
 ---
+
+Hidden template project.
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.

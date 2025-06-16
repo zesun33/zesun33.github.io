@@ -1,12 +1,15 @@
 ---
 layout: page
-title: project 7
-description: with background image
-img: assets/img/4.jpg
-importance: 1
-category: work
-related_publications: true
+title: template project 7
+description: (hidden template project)
+img: assets/img/7.jpg
+importance: 7
+category: hidden
+related_publications: false
+published: false
 ---
+
+Hidden template project.
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
