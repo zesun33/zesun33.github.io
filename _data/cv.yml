@@ -2,96 +2,136 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Md Zesun Ahmed Mia
+    - name: Email
+      value: zesun123@gmail.com
+    - name: Work Email
+      value: zesun.ahmed@psu.edu
+    - name: LinkedIn
+      value: <a href="https://www.linkedin.com/in/zesun-ahmed/">linkedin.com/in/zesun-ahmed</a>
+    - name: Google Scholar
+      value: <a href="https://scholar.google.com/citations?user=j-zfUj8AAAAJ&hl=en&oi=ao">Google Scholar Profile</a>
+    - name: ResearchGate
+      value: <a href="https://www.researchgate.net/profile/Md-Zesun-Ahmed-Mia-2/">ResearchGate Profile</a>
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D. in Electrical Engineering
+      institution: Pennsylvania State University, State College, PA, USA
+      year: 08/2022 - 08/2026 (Expected)
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - CGPA: 4.00/4.00
+        - Advisor: Dr. Abhronil Sengupta
+        - Focus: Neuromorphic Computing, Device-Circuit Co-design
+    - title: M.S. in Electrical Engineering
+      institution: Pennsylvania State University, State College, PA, USA
+      year: 08/2019 - 08/2021
       description:
-        - Description 1.
-        - Description 2.
+        - CGPA: 4.00/4.00
+        - Thesis: Neuromorphic Computing for Lifelong Learning
+    - title: B.Sc. in Electrical and Electronic Engineering
+      institution: Bangladesh University of Engineering & Technology (BUET), Dhaka, Bangladesh
+      year: 02/2015 - 04/2019
+      description:
+        - CGPA: 3.81/4.00
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Graduate Technical Intern
+      institution: Intel Corporation, Hillsboro, OR
+      year: 05/2024 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Thin film process and device integration for advanced memory and logic
+        - Developed ML and neuromorphic hardware for edge AI
+    - title: Graduate Research Assistant
+      institution: Penn State, State College, PA
+      year: 08/2022 - Present
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Research in neuromorphic computing, ML hardware, and device-circuit co-design
+        - Led projects on spintronic/ferroelectric devices and SNNs
+    - title: Graduate Teaching Assistant
+      institution: Penn State, State College, PA
+      year: 08/2024 - Present
       description:
+        - Taught and supported Cadence Virtuoso, schematic/layout design, and lab courses
+    - title: Lecturer
+      institution: University of Liberal Arts Bangladesh, Dhaka, Bangladesh
+      year: 02/2021 - 08/2022
+      description:
+        - Taught Digital Circuit Design, Device Physics, Power Electronics
+    - title: R&D Engineer (Part-time)
+      institution: SEMWAVES Ltd., London, UK
+      year: 09/2020 - 07/2021
+      description:
+        - Designed 50 KW solar-hydro hybrid system (Bangladesh)
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: Research Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Neuromorphic Computing
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Brain-inspired hardware
+        - Spiking Neural Networks (SNNs)
+        - Algorithm-device co-design
+    - title: Machine Learning Hardware
       items:
-        - Description 1.
-        - Description 2.
+        - ML accelerators
+        - In-memory computing
+        - Edge AI systems
+    - title: Emerging Devices
+      items:
+        - Spintronics
+        - Ferroelectric FET (FeFET)
+        - Non-volatile memory (NVM)
+        - Ferroelectric devices
+    - title: Semiconductor Process Integration
+      items:
+        - Device fabrication
+        - Process-device-circuit co-design
+    - title: AI for Semiconductor
+      items:
+        - ML for process/device optimization
+        - Yield prediction
+
+- title: Technical Skills
+  type: nested_list
+  contents:
+    - title: Programming Languages
+      items:
+        - Python, MATLAB, C++
+        - Verilog, Shell scripting
+    - title: EDA/Simulation Tools
+      items:
+        - Cadence Virtuoso, Spectre, HSPICE
+        - TCAD, COMSOL, ModelSim
+        - Synopsys (Design Compiler, PrimeTime, VCS)
+    - title: Device Characterization
+      items:
+        - AFM, SEM, Probe Station
+        - Electrical Testing, Hall, XRD, TEM
+        - Reliability testing, parameter extraction
+    - title: Data Analysis & AI Tools
+      items:
+        - Pandas, NumPy, JMP, Jupyter
+        - Advanced use of generative AI tools (Cursor, Copilot, VSCode)
+        - Prompt engineering and AI integration
+    - title: Languages
+      items:
+        - English (Fluent)
+        - Bengali (Native)
+
+- title: Publications
+  type: time_table
+  contents:
+    - title: Recent Publications
+      year: 2024
+      description: See my <a href="https://scholar.google.com/citations?user=j-zfUj8AAAAJ&hl=en&oi=ao">Google Scholar</a> profile for a complete list of publications.
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Research:</u> Interdisciplinary research in AI hardware and semiconductor technology
+    - <u>Teaching:</u> Course design, mentoring, and lab supervision
+    - <u>Collaboration:</u> Cross-functional teamwork and academic-industry partnerships
