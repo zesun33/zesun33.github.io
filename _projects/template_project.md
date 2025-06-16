@@ -2,7 +2,7 @@
 layout: page
 title: Template Project
 description: Template structure for future project pages
-img: assets/img/template.jpg
+img: 
 importance: 999
 category: hidden
 related_publications: false

@@ -2,7 +2,7 @@
 layout: page
 title: template project 7
 description: (hidden template project)
-img: assets/img/7.jpg
+img: 
 importance: 7
 category: hidden
 related_publications: false

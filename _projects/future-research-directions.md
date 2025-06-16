@@ -2,7 +2,7 @@
 layout: page
 title: Future Research Directions
 description: Upcoming research initiatives and collaborative opportunities
-img: assets/img/5.jpg
+img: 
 importance: 5
 category: future
 related_publications: false

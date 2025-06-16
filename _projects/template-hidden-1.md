@@ -1,9 +1,9 @@
 ---
 layout: page
-title: template project 9
+title: template project 6
 description: (hidden template project)
-img: assets/img/9.jpg
-importance: 9
+img: 
+importance: 6
 category: hidden
 related_publications: false
 published: false

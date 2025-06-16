@@ -2,7 +2,7 @@
 layout: page
 title: DCNN-LSTM Audio Classification
 description: Deep learning approach combining feature engineering and data augmentation for audio recognition
-img: assets/img/12.jpg
+img: 
 importance: 12
 category: work
 related_publications: true
