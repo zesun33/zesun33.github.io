@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
+title: Teaching
 description: Academic instruction, mentoring, and educational contributions during my PhD journey.
 nav: true
 nav_order: 6

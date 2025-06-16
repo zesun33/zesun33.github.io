@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='https://www.psu.edu/'>Pennsylvania State University</a>. Ph.D. Candidate. Neuromorphic Computing Researcher.
 
