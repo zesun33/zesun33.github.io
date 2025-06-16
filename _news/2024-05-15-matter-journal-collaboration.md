@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🔬 Thrilled to contribute to groundbreaking research on **self-sensitizable neuromorphic devices** published in *Matter* journal! Our work on adaptive hydrogen gradients opens new possibilities for synaptic plasticity.
+🔬 Thrilled to contribute to groundbreaking research on **self-sensitizable neuromorphic devices** published in _Matter_ journal! Our work on adaptive hydrogen gradients opens new possibilities for synaptic plasticity.
