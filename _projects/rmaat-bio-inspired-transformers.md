@@ -4,8 +4,9 @@ title: RMAAT - Bio-Inspired Transformers
 description: Efficient long-context sequence processing using biological attention mechanisms
 img: 
 importance: 10
-category: work
+category: hidden
 related_publications: true
+published: false
 ---
 
 ## RMAAT: A Bio-Inspired Approach for Efficient Long-Context Sequence Processing in Transformers

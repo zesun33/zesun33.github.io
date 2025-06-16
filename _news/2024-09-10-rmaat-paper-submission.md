@@ -4,6 +4,8 @@ title: RMAAT Paper Submission - Bio-Inspired Transformer Architecture
 date: 2024-09-10 14:30:00-0500
 inline: false
 related_posts: false
+published: false
+category: hidden
 ---
 
 📝 Submitted our latest research paper **"RMAAT: A Bio-Inspired Approach for Efficient Long-Context Sequence Processing in Transformers"** for peer review.
