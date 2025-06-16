@@ -11,7 +11,6 @@ related_posts: false
 The presentation covered our molecular dynamics simulation study investigating how doping and defects affect thermal transport properties in monolayer GaN nanoribbons, providing valuable insights for nanoelectronic device design.
 
 🎯 **Key highlights:**
-
 - Novel molecular dynamics approach for GaN nanoribbons
 - Comprehensive analysis of thermal transport properties
 - Implications for next-generation nanoelectronic devices

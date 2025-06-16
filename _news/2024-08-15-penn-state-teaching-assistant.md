@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-👨‍🏫 Started as **Graduate Teaching Assistant** at Penn State! Teaching Cadence Virtuoso, schematic/layout design, and supporting lab courses in electrical engineering.
+👨‍🏫 Started as **Graduate Teaching Assistant** at Penn State! Teaching Cadence Virtuoso, schematic/layout design, and supporting lab courses in electrical engineering. 

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎓 Started my **PhD in Electrical Engineering** at Pennsylvania State University! Focusing on neuromorphic computing, ML hardware, and device-circuit co-design research.
+🎓 Started my **PhD in Electrical Engineering** at Pennsylvania State University! Focusing on neuromorphic computing, ML hardware, and device-circuit co-design research. 
