@@ -455,12 +455,7 @@ ninja.data = [{
           section: "News",},{id: "news-started-as-graduate-teaching-assistant-at-penn-state-teaching-cadence-virtuoso-schematic-layout-design-and-supporting-lab-courses-in-electrical-engineering",
           title: '👨‍🏫 Started as Graduate Teaching Assistant at Penn State! Teaching Cadence Virtuoso, schematic/layout...',
           description: "",
-          section: "News",},{id: "news-rmaat-paper-submission-bio-inspired-transformer-architecture",
-          title: 'RMAAT Paper Submission - Bio-Inspired Transformer Architecture',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/2024-09-10-rmaat-paper-submission/";
-            },},{id: "news-presented-our-ultra-low-cost-electronic-braille-device-at-icaccess-2024-proud-to-contribute-to-accessibility-technology-that-can-make-a-real-difference-for-visually-impaired-individuals",
+          section: "News",},{id: "news-presented-our-ultra-low-cost-electronic-braille-device-at-icaccess-2024-proud-to-contribute-to-accessibility-technology-that-can-make-a-real-difference-for-visually-impaired-individuals",
           title: '♿ Presented our ultra low-cost electronic Braille device at iCACCESS 2024! Proud to...',
           description: "",
           section: "News",},{id: "news-presented-at-icece-2024-conference",
@@ -506,11 +501,6 @@ ninja.data = [{
           description: "Self-sensitizable devices for enhanced synaptic plasticity",
           section: "Projects",handler: () => {
               window.location.href = "/projects/neuromorphic-hydrogen-gradients/";
-            },},{id: "projects-rmaat-bio-inspired-transformers",
-          title: 'RMAAT - Bio-Inspired Transformers',
-          description: "Efficient long-context sequence processing using biological attention mechanisms",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/rmaat-bio-inspired-transformers/";
             },},{
         id: 'social-email',
         title: 'email',
