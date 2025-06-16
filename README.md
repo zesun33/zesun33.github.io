@@ -1,4 +1,4 @@
-# Zesun Ahmed Mia - Academic Website
+# Md Zesun Ahmed Mia - Academic Website
 
 This is the source code for my personal academic website, hosted at [https://zesun33.github.io](https://zesun33.github.io).
 
@@ -28,7 +28,7 @@ Currently a Graduate Technical Intern at Intel Corporation.
 
 ## Contact
 
-- **Email**: zesun123@gmail.com | zesun.ahmed@psu.edu
+- **Email**: zesun.ahmed@psu.edu
 - **LinkedIn**: [linkedin.com/in/zesun-ahmed](https://www.linkedin.com/in/zesun-ahmed/)
 - **Google Scholar**: [Scholar Profile](https://scholar.google.com/citations?user=j-zfUj8AAAAJ&hl=en&oi=ao)
 - **ResearchGate**: [ResearchGate Profile](https://www.researchgate.net/profile/Md-Zesun-Ahmed-Mia-2/)
