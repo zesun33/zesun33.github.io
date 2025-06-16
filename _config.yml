@@ -17,8 +17,8 @@ keywords: academic-website, research, zesun-ahmed-mia, portfolio # add your own 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🎓 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://zesun33.github.io # update this with your actual GitHub username
-baseurl: /zesunahmed.github.io # the subpath since repo name is zesunahmed.github.io not zesun33.github.io
+url: https://zesun33.github.io # the base hostname & protocol for your site
+baseurl: # the subpath of your site, since this will be zesun33.github.io (not a project repo)
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
