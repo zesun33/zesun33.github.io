@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://zesun33.github.io/zesunahmed.github.io/sitemap.xml
+Sitemap: https://zesun33.github.io/sitemap.xml
