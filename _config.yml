@@ -9,16 +9,16 @@ last_name: Mia
 contact_note: >
   You can reach me via email or connect with me on social media.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Academic researcher and scholar focused on advancing knowledge through research and innovation.
+  Md Zesun Ahmed Mia - PhD candidate in Electrical Engineering at Penn State specializing in neuromorphic computing, machine learning hardware, emerging devices, and semiconductor process integration. Research focus on brain-inspired computing, spintronics, and AI accelerators.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: academic-website, research, zesun-ahmed-mia, portfolio # add your own keywords or leave empty
+keywords: neuromorphic computing, machine learning hardware, spintronics, semiconductor devices, AI accelerators, brain-inspired computing, emerging devices, FeFET, Penn State, electrical engineering, PhD research, academic publications, research papers # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🎓 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://zesun33.github.io # the base hostname & protocol for your site
-baseurl: # the subpath of your site, since this will be zesun33.github.io (not a project repo)
+baseurl: /zesunahmed.github.io # the subpath of your site, since this will be zesun33.github.io (not a project repo)
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
@@ -62,8 +62,8 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
 og_image: # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
