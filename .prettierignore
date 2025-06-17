@@ -1,0 +1,22 @@
+# Jekyll template files with Liquid syntax
+_scripts/
+assets/css/main.scss
+assets/plotly/demo.html
+
+# Generated files
+_site/
+.bundle/
+vendor/
+
+# Package files
+package-lock.json
+Gemfile.lock
+
+# Large CSS files
+assets/css/*.min.css
+
+# Binary files
+assets/pdf/
+assets/img/
+assets/fonts/
+assets/webfonts/ 
