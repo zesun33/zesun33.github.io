@@ -28,17 +28,20 @@ Making Braille technology accessible and affordable for everyone, regardless of 
 
 ### Technical Innovations
 
-**Hardware Design**: 
+**Hardware Design**:
+
 - Cost-optimized component selection
 - Efficient power management systems
 - Durable, portable form factor
 
 **Software Implementation**:
+
 - Fast text processing algorithms
 - Multiple language support
 - Intuitive user interface
 
 **Accessibility Features**:
+
 - Audio feedback for navigation
 - Customizable reading speeds
 - Multiple input methods
@@ -69,6 +72,7 @@ The project employed a comprehensive approach including:
 ### Future Development
 
 The project continues to evolve with plans for:
+
 - Enhanced connectivity features
 - Multi-language expansion
 - Integration with smart devices
@@ -138,10 +142,12 @@ Here's the code for the last row of images above:
 ```html
 <div class="row justify-content-sm-center">
   <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="assets/img/6.jpg" title="example image"
+    class="img-fluid rounded z-depth-1" %}
   </div>
   <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="assets/img/11.jpg" title="example image"
+    class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 ```

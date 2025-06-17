@@ -34,6 +34,7 @@ My research focuses on **neuromorphic computing**, **machine learning hardware**
 Currently, I am developing ML and neuromorphic hardware solutions for edge AI applications, with a focus on device-circuit co-design using spintronic and ferroelectric devices. My research aims to bridge the gap between emerging device physics and practical AI hardware implementations.
 
 ## Current Research Areas:
+
 - **Neuromorphic Computing**: Brain-inspired hardware and spiking neural networks
 - **Machine Learning Hardware**: ML accelerators and in-memory computing
 - **Emerging Devices**: Spintronics, FeFET, and non-volatile memory devices
@@ -41,6 +42,7 @@ Currently, I am developing ML and neuromorphic hardware solutions for edge AI ap
 - **AI for Semiconductor**: ML for device/process optimization and yield prediction
 
 ## Background:
+
 I completed my M.S. in Electrical Engineering from Penn State (2019-2021) with a thesis on "Neuromorphic Computing for Lifelong Learning," and my B.Sc. in Electrical and Electronic Engineering from Bangladesh University of Engineering & Technology (BUET) in 2019.
 
 You can find my research publications on [Google Scholar](https://scholar.google.com/citations?user=j-zfUj8AAAAJ&hl=en&oi=ao) and connect with me on [LinkedIn](https://www.linkedin.com/in/zesun-ahmed/) for professional networking. I'm also active on [ResearchGate](https://www.researchgate.net/profile/Md-Zesun-Ahmed-Mia-2/) where I share my research and engage with fellow researchers.

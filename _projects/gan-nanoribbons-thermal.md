@@ -46,8 +46,9 @@ The research utilizes state-of-the-art molecular dynamics simulation software to
 **Principal Investigator**: Md Zesun Ahmed Mia
 
 **Collaborators**:
+
 - Nazmus Saadat As-Saquib
-- Mehedi Hasan Himel  
+- Mehedi Hasan Himel
 - Mehedi Hossen Limon
 - Samia Subrina (Supervisor)
 
@@ -68,8 +69,9 @@ Successfully presented at the **13th International Conference on Electrical and 
 ### Future Directions
 
 This research opens pathways for:
+
 - Advanced thermal management strategies
-- Optimized nanoelectronic device designs  
+- Optimized nanoelectronic device designs
 - Enhanced materials engineering approaches
 - Further computational studies of 2D materials
 
@@ -137,10 +139,12 @@ Here's the code for the last row of images above:
 ```html
 <div class="row justify-content-sm-center">
   <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="assets/img/6.jpg" title="example image"
+    class="img-fluid rounded z-depth-1" %}
   </div>
   <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="assets/img/11.jpg" title="example image"
+    class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 ```

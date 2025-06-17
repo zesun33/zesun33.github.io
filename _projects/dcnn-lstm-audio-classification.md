@@ -2,7 +2,7 @@
 layout: page
 title: DCNN-LSTM Audio Classification
 description: Deep learning approach combining feature engineering and data augmentation for audio recognition
-img: 
+img:
 importance: 12
 category: work
 related_publications: true
@@ -27,17 +27,20 @@ Audio classification is a fundamental task in machine learning with applications
 ### Key Innovations
 
 **DCNN-LSTM Integration**:
+
 - Convolutional layers for spectral feature extraction
 - LSTM networks for temporal sequence modeling
 - Optimized fusion of spatial and temporal information
 
 **Advanced Feature Engineering**:
+
 - Mel-frequency cepstral coefficients (MFCC) extraction
 - Spectral rolloff and centroid features
 - Zero-crossing rate analysis
 - Custom domain-specific feature development
 
 **Data Augmentation Strategies**:
+
 - Time-domain augmentations (pitch shifting, time stretching)
 - Frequency-domain modifications
 - Noise injection and filtering techniques
@@ -46,16 +49,19 @@ Audio classification is a fundamental task in machine learning with applications
 ### Research Methodology
 
 **Dataset Preparation**:
+
 - Comprehensive audio dataset collection
 - Quality assessment and preprocessing
 - Class balancing and stratification
 
 **Feature Extraction Pipeline**:
+
 - Multi-scale spectral analysis
 - Temporal feature characterization
 - Statistical feature computation
 
 **Model Development**:
+
 - Architecture optimization and hyperparameter tuning
 - Cross-validation and performance evaluation
 - Comparison with baseline methods
@@ -91,6 +97,7 @@ Audio classification is a fundamental task in machine learning with applications
 **Principal Investigator**: Md Zesun Ahmed Mia
 
 **Collaborators**:
+
 - Md Moinul Islam
 - Monjurul Haque
 - Saiful Islam
@@ -109,9 +116,10 @@ Successfully published in **Intelligent Computing & Optimization: Proceedings of
 **Practical Applications**: Real-world audio processing and recognition systems
 
 **Future Work**:
+
 - Real-time audio classification systems
 - Multi-modal audio-visual processing
 - Integration with edge computing platforms
 - Applications in IoT and smart devices
 
-This research demonstrates the effectiveness of combining multiple deep learning architectures with advanced data processing techniques to achieve superior performance in audio classification tasks. 
+This research demonstrates the effectiveness of combining multiple deep learning architectures with advanced data processing techniques to achieve superior performance in audio classification tasks.

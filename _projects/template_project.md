@@ -2,7 +2,7 @@
 layout: page
 title: Template Project
 description: Template structure for future project pages
-img: 
+img:
 importance: 999
 category: hidden
 related_publications: false
@@ -31,8 +31,8 @@ This is a template for creating new project pages. Copy this structure for futur
 
 **Future Directions**: Potential extensions and applications
 
-<!-- Template format:
----
+## <!-- Template format:
+
 layout: page
 title: [Project Title]
 description: [Brief project description]
@@ -40,6 +40,7 @@ img: assets/img/[image-file]
 importance: [1-20, lower numbers appear first]
 category: work/fun/future/hidden
 related_publications: true/false
+
 ---
 
 ## [Main Project Title]
@@ -58,4 +59,4 @@ related_publications: true/false
 - Category: work, fun, future, or hidden
 - Include relevant images
 - Link to related publications when applicable
-- Use consistent formatting and structure 
+- Use consistent formatting and structure

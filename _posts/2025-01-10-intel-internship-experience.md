@@ -25,12 +25,14 @@ The transition from University Park, PA, to working with one of the world's lead
 My internship focused on two primary areas:
 
 **1. Thin Film Process Development**
+
 - Working on advanced memory and logic device integration
 - Optimizing deposition processes for next-generation semiconductor devices
 - Analyzing material properties and their impact on device performance
 - Collaborating with process engineers to improve yield and reliability
 
 **2. ML and Neuromorphic Hardware Development**
+
 - Developing machine learning hardware solutions for edge AI applications
 - Implementing neuromorphic computing concepts in practical systems
 - Working on low-power, high-efficiency computing architectures
@@ -65,16 +67,19 @@ Perhaps most relevant to my PhD research, I had the opportunity to work on pract
 ## Industry vs. Academia: Key Differences
 
 ### Pace and Timeline
+
 - **Industry**: Fast-paced with quarterly milestones and rapid iteration cycles
 - **Academia**: Longer-term projects with deeper theoretical exploration
 - **Learning**: Both approaches have merit and complement each other
 
 ### Collaboration Style
+
 - **Industry**: Cross-functional teams with diverse expertise (engineers, physicists, computer scientists, business analysts)
 - **Academia**: Deep collaboration within specialized research groups
 - **Insight**: Industry collaboration taught me to communicate technical concepts across disciplines
 
 ### Problem-Solving Approach
+
 - **Industry**: Focus on practical solutions that can be implemented and scaled
 - **Academia**: Emphasis on fundamental understanding and novel approaches
 - **Synthesis**: Combining both perspectives creates more robust solutions
@@ -82,6 +87,7 @@ Perhaps most relevant to my PhD research, I had the opportunity to work on pract
 ## Technical Skills Development
 
 ### New Tools and Technologies
+
 Working at Intel exposed me to industry-standard tools and methodologies:
 
 - **Advanced EDA Tools**: Industrial-grade design and simulation software
@@ -90,6 +96,7 @@ Working at Intel exposed me to industry-standard tools and methodologies:
 - **Project Management**: Agile development and cross-functional coordination
 
 ### Professional Skills
+
 Beyond technical competencies, I developed crucial professional skills:
 
 - **Technical Communication**: Presenting complex ideas to diverse audiences
@@ -102,30 +109,37 @@ Beyond technical competencies, I developed crucial professional skills:
 ### Technical Challenges
 
 **Device Variability**: Real-world devices don't always behave like idealized models
+
 - **Solution**: Developed statistical approaches to characterize and compensate for variability
 
 **Integration Complexity**: Combining multiple technologies in a single system
+
 - **Solution**: Created modular architectures that allow for independent optimization
 
 **Performance Trade-offs**: Balancing power, performance, and area constraints
+
 - **Solution**: Developed multi-objective optimization frameworks
 
 ### Professional Challenges
 
 **Communication Across Disciplines**: Explaining neuromorphic concepts to traditional digital designers
+
 - **Solution**: Created visual analogies and demonstrated practical benefits
 
 **Timeline Management**: Balancing thorough analysis with rapid delivery
+
 - **Solution**: Implemented iterative approaches with regular checkpoints
 
 ## Impact and Contributions
 
 ### Project Outcomes
+
 - Successfully developed and characterized thin film processes for next-generation memory devices
 - Implemented ML hardware accelerators that demonstrated significant power efficiency improvements
 - Contributed to neuromorphic computing architectures that advanced Intel's research roadmap
 
 ### Personal Growth
+
 - Gained appreciation for the complexity of bringing research to commercial products
 - Developed network of professional contacts across the semiconductor industry
 - Enhanced ability to work under pressure and meet aggressive deadlines
@@ -135,24 +149,31 @@ Beyond technical competencies, I developed crucial professional skills:
 The internship has profoundly influenced my academic research in several ways:
 
 ### Practical Constraints
+
 Understanding manufacturing constraints has helped focus my research on solutions that are not only theoretically sound but also practically implementable.
 
 ### Real-world Applications
+
 Exposure to actual industry problems has identified new research directions that address genuine market needs.
 
 ### Validation Approaches
+
 Learning industry-standard validation methodologies has improved the rigor of my academic experiments.
 
 ## Future Implications
 
 ### Career Perspective
+
 The internship has clarified my career aspirations:
+
 - **Industry R&D**: Combining fundamental research with practical applications
 - **Technology Transfer**: Helping bridge academia and industry
 - **Innovation Leadership**: Leading teams that develop breakthrough technologies
 
 ### Research Direction
+
 My experience has influenced my PhD research focus:
+
 - **Practical Neuromorphic Systems**: Designing systems that can be manufactured
 - **Edge AI Applications**: Focusing on deployment-ready solutions
 - **Interdisciplinary Approaches**: Incorporating insights from materials science, computer science, and business
@@ -162,17 +183,20 @@ My experience has influenced my PhD research focus:
 Based on my experience, here are key recommendations for graduate students considering industry internships:
 
 ### Preparation
+
 - **Broaden Your Skillset**: Develop knowledge beyond your specific research area
 - **Learn Industry Tools**: Familiarize yourself with commercial software and methodologies
 - **Practice Communication**: Develop ability to explain complex concepts simply
 
 ### During the Internship
+
 - **Ask Questions**: Don't hesitate to seek clarification and learn from experienced engineers
 - **Network Actively**: Build relationships across different teams and functions
 - **Document Learning**: Keep detailed notes of new concepts and approaches
 - **Stay Connected**: Maintain relationships with academic advisors and research group
 
 ### Integration
+
 - **Apply Learning**: Incorporate industry insights into your academic research
 - **Share Knowledge**: Present your experiences to your research group
 - **Maintain Balance**: Value both industry practicality and academic rigor
@@ -187,4 +211,4 @@ As I return to complete my PhD at Penn State, I bring with me not only technical
 
 ---
 
-*Have you had similar experiences bridging academia and industry? I'd love to hear about your insights and challenges in the comments below!* 
+_Have you had similar experiences bridging academia and industry? I'd love to hear about your insights and challenges in the comments below!_

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🚀 Excited to join **Intel Corporation** as a Graduate Technical Intern in Hillsboro, OR! Working on thin film processes and ML/neuromorphic hardware for edge AI applications. 
+🚀 Excited to join **Intel Corporation** as a Graduate Technical Intern in Hillsboro, OR! Working on thin film processes and ML/neuromorphic hardware for edge AI applications.

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-⚡ Presented research on **3-nm Cylindrical GAAFETs** at IEEE ISIEA 2022! Our work on high-k dielectric gate-oxide materials contributes to next-generation semiconductor device design. 
+⚡ Presented research on **3-nm Cylindrical GAAFETs** at IEEE ISIEA 2022! Our work on high-k dielectric gate-oxide materials contributes to next-generation semiconductor device design.

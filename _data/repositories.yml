@@ -1,17 +1,17 @@
 github_users:
-  - zesun33  # Md Zesun Ahmed Mia's GitHub username
+  - zesun33 # Md Zesun Ahmed Mia's GitHub username
 
 repo_description_lines_max: 2
 
 github_repos:
   # Academic website repository
   - zesun33/zesun33.github.io
-  
+
   # Research-related tools and frameworks
   - alshedivat/al-folio
   - pytorch/pytorch
   - tensorflow/tensorflow
-  
+
   # Development tools
   - jekyll/jekyll
   - microsoft/vscode

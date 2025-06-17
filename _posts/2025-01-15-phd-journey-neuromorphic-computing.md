@@ -21,6 +21,7 @@ Starting my PhD program in August 2022 under the supervision of Dr. Abhronil Sen
 ## Research Focus: Where Biology Meets Technology
 
 ### Neuromorphic Computing
+
 One of the most exciting aspects of my research is working on neuromorphic devices that can process information in ways similar to the human brain. Unlike traditional digital computers that separate memory and processing, neuromorphic systems integrate these functions, leading to:
 
 - **Energy Efficiency**: Dramatically reduced power consumption compared to conventional systems
@@ -28,6 +29,7 @@ One of the most exciting aspects of my research is working on neuromorphic devic
 - **Fault Tolerance**: Graceful degradation rather than catastrophic failure
 
 ### Device-Circuit Co-design
+
 My work involves developing novel approaches to device-circuit co-design, focusing on:
 
 - **Spintronic Devices**: Exploring spin-based electronics for next-generation computing
@@ -39,12 +41,15 @@ My work involves developing novel approaches to device-circuit co-design, focusi
 I'm particularly proud of some recent milestones in my research journey:
 
 ### Publications and Recognition
+
 - **IEEE TCDS Publication (2025)**: "Delving deeper into astromorphic transformers" - exploring bio-inspired transformer architectures
 - **Matter Collaboration (2024)**: Contributing to groundbreaking work on neuromorphic devices with adaptive hydrogen gradients
 - **Accessibility Innovation**: Developing ultra-low-cost electronic Braille devices, presented at iCACCESS 2024
 
 ### Industry Experience
+
 My internship at Intel Corporation has provided invaluable hands-on experience with:
+
 - Thin film processes for advanced memory and logic
 - ML hardware development for edge AI applications
 - Industrial-scale neuromorphic computing implementations
@@ -52,6 +57,7 @@ My internship at Intel Corporation has provided invaluable hands-on experience w
 ## Challenges and Learning
 
 ### Technical Challenges
+
 Working at the intersection of materials science, electrical engineering, and computer science presents unique challenges:
 
 - **Multi-scale Design**: Balancing device physics with system-level performance
@@ -59,7 +65,9 @@ Working at the intersection of materials science, electrical engineering, and co
 - **Performance Metrics**: Developing appropriate benchmarks for bio-inspired systems
 
 ### Personal Growth
+
 The PhD journey has taught me:
+
 - **Patience and Persistence**: Research breakthroughs often come after months of incremental progress
 - **Interdisciplinary Thinking**: Drawing insights from neuroscience, materials science, and computer engineering
 - **Collaboration**: Working with researchers across different fields and institutions
@@ -69,12 +77,15 @@ The PhD journey has taught me:
 As I look toward the completion of my PhD, I'm excited about several emerging research directions:
 
 ### Emerging Technologies
+
 - **Quantum-Neuromorphic Interfaces**: Exploring hybrid quantum-neuromorphic computing paradigms
 - **Bio-Hybrid Systems**: Integrating biological and artificial neural networks
 - **Edge AI Applications**: Deploying neuromorphic systems for real-world applications
 
 ### Broader Impact
+
 Beyond technical innovations, I'm passionate about:
+
 - **Accessibility Technology**: Continuing work on assistive devices for persons with disabilities
 - **Educational Outreach**: Sharing knowledge through teaching and mentoring
 - **Global Collaboration**: Building bridges between research communities worldwide
@@ -82,6 +93,7 @@ Beyond technical innovations, I'm passionate about:
 ## Teaching and Mentoring
 
 My role as a Graduate Teaching Assistant has been equally rewarding, working with:
+
 - **Cadence Virtuoso**: Teaching advanced EDA tools and design methodologies
 - **Circuit Design**: Mentoring students in schematic and layout design
 - **Lab Supervision**: Guiding hands-on learning experiences
@@ -98,4 +110,4 @@ I'm always interested in discussing research, sharing ideas, and exploring poten
 
 ---
 
-*What aspects of neuromorphic computing or my research journey would you like to know more about? I'd love to hear your thoughts and questions in the comments below.* 
+_What aspects of neuromorphic computing or my research journey would you like to know more about? I'd love to hear your thoughts and questions in the comments below._

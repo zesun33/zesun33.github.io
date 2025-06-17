@@ -4,7 +4,7 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Md Zesun Ahmed
-middle_name: 
+middle_name:
 last_name: Mia
 contact_note: >
   You can reach me via email or connect with me on social media.
@@ -214,7 +214,7 @@ sass:
 # -----------------------------------------------------------------------------
 
 jekyll-minifier:
-  enabled: false # Disable jekyll-minifier to avoid Uglifier ES6 issues  
+  enabled: false # Disable jekyll-minifier to avoid Uglifier ES6 issues
   compress_javascript: false # set to false since we are using terser as the js minifier
   exclude: ["robots.txt", "assets/js/search/*.js"]
 

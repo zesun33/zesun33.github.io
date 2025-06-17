@@ -2,7 +2,7 @@
 layout: page
 title: IRFD - Electricity Fraud Detection
 description: Feature engineering based ensemble classification for traditional meter fraud detection
-img: 
+img:
 importance: 11
 category: work
 related_publications: true
@@ -35,17 +35,20 @@ Electricity theft is a significant problem affecting power distribution companie
 ### Key Innovations
 
 **Advanced Feature Engineering**:
+
 - Historical consumption pattern analysis
 - Statistical anomaly detection features
 - Temporal behavior characterization
 - Customer profile integration
 
 **Ensemble Classification Framework**:
+
 - Multiple algorithm integration (Random Forest, SVM, Neural Networks)
 - Voting mechanisms for final classification
 - Confidence scoring for fraud probability
 
 **Traditional Meter Adaptation**:
+
 - Solutions tailored for legacy infrastructure
 - Cost-effective implementation strategies
 - Minimal hardware modification requirements
@@ -53,16 +56,19 @@ Electricity theft is a significant problem affecting power distribution companie
 ### Research Methodology
 
 **Data Collection and Preprocessing**:
+
 - Historical consumption data analysis
 - Customer behavior profiling
 - Fraudulent case study analysis
 
 **Feature Development**:
+
 - Statistical feature extraction
 - Domain-specific feature engineering
 - Temporal pattern recognition
 
 **Model Development and Validation**:
+
 - Multiple algorithm comparison
 - Ensemble method optimization
 - Cross-validation and performance evaluation
@@ -88,6 +94,7 @@ Electricity theft is a significant problem affecting power distribution companie
 **Principal Investigator**: Md Zesun Ahmed Mia
 
 **Collaborators**:
+
 - Md Moinul Islam
 - Monjurul Haque
 - Saiful Islam
@@ -105,9 +112,10 @@ Successfully presented at the **24th International Conference on Computer and In
 
 **Research Contributions**: Novel feature engineering approaches for fraud detection
 
-**Future Directions**: 
+**Future Directions**:
+
 - Integration with IoT and smart meter systems
 - Real-time fraud detection capabilities
 - Enhanced machine learning models
 
-This research demonstrates the potential of advanced machine learning techniques to address real-world infrastructure challenges while contributing to the security and reliability of power distribution systems. 
+This research demonstrates the potential of advanced machine learning techniques to address real-world infrastructure challenges while contributing to the security and reliability of power distribution systems.

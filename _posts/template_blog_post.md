@@ -49,48 +49,56 @@ featured: false
 The front matter (YAML) at the top of your post controls many features. Here are the key variables:
 
 ### Required Variables
+
 ```yaml
-layout: post                    # Always use 'post' for blog posts
-title: "Your Post Title"        # Use quotes if title contains special characters
+layout: post # Always use 'post' for blog posts
+title: "Your Post Title" # Use quotes if title contains special characters
 date: YYYY-MM-DD HH:MM:SS-TTTT # Format: 2025-01-15 10:00:00-0500
 description: "SEO description" # Brief description for search engines and previews
-published: true                # Set to false to hide the post
-category: blog                 # Use 'blog' for published posts, 'hidden' for drafts
+published: true # Set to false to hide the post
+category: blog # Use 'blog' for published posts, 'hidden' for drafts
 ```
 
 ### Optional Variables
+
 ```yaml
-tags: tag1 tag2 tag3           # Space-separated tags (no quotes needed)
+tags: tag1 tag2 tag3 # Space-separated tags (no quotes needed)
 categories: category1 category2 # Space-separated categories
-giscus_comments: true          # Enable comments (requires Giscus setup)
-related_posts: true            # Show related posts at bottom
-featured: true                 # Mark as featured post
-thumbnail: assets/img/pic.jpg  # Thumbnail image for post previews
-redirect: /some/path           # Redirect this post to another URL
+giscus_comments: true # Enable comments (requires Giscus setup)
+related_posts: true # Show related posts at bottom
+featured: true # Mark as featured post
+thumbnail: assets/img/pic.jpg # Thumbnail image for post previews
+redirect: /some/path # Redirect this post to another URL
 ```
 
 ## Writing Content
 
 ### Headers
+
 Use markdown headers to organize your content:
 
 ```markdown
 # Main Title (H1) - Usually for the post title
+
 ## Major Section (H2)
+
 ### Subsection (H3)
+
 #### Minor Section (H4)
 ```
 
 ## Major Section (H2)
+
 ### Subsection (H3)
+
 #### Minor Section (H4)
 
 ### Text Formatting
 
 **Bold text** using `**bold text**`  
-*Italic text* using `*italic text*`  
+_Italic text_ using `*italic text*`  
 ~~Strikethrough~~ using `~~strikethrough~~`  
-`Inline code` using backticks  
+`Inline code` using backticks
 
 ### Links and References
 
@@ -102,6 +110,7 @@ Use markdown headers to organize your content:
 ### Lists
 
 **Unordered lists:**
+
 - Item 1
 - Item 2
   - Sub-item 2.1
@@ -109,11 +118,13 @@ Use markdown headers to organize your content:
 - Item 3
 
 **Ordered lists:**
+
 1. First item
 2. Second item
 3. Third item
 
 **Task lists:**
+
 - [x] Completed task
 - [ ] Pending task
 - [ ] Another pending task
@@ -128,21 +139,22 @@ Use markdown headers to organize your content:
 > ##### TIP
 >
 > This is a helpful tip for readers.
-{: .block-tip }
+> {: .block-tip }
 
 > ##### WARNING
 >
 > This is a warning about something important.
-{: .block-warning }
+> {: .block-warning }
 
 > ##### DANGER
 >
 > This indicates something potentially dangerous or critical.
-{: .block-danger }
+> {: .block-danger }
 
 ## Code Examples
 
 ### Inline Code
+
 Use backticks for `inline code` within sentences.
 
 ### Code Blocks
@@ -165,23 +177,27 @@ make install
 ```
 
 ### Code with Line Numbers
+
 {% highlight python linenos %}
 def fibonacci(n):
-    if n <= 1:
-        return n
-    return fibonacci(n-1) + fibonacci(n-2)
+if n <= 1:
+return n
+return fibonacci(n-1) + fibonacci(n-2)
 
 # Generate first 10 Fibonacci numbers
+
 for i in range(10):
-    print(f"F({i}) = {fibonacci(i)}")
+print(f"F({i}) = {fibonacci(i)}")
 {% endhighlight %}
 
 ## Mathematical Expressions
 
 ### Inline Math
+
 Use single or double dollar signs: $E = mc^2$ or $$F = ma$$
 
 ### Display Math
+
 $$
 \begin{align}
 \nabla \times \vec{\mathbf{B}} -\, \frac1c\, \frac{\partial\vec{\mathbf{E}}}{\partial t} &= \frac{4\pi}{c}\vec{\mathbf{j}} \\
@@ -194,36 +210,41 @@ $$
 ## Images and Media
 
 ### Basic Images
+
 ```liquid
 {% include figure.liquid path="assets/img/your-image.jpg" title="Image title" class="img-fluid rounded z-depth-1" %}
 ```
 
 ### Zoomable Images
+
 ```liquid
 {% include figure.liquid path="assets/img/your-image.jpg" title="Image title" class="img-fluid rounded z-depth-1" zoomable=true %}
 ```
 
 ### Image Galleries
+
 ```html
 <div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/1.jpg" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/2.jpg" class="img-fluid rounded z-depth-1" %}
-    </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/1.jpg" class="img-fluid rounded
+    z-depth-1" %}
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/2.jpg" class="img-fluid rounded
+    z-depth-1" %}
+  </div>
 </div>
-<div class="caption">
-    Caption for the image gallery.
-</div>
+<div class="caption">Caption for the image gallery.</div>
 ```
 
 ### Videos
+
 ```liquid
 {% include video.liquid path="assets/video/your-video.mp4" class="img-fluid rounded z-depth-1" controls=true %}
 ```
 
 ### Audio
+
 ```liquid
 {% include audio.liquid path="assets/audio/your-audio.mp3" controls=true %}
 ```
@@ -231,15 +252,18 @@ $$
 ## Advanced Features
 
 ### Table of Contents
+
 Add to front matter:
+
 ```yaml
 toc:
-  beginning: true    # TOC at the beginning of post
+  beginning: true # TOC at the beginning of post
   # OR
-  sidebar: left      # TOC in left sidebar (or 'right')
+  sidebar: left # TOC in left sidebar (or 'right')
 ```
 
 ### Tables
+
 Enable pretty tables in front matter: `pretty_table: true`
 
 | Left aligned | Center aligned | Right aligned |
@@ -249,6 +273,7 @@ Enable pretty tables in front matter: `pretty_table: true`
 | Left 3       |    center 3    |       right 3 |
 
 ### Citations and Bibliography
+
 Enable in front matter: `related_publications: true`
 
 ```liquid
@@ -257,7 +282,9 @@ Enable in front matter: `related_publications: true`
 ```
 
 ### Diagrams with Mermaid
+
 Enable in front matter:
+
 ```yaml
 mermaid:
   enabled: true
@@ -276,6 +303,7 @@ flowchart TD
 ### Interactive Charts
 
 #### Chart.js
+
 Enable in front matter: `chart: { chartjs: true }`
 
 ```chartjs
@@ -293,6 +321,7 @@ Enable in front matter: `chart: { chartjs: true }`
 ```
 
 #### Plotly
+
 Enable in front matter: `chart: { plotly: true }`
 
 ```plotly
@@ -309,23 +338,29 @@ Enable in front matter: `chart: { plotly: true }`
 ```
 
 ### Tabs
+
 Enable in front matter: `tabs: true`
 
 {% raw %}
-```liquid
+
+````liquid
 {% tabs example %}
 {% tab example Python %}
 ```python
 print("Hello from Python!")
-```
+````
+
 {% endtab %}
 {% tab example JavaScript %}
+
 ```javascript
 console.log("Hello from JavaScript!");
 ```
+
 {% endtab %}
 {% endtabs %}
-```
+
+````
 {% endraw %}
 
 ### Code Diffs
@@ -341,19 +376,23 @@ index 1234567..abcdefg 100644
 -    print("Hello World")
 +    print("Hello Universe")
      return True
-```
+````
 
 ## SEO and Sharing
 
 ### Description
+
 Always include a compelling description in the front matter for better SEO and social sharing.
 
 ### Tags and Categories
+
 Use relevant tags and categories to help readers find related content:
+
 - **Tags**: Specific topics (e.g., "python", "machine-learning", "tutorial")
 - **Categories**: Broader themes (e.g., "research", "personal", "tutorials")
 
 ### Featured Posts
+
 Set `featured: true` to highlight important posts.
 
 ## Publishing Checklist
@@ -361,12 +400,14 @@ Set `featured: true` to highlight important posts.
 Before publishing your post:
 
 1. **Content Review**
+
    - [ ] Proofread for spelling and grammar
    - [ ] Check all links work correctly
    - [ ] Verify images display properly
    - [ ] Test any code examples
 
 2. **Front Matter**
+
    - [ ] Set `published: true`
    - [ ] Change `category` from "hidden" to appropriate category
    - [ ] Add relevant tags
@@ -374,6 +415,7 @@ Before publishing your post:
    - [ ] Set appropriate date
 
 3. **File Naming**
+
    - [ ] File named as `YYYY-MM-DD-post-title.md`
    - [ ] Post title matches filename
 
@@ -386,6 +428,7 @@ Before publishing your post:
 ## Tips for Great Blog Posts
 
 ### Content Tips
+
 - **Start with an engaging introduction** that hooks the reader
 - **Use clear, descriptive headers** to organize your content
 - **Include practical examples** and real-world applications
@@ -393,12 +436,14 @@ Before publishing your post:
 - **Encourage engagement** by asking questions or requesting feedback
 
 ### Technical Tips
+
 - **Optimize images** before uploading (reasonable file sizes)
 - **Test all interactive elements** (charts, videos, etc.)
 - **Use appropriate markdown formatting** for readability
 - **Include alt text** for images for accessibility
 
 ### Jekyll-Specific Tips
+
 - **Preview locally** before publishing using `bundle exec jekyll serve`
 - **Check the site builds correctly** after publishing
 - **Use liquid includes** for consistent formatting
@@ -454,7 +499,7 @@ Summarize key points and suggest next steps or further reading.
 
 ---
 
-*Questions or comments? I'd love to hear from you in the comments below!*
+_Questions or comments? I'd love to hear from you in the comments below!_
 ```
 
-**Remember**: This template file should remain hidden (`published: false`, `category: hidden`). When creating a new post, copy this content to a new file and customize it for your specific post topic. 
+**Remember**: This template file should remain hidden (`published: false`, `category: hidden`). When creating a new post, copy this content to a new file and customize it for your specific post topic.

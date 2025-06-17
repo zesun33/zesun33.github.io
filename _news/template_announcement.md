@@ -10,14 +10,15 @@ categories: [template, hidden]
 
 This is a template announcement. Copy this structure for future announcements.
 
-<!-- Template format:
----
+## <!-- Template format:
+
 layout: post
 title: [Title for detailed announcements, remove for inline]
 date: YYYY-MM-DD HH:MM:SS-TIMEZONE
 inline: true/false
 related_posts: false
+
 ---
 
 Content here with appropriate emojis and formatting.
---> 
+-->

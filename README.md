@@ -5,8 +5,9 @@ This is the source code for my personal academic website, hosted at [https://zes
 ## About
 
 PhD candidate in Electrical Engineering at Pennsylvania State University, specializing in:
+
 - Neuromorphic Computing
-- Machine Learning Hardware  
+- Machine Learning Hardware
 - Device-Circuit Co-design
 - Semiconductor Technology
 

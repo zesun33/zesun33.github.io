@@ -43,7 +43,8 @@ This project involved extensive collaboration with an international research tea
 
 ### Research Team
 
-**Principal Investigators**: 
+**Principal Investigators**:
+
 - Tao Zhang (Lead)
 - Mingjie Hu
 - **Md Zesun Ahmed Mia** (Contributing Researcher)
@@ -58,6 +59,7 @@ Published in **Matter** (Elsevier, 2024), Vol. 7, No. 5, pages 1799-1816, this w
 ### Future Directions
 
 The research opens new avenues for:
+
 - Advanced neuromorphic computing architectures
 - Bio-inspired learning systems
 - Energy-efficient computing solutions
@@ -124,10 +126,12 @@ Here's the code for the last row of images above:
 ```html
 <div class="row justify-content-sm-center">
   <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="assets/img/6.jpg" title="example image"
+    class="img-fluid rounded z-depth-1" %}
   </div>
   <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="assets/img/11.jpg" title="example image"
+    class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 ```

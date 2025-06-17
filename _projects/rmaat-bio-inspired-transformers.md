@@ -2,7 +2,7 @@
 layout: page
 title: RMAAT - Bio-Inspired Transformers
 description: Efficient long-context sequence processing using biological attention mechanisms
-img: 
+img:
 importance: 10
 category: hidden
 related_publications: true
@@ -28,16 +28,19 @@ Traditional transformer models face significant computational challenges when pr
 ### Technical Innovations
 
 **Attention Mechanism Design**:
+
 - Bio-inspired attention patterns based on neural network studies
 - Dynamic context window adjustment
 - Hierarchical attention processing
 
 **Sequence Processing Optimization**:
+
 - Efficient memory utilization strategies
 - Reduced computational overhead for long sequences
 - Scalable architecture design
 
 **Performance Improvements**:
+
 - Significant reduction in processing time for long sequences
 - Maintained accuracy across various tasks
 - Enhanced generalization capabilities
@@ -64,6 +67,7 @@ The project employs a comprehensive approach including:
 **Principal Investigator**: Md Zesun Ahmed Mia
 
 **Collaborators**:
+
 - Malyaban Bal
 - Abhronil Sengupta
 
@@ -78,9 +82,10 @@ The project employs a comprehensive approach including:
 ### Future Directions
 
 This research opens new avenues for:
+
 - Further bio-inspired AI architectures
 - Enhanced efficiency in large language models
 - Applications in real-time sequence processing
 - Integration with neuromorphic computing systems
 
-The work contributes to the broader goal of developing more efficient and biologically plausible artificial intelligence systems. 
+The work contributes to the broader goal of developing more efficient and biologically plausible artificial intelligence systems.

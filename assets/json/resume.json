@@ -40,7 +40,12 @@
       "startDate": "2024-05-01",
       "endDate": "Present",
       "summary": "Thin film process and device integration for advanced memory and logic. Developed ML and neuromorphic hardware for edge AI applications.",
-      "highlights": ["Thin film processes", "ML hardware development", "Neuromorphic computing", "Edge AI systems"]
+      "highlights": [
+        "Thin film processes",
+        "ML hardware development",
+        "Neuromorphic computing",
+        "Edge AI systems"
+      ]
     },
     {
       "name": "Pennsylvania State University",
@@ -49,7 +54,12 @@
       "startDate": "2022-08-01",
       "endDate": "Present",
       "summary": "Research in neuromorphic computing, ML hardware, and device-circuit co-design. Led projects on spintronic/ferroelectric devices and SNNs.",
-      "highlights": ["Neuromorphic computing research", "Device-circuit co-design", "Spintronic devices", "Spiking Neural Networks"]
+      "highlights": [
+        "Neuromorphic computing research",
+        "Device-circuit co-design",
+        "Spintronic devices",
+        "Spiking Neural Networks"
+      ]
     },
     {
       "name": "Pennsylvania State University",
@@ -58,7 +68,12 @@
       "startDate": "2024-08-01",
       "endDate": "Present",
       "summary": "Teaching and supporting Cadence Virtuoso, schematic/layout design, and lab courses.",
-      "highlights": ["Cadence Virtuoso instruction", "Schematic design", "Layout design", "Lab supervision"]
+      "highlights": [
+        "Cadence Virtuoso instruction",
+        "Schematic design",
+        "Layout design",
+        "Lab supervision"
+      ]
     },
     {
       "name": "University of Liberal Arts Bangladesh",
@@ -67,7 +82,12 @@
       "startDate": "2021-02-01",
       "endDate": "2022-08-01",
       "summary": "Taught Digital Circuit Design, Device Physics, and Power Electronics courses.",
-      "highlights": ["Digital Circuit Design", "Device Physics", "Power Electronics", "Course instruction"]
+      "highlights": [
+        "Digital Circuit Design",
+        "Device Physics",
+        "Power Electronics",
+        "Course instruction"
+      ]
     },
     {
       "name": "SEMWAVES Ltd.",
@@ -76,7 +96,11 @@
       "startDate": "2020-09-01",
       "endDate": "2021-07-01",
       "summary": "Designed 50 KW solar-hydro hybrid system for Bangladesh implementation.",
-      "highlights": ["Solar-hydro hybrid systems", "Renewable energy design", "50 KW system implementation"]
+      "highlights": [
+        "Solar-hydro hybrid systems",
+        "Renewable energy design",
+        "50 KW system implementation"
+      ]
     }
   ],
   "education": [
@@ -89,7 +113,11 @@
       "startDate": "2022-08-01",
       "endDate": "2026-08-01",
       "score": "4.00/4.00",
-      "courses": ["Neuromorphic Computing", "Device-Circuit Co-design", "ML Hardware"]
+      "courses": [
+        "Neuromorphic Computing",
+        "Device-Circuit Co-design",
+        "ML Hardware"
+      ]
     },
     {
       "institution": "Pennsylvania State University",
@@ -148,19 +176,41 @@
       "name": "EDA Tools",
       "level": "Expert",
       "icon": "fa-solid fa-microchip",
-      "keywords": ["Cadence Virtuoso", "Spectre", "HSPICE", "TCAD", "COMSOL", "Synopsys"]
+      "keywords": [
+        "Cadence Virtuoso",
+        "Spectre",
+        "HSPICE",
+        "TCAD",
+        "COMSOL",
+        "Synopsys"
+      ]
     },
     {
       "name": "Device Characterization",
       "level": "Advanced",
       "icon": "fa-solid fa-microscope",
-      "keywords": ["AFM", "SEM", "Probe Station", "Electrical Testing", "Hall", "XRD", "TEM"]
+      "keywords": [
+        "AFM",
+        "SEM",
+        "Probe Station",
+        "Electrical Testing",
+        "Hall",
+        "XRD",
+        "TEM"
+      ]
     },
     {
       "name": "AI & Data Analysis",
       "level": "Advanced",
       "icon": "fa-solid fa-brain",
-      "keywords": ["Machine Learning", "Neural Networks", "Pandas", "NumPy", "Jupyter", "AI Tools"]
+      "keywords": [
+        "Machine Learning",
+        "Neural Networks",
+        "Pandas",
+        "NumPy",
+        "Jupyter",
+        "AI Tools"
+      ]
     }
   ],
   "languages": [
@@ -179,12 +229,22 @@
     {
       "name": "Research",
       "icon": "fa-solid fa-flask",
-      "keywords": ["Neuromorphic Computing", "ML Hardware", "Edge AI", "Semiconductor Technology"]
+      "keywords": [
+        "Neuromorphic Computing",
+        "ML Hardware",
+        "Edge AI",
+        "Semiconductor Technology"
+      ]
     },
     {
       "name": "Teaching",
       "icon": "fa-solid fa-chalkboard-teacher",
-      "keywords": ["Course Design", "Mentoring", "Lab Supervision", "Academic Instruction"]
+      "keywords": [
+        "Course Design",
+        "Mentoring",
+        "Lab Supervision",
+        "Academic Instruction"
+      ]
     }
   ],
   "references": [
@@ -198,7 +258,11 @@
     {
       "name": "Astromorphic Transformers",
       "summary": "Research on bio-inspired transformer architectures published in IEEE TCDS, focusing on cognitive and developmental computing systems.",
-      "highlights": ["IEEE TCDS Publication", "Bio-inspired AI", "Transformer Architecture"],
+      "highlights": [
+        "IEEE TCDS Publication",
+        "Bio-inspired AI",
+        "Transformer Architecture"
+      ],
       "startDate": "2023-01-01",
       "endDate": "2025-01-01",
       "url": ""
@@ -206,7 +270,11 @@
     {
       "name": "Electronic Braille Device",
       "summary": "Development of ultra low cost, low power, high speed electronic Braille device for accessibility applications.",
-      "highlights": ["Accessibility Technology", "Low Power Design", "iCACCESS 2024"],
+      "highlights": [
+        "Accessibility Technology",
+        "Low Power Design",
+        "iCACCESS 2024"
+      ],
       "startDate": "2023-01-01",
       "endDate": "2024-10-01",
       "url": ""

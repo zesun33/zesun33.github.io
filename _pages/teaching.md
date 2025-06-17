@@ -14,11 +14,13 @@ As a PhD candidate in Electrical Engineering at Pennsylvania State University, I
 ### 🎓 **Graduate Teaching Experience**
 
 **Research Mentoring**
+
 - Guidance and supervision of undergraduate research projects
 - Collaborative research with fellow graduate students
 - Knowledge sharing in neuromorphic computing and molecular dynamics simulations
 
 **Technical Skills Transfer**
+
 - Training team members in molecular dynamics simulation software
 - Sharing expertise in computational modeling techniques
 - Assisting with research methodology and data analysis
@@ -26,11 +28,13 @@ As a PhD candidate in Electrical Engineering at Pennsylvania State University, I
 ### 📚 **Academic Contributions**
 
 **Peer Learning**
+
 - Active participation in research group seminars and discussions
 - Presentation of research findings to diverse academic audiences
 - Contribution to departmental research presentations
 
 **Conference Presentations**
+
 - Educational presentations at international conferences (ICECE 2024, iCACCESS 2024)
 - Knowledge dissemination through research publications
 - Engagement with global research community
@@ -38,16 +42,19 @@ As a PhD candidate in Electrical Engineering at Pennsylvania State University, I
 ### 🔬 **Research Areas for Teaching**
 
 **Computational Methods**
+
 - Molecular dynamics simulations
 - Thermal transport analysis
 - Materials science computational modeling
 
 **Machine Learning & AI**
+
 - Neural network architectures
 - Bio-inspired computing systems
 - Transformer models and attention mechanisms
 
 **Electronic Devices**
+
 - Neuromorphic computing devices
 - Nanoelectronics and semiconductor physics
 - Accessibility technology design
@@ -57,7 +64,7 @@ As a PhD candidate in Electrical Engineering at Pennsylvania State University, I
 I am passionate about developing educational programs in:
 
 - **Computational Materials Science**: Bridging theory and simulation
-- **Neuromorphic Engineering**: Next-generation computing paradigms  
+- **Neuromorphic Engineering**: Next-generation computing paradigms
 - **Accessible Technology Design**: Engineering for social impact
 - **Research Methodology**: Best practices in academic research
 
@@ -73,15 +80,17 @@ My approach to teaching emphasizes:
 ### 🤝 **Mentoring Activities**
 
 **Research Collaboration**
+
 - Working with interdisciplinary teams on cutting-edge research
 - Mentoring junior researchers in computational techniques
 - Facilitating knowledge transfer between research groups
 
 **Community Engagement**
+
 - Promoting STEM education and research
 - Encouraging participation in academic conferences
 - Supporting diversity and inclusion in engineering research
 
 ---
 
-*Interested in collaboration or have questions about my research areas? Feel free to reach out through any of the contact methods listed on my profile.*
+_Interested in collaboration or have questions about my research areas? Feel free to reach out through any of the contact methods listed on my profile._
