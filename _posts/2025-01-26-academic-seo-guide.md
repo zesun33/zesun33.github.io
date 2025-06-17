@@ -87,12 +87,7 @@ Target keywords like:
 
 ## My Academic Website Journey
 
-As someone working in **neuromorphic computing** and **machine learning hardware**, I've found that having a well-optimized website has:
-
-- Increased collaboration opportunities
-- Led to conference invitations
-- Attracted industry interest
-- Enhanced my professional reputation
+Building an academic website requires careful planning and consistent maintenance. The key is to start with essential content and gradually expand based on your research progress and career goals.
 
 ## Tools and Platforms
 
