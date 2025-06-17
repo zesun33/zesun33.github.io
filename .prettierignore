@@ -5,6 +5,9 @@ assets/plotly/demo.html
 _includes/
 _layouts/
 
+# Google verification files
+google2868992774e9a5fd.html
+
 # Generated files
 _site/
 .bundle/
@@ -36,4 +39,4 @@ README.md
 CONTRIBUTING.md
 CUSTOMIZE.md
 FAQ.md
-INSTALL.md 
+INSTALL.md google2868992774e9a5fd.html 
