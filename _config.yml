@@ -90,7 +90,7 @@ enable_bing_verification: false
 # -----------------------------------------------------------------------------
 
 blog_name: Md Zesun Ahmed Mia # blog_name will be displayed in your blog page
-blog_description: Academic research in neuromorphic computing, thermal transport, and bio-inspired AI systems
+blog_description: Academic research in neuromorphic computing, machine learning hardware, and bio-inspired AI systems
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -170,7 +170,7 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
-include: ["_pages", "_scripts", "google2868992774e9a5fd.html"]
+include: ["_pages", "_scripts"]
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -182,6 +182,7 @@ exclude:
 keep_files:
   - CNAME
   - .nojekyll
+  - google2868992774e9a5fd.html
 
 # Plug-ins
 plugins:
