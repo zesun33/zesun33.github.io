@@ -4,7 +4,7 @@ title: "Building an Academic Website: A PhD Student's Guide to Online Presence"
 date: 2025-01-26 10:00:00
 description: Complete guide for PhD students and researchers on creating an effective academic website. Learn about SEO, content strategy, and professional online presence for academic careers.
 keywords: academic website, PhD student website, researcher online presence, academic SEO, graduate student portfolio, research website, academic career development
-categories: academic-career research-tips
+category: hidden
 tags: academic-website phd-life research-career online-presence seo
 author: Md Zesun Ahmed Mia
 ---
