@@ -43,8 +43,8 @@ As a PhD candidate in Electrical Engineering at Pennsylvania State University, I
 
 **Computational Methods**
 
-- Molecular dynamics simulations
-- Thermal transport analysis
+- Semiconductor device simulations
+- Device physics analysis
 - Materials science computational modeling
 
 **Machine Learning & AI**
@@ -90,6 +90,34 @@ My approach to teaching emphasizes:
 - Promoting STEM education and research
 - Encouraging participation in academic conferences
 - Supporting diversity and inclusion in engineering research
+
+### Technical Mentorship
+
+I provide specialized mentoring in:
+
+- Neuromorphic device design and characterization
+- Advanced semiconductor simulation tools (TCAD, HSPICE)
+- Machine learning frameworks for device optimization
+- Knowledge sharing in neuromorphic computing and device simulation tools
+
+### Research Collaboration
+
+Working with faculty and research teams on:
+
+- Training team members in semiconductor simulation software
+- Collaborative problem-solving in device physics
+- Research methodology and experimental design
+- Publication writing and conference presentations
+
+### Laboratory Skills Training
+
+I help students develop expertise in:
+
+- **Circuit Design & Simulation**: Cadence Virtuoso, HSPICE, Spectre
+- **Device Characterization**: AFM, SEM, probe station measurements
+- **Programming & Analysis**: MATLAB, Python, data visualization
+- **Semiconductor Simulation**: TCAD Sentaurus, device modeling
+- **Device Physics**: Advanced simulation techniques
 
 ---
 
