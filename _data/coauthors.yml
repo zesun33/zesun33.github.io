@@ -1,9 +1,13 @@
 # Coauthors from Md Zesun Ahmed Mia's publications
 # Automatically links author names in bibliography to their profiles
 
+"mia":
+  - firstname: ["Md Zesun Ahmed"]
+    url: https://zesun33.github.io/
+
 "sengupta":
   - firstname: ["Abhronil"]
-    url: https://www.sengupta.psu.edu/
+    url: https://sites.psu.edu/sengupta/
 
 "bal":
   - firstname: ["Malyaban"]
