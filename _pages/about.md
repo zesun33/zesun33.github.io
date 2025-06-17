@@ -38,21 +38,25 @@ I am a **PhD candidate in Electrical Engineering** at **Pennsylvania State Unive
 My research centers on **brain-inspired computing architectures** that bridge the gap between biological neural networks and artificial intelligence hardware. I am particularly interested in:
 
 **Neuromorphic Computing & Brain-Inspired AI:**
+
 - Developing **astromorphic transformers** that incorporate astrocyte-neuron interactions
 - Creating **bio-inspired machine learning algorithms** for efficient long-context processing
 - Advancing **spiking neural networks (SNNs)** and **algorithm-device co-design**
 
 **Machine Learning Hardware & AI Accelerators:**
+
 - Designing **in-memory computing architectures** for edge AI applications
 - Optimizing **ML accelerator designs** for neuromorphic workloads
 - Developing **energy-efficient AI hardware** solutions
 
 **Emerging Devices & Semiconductor Technology:**
+
 - Investigating **ferroelectric devices (FeFET)** for neuromorphic applications
 - Researching **spintronics** and **non-volatile memory (NVM)** technologies
 - Advancing **device-circuit co-design** methodologies
 
 **Thermal Transport & Nanoelectronics:**
+
 - Studying **thermal management** in **GaN nanoribbons** and nanostructures
 - Analyzing **doping effects** and **defect engineering** in 2D materials
 - Developing **molecular dynamics simulations** for thermal transport optimization
@@ -68,19 +72,23 @@ At **Intel Corporation**, I contribute to **advanced semiconductor process devel
 ### Technical Expertise
 
 **Programming & Simulation:**
+
 - **Python**, **MATLAB**, **C++**, **Verilog**, **Shell scripting**
 - **Machine learning frameworks** and **neuromorphic simulation tools**
 
 **EDA Tools & Device Simulation:**
+
 - **Cadence Virtuoso**, **Spectre**, **HSPICE**, **TCAD Sentaurus**
 - **COMSOL Multiphysics**, **ModelSim**, **Synopsys Design Compiler**
 
 **Device Characterization & Fabrication:**
+
 - **Atomic Force Microscopy (AFM)**, **Scanning Electron Microscopy (SEM)**
 - **Probe station measurements**, **Hall effect characterization**
 - **X-ray Diffraction (XRD)**, **Transmission Electron Microscopy (TEM)**
 
 **AI & Advanced Computing:**
+
 - Advanced proficiency in **generative AI tools** (Cursor, GitHub Copilot, VSCode)
 - **Prompt engineering** and **AI-assisted development**
 - **Edge AI optimization** and **hardware-software co-design**

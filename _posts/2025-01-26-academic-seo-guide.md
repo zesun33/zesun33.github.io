@@ -18,35 +18,43 @@ As a **PhD candidate in Electrical Engineering** at Penn State and **Graduate Te
 In today's digital academic landscape, your website serves as:
 
 - **Your academic business card** - First impression for potential collaborators
-- **Research portfolio** - Showcase your publications and projects  
+- **Research portfolio** - Showcase your publications and projects
 - **Professional networking tool** - Connect with researchers worldwide
 - **Career advancement platform** - Attract opportunities and job offers
 
 ## Essential Components of an Academic Website
 
 ### 1. Professional About Page
+
 Your about page should clearly communicate:
+
 - Your research focus and expertise
 - Current position and affiliations
 - Academic background and achievements
 - Professional goals and vision
 
 ### 2. Publications Section
+
 Make your research discoverable by:
+
 - Listing all publications with abstracts
 - Providing downloadable PDFs when possible
 - Using proper academic keywords
 - Including citation information
 
 ### 3. Research Projects
+
 Showcase your work through:
+
 - Detailed project descriptions
 - Visual representations of your research
 - Links to related publications
 - Collaboration information
 
 ### 4. CV and Contact Information
+
 Ensure visitors can:
+
 - Download your current CV
 - Find multiple contact methods
 - Connect on professional networks
@@ -55,19 +63,23 @@ Ensure visitors can:
 ## SEO Tips for Academic Websites
 
 ### Keyword Strategy
+
 Target keywords like:
+
 - Your research area + "researcher"
 - Your name + university
 - Specific techniques or technologies you work with
 - Academic keywords relevant to your field
 
 ### Content Optimization
+
 - Write in accessible language
 - Use proper heading structure
 - Include relevant keywords naturally
 - Create valuable content for your audience
 
 ### Technical SEO
+
 - Ensure fast loading times
 - Make your site mobile-friendly
 - Use proper meta descriptions
@@ -85,12 +97,14 @@ As someone working in **neuromorphic computing** and **machine learning hardware
 ## Tools and Platforms
 
 ### Recommended Platforms:
+
 - **Jekyll + GitHub Pages** (free, customizable)
 - **Hugo + Netlify** (fast, modern)
 - **WordPress.com** (user-friendly)
 - **Squarespace** (professional design)
 
 ### Essential Features:
+
 - Professional design
 - Mobile responsiveness
 - Fast loading speed
@@ -100,12 +114,14 @@ As someone working in **neuromorphic computing** and **machine learning hardware
 ## Maintaining Your Academic Website
 
 ### Regular Updates
+
 - Add new publications immediately
 - Update your CV quarterly
 - Share research progress through blog posts
 - Announce conference presentations and awards
 
 ### Content Strategy
+
 - Write about your research in accessible terms
 - Share insights from conferences
 - Discuss career development topics
@@ -117,4 +133,4 @@ Building an academic website is an investment in your professional future. Start
 
 ---
 
-*About the author: Md Zesun Ahmed Mia is a PhD candidate in Electrical Engineering at Pennsylvania State University, specializing in neuromorphic computing and machine learning hardware. He currently serves as a Graduate Technical Intern at Intel Corporation.* 
+_About the author: Md Zesun Ahmed Mia is a PhD candidate in Electrical Engineering at Pennsylvania State University, specializing in neuromorphic computing and machine learning hardware. He currently serves as a Graduate Technical Intern at Intel Corporation._

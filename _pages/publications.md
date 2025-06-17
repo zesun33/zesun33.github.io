@@ -15,8 +15,9 @@ nav_order: 1
 Below is a comprehensive list of my research publications spanning **neuromorphic computing**, **machine learning hardware**, **semiconductor device physics**, and **emerging technologies**. My work focuses on bridging the gap between biological neural networks and artificial intelligence hardware through innovative device-circuit co-design approaches.
 
 ### Research Areas Covered:
+
 - **Neuromorphic Computing & Brain-Inspired AI**
-- **Machine Learning Hardware & AI Accelerators** 
+- **Machine Learning Hardware & AI Accelerators**
 - **Emerging Semiconductor Devices (FeFET, Spintronics)**
 - **Thermal Transport in Nanostructures**
 - **Device-Circuit Co-Design Methodologies**

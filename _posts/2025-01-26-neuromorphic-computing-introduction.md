@@ -18,6 +18,7 @@ author: Md Zesun Ahmed Mia
 Neuromorphic computing is a computing paradigm that mimics the structure and function of biological neural networks. Unlike traditional digital computers that process information sequentially, neuromorphic systems process information in parallel, much like the human brain.
 
 ### Key Characteristics:
+
 - **Event-driven processing** - Only active when receiving input
 - **Parallel computation** - Multiple operations simultaneously
 - **Low power consumption** - Inspired by brain's energy efficiency
@@ -26,14 +27,18 @@ Neuromorphic computing is a computing paradigm that mimics the structure and fun
 ## Why Neuromorphic Computing Matters
 
 ### Current Computing Limitations
+
 Traditional computing faces several challenges:
+
 - **High energy consumption** for AI workloads
 - **Memory bottleneck** in von Neumann architecture
 - **Limited real-time learning** capabilities
 - **Scalability issues** for edge AI applications
 
 ### Neuromorphic Solutions
+
 Brain-inspired computing addresses these through:
+
 - **Ultra-low power operation** (brain uses ~20W)
 - **In-memory computing** eliminating data movement
 - **Real-time adaptation** and learning
@@ -42,18 +47,21 @@ Brain-inspired computing addresses these through:
 ## Types of Neuromorphic Systems
 
 ### 1. Spiking Neural Networks (SNNs)
+
 - Communicate through discrete spikes
 - Temporal information encoding
 - Event-driven computation
 - Biologically plausible learning
 
 ### 2. Memristive Devices
+
 - Synaptic weight storage
 - Analog computing capabilities
 - Non-volatile memory
 - Crossbar array architectures
 
 ### 3. Neuromorphic Processors
+
 - Intel Loihi
 - IBM TrueNorth
 - SpiNNaker
@@ -64,12 +72,14 @@ Brain-inspired computing addresses these through:
 In my work at Penn State and Intel, I focus on **astromorphic transformers** - a novel approach that incorporates astrocyte-neuron interactions into transformer architectures. This research explores:
 
 ### Key Innovations:
+
 - **Astrocyte-inspired attention mechanisms**
 - **Bio-plausible plasticity models**
 - **Energy-efficient long-context processing**
 - **Hardware-software co-design**
 
 ### Applications:
+
 - **Natural language processing**
 - **Computer vision**
 - **Edge AI systems**
@@ -78,18 +88,21 @@ In my work at Penn State and Intel, I focus on **astromorphic transformers** - a
 ## Emerging Devices for Neuromorphic Computing
 
 ### Ferroelectric Devices (FeFET)
+
 - Non-volatile synaptic weights
 - Low-power switching
 - CMOS compatibility
 - Analog programming capability
 
 ### Spintronic Devices
+
 - Magnetic state encoding
 - Ultra-low power operation
 - Non-volatile storage
 - Radiation hardness
 
 ### Phase-Change Materials
+
 - Multilevel storage
 - Fast switching speeds
 - Good retention properties
@@ -98,12 +111,14 @@ In my work at Penn State and Intel, I focus on **astromorphic transformers** - a
 ## Applications and Impact
 
 ### Current Applications:
+
 - **Computer vision** - Object recognition, tracking
 - **Speech processing** - Real-time speech recognition
 - **Robotics** - Sensorimotor control, navigation
 - **IoT devices** - Edge AI processing
 
 ### Future Possibilities:
+
 - **Autonomous vehicles** - Real-time decision making
 - **Medical devices** - Brain-computer interfaces
 - **Smart sensors** - Adaptive environmental monitoring
@@ -112,12 +127,14 @@ In my work at Penn State and Intel, I focus on **astromorphic transformers** - a
 ## Challenges and Future Directions
 
 ### Technical Challenges:
+
 - **Device variability** and reliability
 - **Programming complexity** for SNNs
 - **Limited software tools** and frameworks
 - **Benchmarking standards** development
 
 ### Research Opportunities:
+
 - **Novel device architectures**
 - **Learning algorithms** for neuromorphic systems
 - **System-level optimization**
@@ -126,12 +143,14 @@ In my work at Penn State and Intel, I focus on **astromorphic transformers** - a
 ## Getting Started in Neuromorphic Computing
 
 ### Essential Background:
+
 - **Neuroscience fundamentals**
 - **Machine learning concepts**
 - **Computer architecture knowledge**
 - **Device physics understanding**
 
 ### Key Resources:
+
 - Research papers and conferences (NICE, ICONS)
 - Open-source simulators (NEST, Brian, BindsNET)
 - Hardware platforms (Loihi, SpiNNaker)
@@ -145,4 +164,4 @@ The field is rapidly evolving, with exciting developments in devices, architectu
 
 ---
 
-*Want to learn more about my neuromorphic computing research? Check out my [publications](/publications/) or connect with me on [LinkedIn](https://linkedin.com/in/zesun-ahmed).* 
+_Want to learn more about my neuromorphic computing research? Check out my [publications](/publications/) or connect with me on [LinkedIn](https://linkedin.com/in/zesun-ahmed)._
