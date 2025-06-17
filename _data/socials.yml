@@ -7,7 +7,8 @@
 # bluesky_url: # your bluesky URL
 # dblp_url: # your DBLP profile url
 # discord_id: # your discord id (18-digit unique numerical identifier)
-email: zesun.ahmed@psu.edu # your institutional email address
+email: zesun123@gmail.com
+work_email: zesun.ahmed@psu.edu
 # facebook_id: zesun.ahmed # your facebook id
 # flickr_id: # your flickr id
 # github_username: # your GitHub user name
@@ -20,7 +21,7 @@ email: zesun.ahmed@psu.edu # your institutional email address
 # lastfm_id: # your lastfm id
 # lattes_id: # your ID on Lattes (Brazilian Lattes CV)
 # leetcode_id: # your LeetCode id
-linkedin_username: zesun-ahmed # your LinkedIn user name
+linkedin_username: zesun-ahmed
 # mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 # medium_username: # your Medium username
 # orcid_id: # your ORCID ID
@@ -28,9 +29,9 @@ linkedin_username: zesun-ahmed # your LinkedIn user name
 # pinterest_id: # your pinterest id
 # publons_id: # your ID on Publons
 # quora_username: # your Quora username
-research_gate_profile: Md-Zesun-Ahmed-Mia-2 # your profile on ResearchGate
+research_gate_profile: Md-Zesun-Ahmed-Mia-2
 rss_icon: true # comment this line to hide the RSS icon
-scholar_userid: j-zfUj8AAAAJ # your Google Scholar ID
+scholar_userid: j-zfUj8AAAAJ
 # scopus_id: # your profile on Scopus
 # semanticscholar_id: # your Semantic Scholar ID
 # spotify_id: # your spotify id
@@ -49,3 +50,11 @@ scholar_userid: j-zfUj8AAAAJ # your Google Scholar ID
 #   logo: # can be png, svg, jpg
 #   title: Custom Social
 #   url: #
+
+# Additional academic profiles for enhanced SEO
+orcid_id: # Add your ORCID ID when you get one (format: 0000-0000-0000-0000)
+github_username: zesun33
+research_gate_profile: Md-Zesun-Ahmed-Mia-2
+
+# Professional networking
+university_profile: # Add Penn State directory link when available
