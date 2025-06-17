@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "Projects",
-          description: "A growing collection of your cool projects.",
+          description: "This page showcases a selection of my research and academic projects. These projects span various topics, including neuromorphic computing, machine learning, and semiconductor device modeling. Explore them to see the practical applications of my research.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
