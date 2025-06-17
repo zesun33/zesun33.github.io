@@ -2,21 +2,38 @@
 _scripts/
 assets/css/main.scss
 assets/plotly/demo.html
+_includes/
+_layouts/
 
 # Generated files
 _site/
 .bundle/
 vendor/
+node_modules/
 
 # Package files
 package-lock.json
 Gemfile.lock
 
-# Large CSS files
+# Large CSS and JS files
 assets/css/*.min.css
+assets/js/*.min.js
+assets/js/distillpub/
 
 # Binary files
 assets/pdf/
 assets/img/
 assets/fonts/
-assets/webfonts/ 
+assets/webfonts/
+assets/audio/
+assets/video/
+
+# Configuration files that may contain template syntax
+_config.yml
+
+# Documentation files
+README.md
+CONTRIBUTING.md
+CUSTOMIZE.md
+FAQ.md
+INSTALL.md 
