@@ -63,7 +63,11 @@ My research centers on **brain-inspired computing architectures** that bridge th
 
 ### Academic Background
 
-I completed my **Master of Science in Electrical Engineering** at Penn State with a **perfect 4.00 GPA**, focusing on **neuromorphic computing for lifelong learning**. My undergraduate degree in **Electrical and Electronic Engineering** from **Bangladesh University of Engineering and Technology (BUET)** provided a strong foundation in semiconductor device physics and circuit design.
+I am currently pursuing a **Doctor of Philosophy (PhD) in Electrical Engineering** at **Pennsylvania State University**, focusing on **neuromorphic computing** and **brain-inspired AI hardware**. My doctoral research centers on developing novel **astromorphic computing architectures** that integrate astrocyte-neuron interactions to enhance machine learning efficiency and long-context processing capabilities.
+
+I completed my **Master of Science in Electrical Engineering** at Penn State with a **perfect 4.00 GPA**, specializing in **neuromorphic computing for lifelong learning**. My graduate coursework and research provided deep expertise in **device-circuit co-design**, **machine learning hardware**, and **emerging semiconductor technologies**.
+
+My undergraduate degree in **Electrical and Electronic Engineering** from **Bangladesh University of Engineering and Technology (BUET)** provided a strong foundation in **semiconductor device physics**, **circuit design**, and **electronics fundamentals**. This rigorous program established my core knowledge in electrical engineering principles and prepared me for advanced graduate research.
 
 ### Industry Experience
 
