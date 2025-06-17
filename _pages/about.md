@@ -105,6 +105,13 @@ As a **Graduate Teaching Assistant** at Penn State, I mentor students in **analo
 
 I envision a future where **brain-inspired computing** revolutionizes artificial intelligence by creating **energy-efficient**, **adaptive**, and **fault-tolerant** systems. My goal is to develop **neuromorphic architectures** that not only match but exceed the efficiency of biological neural networks while enabling **autonomous learning** and **real-time adaptation** in edge computing environments.
 
+### Contact & Academic Identity
+
+📧 **Email**: [zesun.ahmed@psu.edu](mailto:zesun.ahmed@psu.edu)  
+🆔 **ORCID**: [0009-0004-3509-8455](https://orcid.org/0009-0004-3509-8455)  
+🎓 **Google Scholar**: [View Publications](https://scholar.google.com/citations?user=j-zfUj8AAAAJ&hl=en&oi=ao)  
+💼 **LinkedIn**: [Connect with me](https://www.linkedin.com/in/zesun-ahmed/)
+
 Feel free to explore my publications, ongoing projects, and recent news. I welcome opportunities for collaboration and discussion about research in neuromorphic computing, ML hardware, and emerging semiconductor technologies.
 
 ---
