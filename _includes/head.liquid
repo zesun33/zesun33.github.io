@@ -187,3 +187,87 @@
 {% if page.tikzjax %}
   <link defer rel="stylesheet" type="text/css" href="https://tikzjax.com/v1/fonts.css">
 {% endif %}
+
+{% assign title = site.title %}
+{% if page.title %}
+  {% assign title = page.title | append: " | " | append: site.title %}
+{% endif %}
+
+{% assign description = site.description %}
+{% if page.description %}
+  {% assign description = page.description %}
+{% elsif page.excerpt %}
+  {% assign description = page.excerpt | strip_html | strip_newlines | truncate: 160 %}
+{% endif %}
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>{{ title }}</title>
+<meta name="description" content="{{ description }}">
+
+<!-- Academic Research Schema.org Structured Data -->
+{% if page.url == "/" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "{{ site.first_name }} {{ site.last_name }}",
+  "alternateName": "{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}",
+  "jobTitle": "PhD Candidate in Electrical Engineering",
+  "affiliation": {
+    "@type": "Organization",
+    "name": "Pennsylvania State University",
+    "url": "https://www.psu.edu"
+  },
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Intel Corporation",
+    "url": "https://www.intel.com"
+  },
+  "knowsAbout": [
+    "Neuromorphic Computing",
+    "Machine Learning Hardware", 
+    "Semiconductor Devices",
+    "AI Accelerators",
+    "Brain-inspired Computing",
+    "Spintronics",
+    "Emerging Devices",
+    "FeFET",
+    "Edge AI",
+    "Spiking Neural Networks"
+  ],
+  "alumniOf": {
+    "@type": "Organization",
+    "name": "Bangladesh University of Engineering and Technology",
+    "url": "https://www.buet.ac.bd"
+  },
+  "email": "{{ site.email }}",
+  "url": "{{ site.url }}{{ site.baseurl }}",
+  "sameAs": [
+    "https://www.linkedin.com/in/zesun-ahmed",
+    "https://www.researchgate.net/profile/Md-Zesun-Ahmed-Mia-2",
+    "https://scholar.google.com/citations?user=j-zfUj8AAAAJ"
+  ]
+}
+</script>
+{% endif %}
+
+<!-- Research Publications Schema -->
+{% if page.layout == "bib" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "author": {
+    "@type": "Person",
+    "name": "{{ site.first_name }} {{ site.last_name }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.title }}"
+  }
+}
+</script>
+{% endif %}

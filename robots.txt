@@ -2,6 +2,18 @@
 permalink: /robots.txt
 ---
 User-agent: *
-Disallow:
+Allow: /
+Disallow: /assets/
 
-Sitemap: {{ site.baseurl | prepend: site.url }}/sitemap.xml
+# Academic content prioritization
+Allow: /publications/
+Allow: /cv/
+Allow: /projects/
+Allow: /blog/
+Allow: /assets/pdf/
+
+# Sitemap location
+Sitemap: {{ site.url }}{{ site.baseurl }}/sitemap.xml
+
+# Crawl delay (optional - helps with server load)
+Crawl-delay: 1
