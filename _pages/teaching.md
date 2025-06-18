@@ -65,8 +65,6 @@ I am passionate about developing educational programs in:
 
 - **Computational Materials Science**: Bridging theory and simulation
 - **Neuromorphic Engineering**: Next-generation computing paradigms
-- **Accessible Technology Design**: Engineering for social impact
-- **Research Methodology**: Best practices in academic research
 
 ### 📖 **Educational Philosophy**
 
