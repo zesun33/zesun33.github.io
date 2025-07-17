@@ -1,0 +1,80 @@
+name: Cache Optimization
+
+on:
+  schedule:
+    # Clean up caches weekly
+    - cron: '0 2 * * 0' # Every Sunday at 2 AM
+  workflow_dispatch:
+
+jobs:
+  cleanup-caches:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Cleanup old caches 🧹
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const caches = await github.rest.actions.getActionsCacheList({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+            });
+            
+            // Keep only the 10 most recent caches
+            const cachesToDelete = caches.data.actions_caches
+              .sort((a, b) => new Date(b.last_accessed_at) - new Date(a.last_accessed_at))
+              .slice(10);
+            
+            for (const cache of cachesToDelete) {
+              try {
+                await github.rest.actions.deleteActionsCacheById({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  cache_id: cache.id,
+                });
+                console.log(`Deleted cache: ${cache.key}`);
+              } catch (error) {
+                console.log(`Failed to delete cache ${cache.key}: ${error.message}`);
+              }
+            }
+            
+            console.log(`Cleaned up ${cachesToDelete.length} old caches`);
+
+  optimize-build-cache:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v4
+
+      - name: Cache Ruby gems 💎
+        uses: actions/cache@v4
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+
+      - name: Cache Node modules 📦
+        uses: actions/cache@v4
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: Cache Python packages 🐍
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Cache Jekyll build 🏗️
+        uses: actions/cache@v4
+        with:
+          path: |
+            .jekyll-cache
+            _site
+          key: ${{ runner.os }}-jekyll-${{ hashFiles('**/*.md', '**/*.html', '**/*.yml', '**/*.liquid') }}
+          restore-keys: |
+            ${{ runner.os }}-jekyll-

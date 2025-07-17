@@ -5,6 +5,7 @@ description: Low-power machine learning accelerator design achieving >10x energy
 importance: 2
 category: work
 related_publications: false
+published: false
 ---
 
 ## ML Accelerator for Edge AI

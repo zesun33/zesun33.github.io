@@ -5,6 +5,7 @@ description: Ferroelectric device development for synaptic applications in neuro
 importance: 4
 category: work
 related_publications: true
+published: false
 ---
 
 ## Ferroelectric Device for Neuromorphic Computing

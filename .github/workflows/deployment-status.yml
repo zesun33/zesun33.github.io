@@ -1,0 +1,52 @@
+name: Deployment Status
+
+on:
+  workflow_run:
+    workflows: ["Deploy site"]
+    types: [completed]
+
+jobs:
+  deployment-notification:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check deployment status 📊
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { owner, repo } = context.repo;
+            const run_id = context.payload.workflow_run.id;
+            const conclusion = context.payload.workflow_run.conclusion;
+            const html_url = context.payload.workflow_run.html_url;
+            
+            // Get the commit that triggered the deployment
+            const commit_sha = context.payload.workflow_run.head_sha;
+            const commit = await github.rest.repos.getCommit({
+              owner,
+              repo,
+              ref: commit_sha
+            });
+            
+            const commit_message = commit.data.commit.message.split('\n')[0];
+            const commit_author = commit.data.commit.author.name;
+            
+            // Create deployment status summary
+            const status_emoji = conclusion === 'success' ? '✅' : '❌';
+            const status_text = conclusion === 'success' ? 'SUCCESS' : 'FAILED';
+            
+            console.log(`${status_emoji} Deployment ${status_text}`);
+            console.log(`📝 Commit: ${commit_message}`);
+            console.log(`👤 Author: ${commit_author}`);
+            console.log(`🔗 Workflow: ${html_url}`);
+            
+            if (conclusion === 'success') {
+              console.log('🌐 Site URL: https://zesun33.github.io');
+              
+              // Optional: You can add webhook notifications here
+              // For example, to Slack, Discord, or email
+            }
+
+      - name: Update deployment badge 🏷️
+        if: success()
+        run: |
+          echo "Deployment completed successfully at $(date)" > deployment-status.txt
+          echo "Last successful deployment: $(date)" >> $GITHUB_STEP_SUMMARY

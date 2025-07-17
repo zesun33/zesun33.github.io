@@ -1,0 +1,151 @@
+name: Content Validation
+
+on:
+  push:
+    branches: [main, master]
+    paths:
+      - '_bibliography/**'
+      - '_data/**'
+      - '_posts/**'
+      - '_projects/**'
+      - '_pages/**'
+  pull_request:
+    branches: [main, master]
+    paths:
+      - '_bibliography/**'
+      - '_data/**'
+      - '_posts/**'
+      - '_projects/**'
+      - '_pages/**'
+
+jobs:
+  validate-content:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v4
+
+      - name: Setup Python 🐍
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Install validation tools 🔧
+        run: |
+          pip install pyyaml bibtexparser markdown
+
+      - name: Validate BibTeX files 📚
+        run: |
+          python -c "
+          import bibtexparser
+          import sys
+          import os
+          
+          errors = []
+          for root, dirs, files in os.walk('_bibliography'):
+              for file in files:
+                  if file.endswith('.bib'):
+                      filepath = os.path.join(root, file)
+                      try:
+                          with open(filepath, 'r', encoding='utf-8') as f:
+                              bibtexparser.load(f)
+                          print(f'✅ {filepath} is valid')
+                      except Exception as e:
+                          errors.append(f'❌ {filepath}: {str(e)}')
+          
+          if errors:
+              for error in errors:
+                  print(error)
+              sys.exit(1)
+          else:
+              print('All BibTeX files are valid!')
+          "
+
+      - name: Validate YAML files 📝
+        run: |
+          python -c "
+          import yaml
+          import sys
+          import os
+          
+          errors = []
+          for root, dirs, files in os.walk('_data'):
+              for file in files:
+                  if file.endswith(('.yml', '.yaml')):
+                      filepath = os.path.join(root, file)
+                      try:
+                          with open(filepath, 'r', encoding='utf-8') as f:
+                              yaml.safe_load(f)
+                          print(f'✅ {filepath} is valid')
+                      except Exception as e:
+                          errors.append(f'❌ {filepath}: {str(e)}')
+          
+          if errors:
+              for error in errors:
+                  print(error)
+              sys.exit(1)
+          else:
+              print('All YAML files are valid!')
+          "
+
+      - name: Check for required fields in publications 🔍
+        run: |
+          python -c "
+          import bibtexparser
+          import sys
+          
+          required_fields = ['title', 'author', 'year']
+          warnings = []
+          
+          try:
+              with open('_bibliography/papers.bib', 'r', encoding='utf-8') as f:
+                  bib_db = bibtexparser.load(f)
+              
+              for entry in bib_db.entries:
+                  for field in required_fields:
+                      if field not in entry:
+                          warnings.append(f'⚠️  Entry {entry.get(\"ID\", \"unknown\")} missing {field}')
+                  
+                  # Check for common academic fields
+                  if entry.get('ENTRYTYPE') == 'article' and 'journal' not in entry:
+                      warnings.append(f'⚠️  Article {entry.get(\"ID\", \"unknown\")} missing journal')
+              
+              if warnings:
+                  print('Content validation warnings:')
+                  for warning in warnings:
+                      print(warning)
+              else:
+                  print('✅ All publications have required fields!')
+          except FileNotFoundError:
+              print('No bibliography file found, skipping validation')
+          "
+
+      - name: Generate content report 📊
+        run: |
+          echo "## Content Validation Report" >> $GITHUB_STEP_SUMMARY
+          echo "| Content Type | Count | Status |" >> $GITHUB_STEP_SUMMARY
+          echo "|--------------|-------|--------|" >> $GITHUB_STEP_SUMMARY
+          
+          # Count publications
+          if [ -f "_bibliography/papers.bib" ]; then
+            pub_count=$(grep -c "^@" _bibliography/papers.bib || echo "0")
+            echo "| Publications | $pub_count | ✅ |" >> $GITHUB_STEP_SUMMARY
+          fi
+          
+          # Count projects
+          if [ -d "_projects" ]; then
+            proj_count=$(find _projects -name "*.md" -not -name ".*" | wc -l)
+            echo "| Projects | $proj_count | ✅ |" >> $GITHUB_STEP_SUMMARY
+          fi
+          
+          # Count posts
+          if [ -d "_posts" ]; then
+            post_count=$(find _posts -name "*.md" -not -name ".*" | wc -l)
+            echo "| Blog Posts | $post_count | ✅ |" >> $GITHUB_STEP_SUMMARY
+          fi
+          
+          # Count news items
+          if [ -d "_news" ]; then
+            news_count=$(find _news -name "*.md" -not -name ".*" | wc -l)
+            echo "| News Items | $news_count | ✅ |" >> $GITHUB_STEP_SUMMARY
+          fi

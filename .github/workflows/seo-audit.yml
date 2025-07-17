@@ -1,0 +1,119 @@
+name: SEO Audit
+
+on:
+  push:
+    branches: [main, master]
+  schedule:
+    # Run monthly SEO audit
+    - cron: '0 10 1 * *' # First day of month at 10 AM
+  workflow_dispatch:
+
+jobs:
+  seo-audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby 💎
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3.5"
+          bundler-cache: true
+
+      - name: Setup Python 🐍
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: "pip"
+
+      - name: Update _config.yml ⚙️
+        uses: fjogeleit/yaml-update-action@main
+        with:
+          commitChange: false
+          valueFile: "_config.yml"
+          propertyPath: "giscus.repo"
+          value: ${{ github.repository }}
+
+      - name: Install and Build 🔧
+        run: |
+          sudo apt-get update && sudo apt-get install -y imagemagick
+          pip3 install --upgrade nbconvert
+          export JEKYLL_ENV=production
+          bundle exec jekyll build
+
+      - name: Generate sitemap validation 🗺️
+        run: |
+          echo "## SEO Audit Report" >> $GITHUB_STEP_SUMMARY
+          echo "### Sitemap Analysis" >> $GITHUB_STEP_SUMMARY
+          
+          if [ -f "_site/sitemap.xml" ]; then
+            url_count=$(grep -c "<url>" _site/sitemap.xml || echo "0")
+            echo "- ✅ Sitemap generated with $url_count URLs" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "- ❌ Sitemap not found" >> $GITHUB_STEP_SUMMARY
+          fi
+
+      - name: Check meta tags 🏷️
+        run: |
+          echo "### Meta Tags Analysis" >> $GITHUB_STEP_SUMMARY
+          
+          # Check for essential meta tags in main pages
+          for file in _site/*.html _site/blog/*.html; do
+            if [ -f "$file" ]; then
+              filename=$(basename "$file")
+              
+              # Check for title tag
+              if grep -q "<title>" "$file"; then
+                echo "- ✅ $filename has title tag" >> $GITHUB_STEP_SUMMARY
+              else
+                echo "- ⚠️  $filename missing title tag" >> $GITHUB_STEP_SUMMARY
+              fi
+              
+              # Check for meta description
+              if grep -q 'name="description"' "$file"; then
+                echo "- ✅ $filename has meta description" >> $GITHUB_STEP_SUMMARY
+              else
+                echo "- ⚠️  $filename missing meta description" >> $GITHUB_STEP_SUMMARY
+              fi
+              
+              # Check for Open Graph tags
+              if grep -q 'property="og:' "$file"; then
+                echo "- ✅ $filename has Open Graph tags" >> $GITHUB_STEP_SUMMARY
+              else
+                echo "- ⚠️  $filename missing Open Graph tags" >> $GITHUB_STEP_SUMMARY
+              fi
+            fi
+          done
+
+      - name: Validate structured data 📊
+        run: |
+          echo "### Structured Data Analysis" >> $GITHUB_STEP_SUMMARY
+          
+          # Check for JSON-LD structured data
+          if grep -r "application/ld+json" _site/ > /dev/null; then
+            echo "- ✅ Structured data (JSON-LD) found" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "- ⚠️  No structured data found" >> $GITHUB_STEP_SUMMARY
+          fi
+          
+          # Check for schema.org markup
+          if grep -r "schema.org" _site/ > /dev/null; then
+            echo "- ✅ Schema.org markup found" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "- ⚠️  No Schema.org markup found" >> $GITHUB_STEP_SUMMARY
+          fi
+
+      - name: Check robots.txt 🤖
+        run: |
+          echo "### Robots.txt Analysis" >> $GITHUB_STEP_SUMMARY
+          
+          if [ -f "_site/robots.txt" ]; then
+            echo "- ✅ robots.txt found" >> $GITHUB_STEP_SUMMARY
+            echo "- Content preview:" >> $GITHUB_STEP_SUMMARY
+            echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+            head -10 _site/robots.txt >> $GITHUB_STEP_SUMMARY
+            echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "- ⚠️  robots.txt not found" >> $GITHUB_STEP_SUMMARY
+          fi

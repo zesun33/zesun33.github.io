@@ -1,6 +1,42 @@
 {
+  "name": "zesun-academic-website",
+  "version": "2.0.0",
+  "description": "Academic portfolio website for Md Zesun Ahmed Mia",
+  "scripts": {
+    "dev": "bundle exec jekyll serve --livereload --drafts",
+    "build": "JEKYLL_ENV=production bundle exec jekyll build",
+    "build:dev": "bundle exec jekyll build",
+    "clean": "bundle exec jekyll clean",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "optimize:css": "purgecss -c purgecss.config.js",
+    "test:links": "bundle exec htmlproofer ./_site --disable-external",
+    "test:accessibility": "axe --chromedriver-path $(npm root -g)/chromedriver/bin/chromedriver http://localhost:4000",
+    "serve:prod": "npm run build && http-server _site -p 8080",
+    "deps:update": "bundle update && npm update",
+    "deps:audit": "bundle audit && npm audit"
+  },
   "devDependencies": {
     "@shopify/prettier-plugin-liquid": "1.4.0",
-    "prettier": "3.1.1"
-  }
+    "prettier": "3.1.1",
+    "http-server": "^14.1.1",
+    "purgecss": "^6.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zesun33/zesun33.github.io.git"
+  },
+  "keywords": [
+    "academic-website",
+    "jekyll",
+    "portfolio",
+    "neuromorphic-computing",
+    "research"
+  ],
+  "author": "Md Zesun Ahmed Mia <zesun.ahmed@psu.edu>",
+  "license": "MIT"
 }
