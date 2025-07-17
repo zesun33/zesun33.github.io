@@ -9,7 +9,7 @@ last_name: Mia
 contact_note: >
   You can reach me via email or connect with me on social media.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Md Zesun Ahmed Mia - PhD candidate in Electrical Engineering at Penn State specializing in neuromorphic computing, machine learning hardware, emerging devices, and semiconductor process integration. Research focus on brain-inspired computing, spintronics, and AI accelerators.
+  Md Zesun Ahmed Mia - PhD candidate in Electrical Engineering at Penn State University specializing in neuromorphic computing, machine learning hardware, emerging memory devices, and semiconductor process integration. Leading research in brain-inspired computing architectures, spintronics-based AI accelerators, and next-generation computing systems for artificial intelligence applications.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
