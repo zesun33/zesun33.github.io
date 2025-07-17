@@ -55,11 +55,6 @@ My research centers on **brain-inspired computing architectures** that bridge th
 - Researching **spintronics** and **non-volatile memory (NVM)** technologies
 - Advancing **device-circuit co-design** methodologies
 
-**Advanced Semiconductor Devices & Materials:**
-
-- Investigating **3D NAND flash memory** and **advanced node technologies**
-- Researching **high-k dielectric materials** and **gate-all-around FETs (GAAFETs)**
-- Developing **quantum device architectures** for neuromorphic applications
 
 ### Academic Background
 
