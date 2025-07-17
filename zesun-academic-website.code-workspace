@@ -61,17 +61,17 @@
       "editor.defaultFormatter": "Shopify.theme-check-vscode"
     },
     
-    // Jekyll-specific settings
-    "jekyll.enabled": true,
-    "jekyll.autoStart": false,
-    "jekyll.serve.incremental": true,
-    "jekyll.serve.livereload": true,
-    "jekyll.serve.drafts": true,
+    // Jekyll-specific settings (commented out - these extensions may not be installed)
+    // "jekyll.enabled": true,
+    // "jekyll.autoStart": false,
+    // "jekyll.serve.incremental": true,
+    // "jekyll.serve.livereload": true,
+    // "jekyll.serve.drafts": true,
     
-    // Ruby settings
-    "ruby.intellisense": "rubyLocate",
-    "ruby.codeCompletion": "rcodetools",
-    "ruby.format": "rubocop",
+    // Ruby settings (commented out - these extensions may not be installed)
+    // "ruby.intellisense": "rubyLocate",
+    // "ruby.codeCompletion": "rcodetools",
+    // "ruby.format": "rubocop",
     
     // Search and file exclusions
     "search.exclude": {
@@ -108,7 +108,13 @@
     "git.autofetch": true,
     
     // Terminal settings
-    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.profiles.windows": {
+      "Git Bash": {
+        "path": "C:\\Program Files\\Git\\bin\\bash.exe",
+        "args": ["--login"]
+      }
+    },
     "terminal.integrated.cwd": "${workspaceFolder}",
     
     // Prettier configuration
@@ -211,8 +217,8 @@
       "bierner.markdown-mermaid",
       "bierner.markdown-emoji",
       
-      // BibTeX
-      "james-yu.latex-workshop",
+      // BibTeX (commented out - causes startup errors)
+      // "james-yu.latex-workshop",
       
       // Git & GitHub
       "github.vscode-pull-request-github",
@@ -231,9 +237,9 @@
       "ms-vscode.vscode-json",
       "ms-vscode-remote.remote-containers",
       
-      // Academic & Research
-      "tecosaur.latex-utilities",
-      "mathematic.vscode-latex",
+      // Academic & Research (commented out - LaTeX extensions not needed for Jekyll)
+      // "tecosaur.latex-utilities",
+      // "mathematic.vscode-latex",
       
       // Performance & Debugging
       "ms-vscode.vscode-js-debug",
@@ -264,9 +270,7 @@
           "clear": false
         },
         "problemMatcher": [],
-        "runOptions": {
-          "runOn": "folderOpen"
-        }
+
       },
       {
         "label": "🔌 MCP: Test Server Connections",

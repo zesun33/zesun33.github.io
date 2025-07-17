@@ -46,6 +46,37 @@ This document provides detailed information for developers working on Md Zesun A
 - **Python**: 3.13+ with pip
 - **ImageMagick**: For image processing
 - **Git**: For version control
+- **Git Bash**: Recommended terminal for Windows development
+
+### IDE Configuration
+
+The repository includes a pre-configured VS Code workspace (`zesun-academic-website.code-workspace`) with:
+
+- **Git Bash as default terminal** for Windows development
+- **Jekyll-specific file associations** (Liquid, YAML, BibTeX)
+- **Recommended extensions** for Jekyll, Ruby, and web development
+- **Code formatting settings** with Prettier integration
+- **Search exclusions** for build artifacts and dependencies
+- **Pre-configured tasks** for common development operations
+
+#### Recommended VS Code Extensions
+
+The workspace automatically suggests these extensions:
+- **Jekyll & Static Sites**: Jekyll syntax, Liquid templates
+- **Web Development**: Prettier, Tailwind CSS, auto-rename tags
+- **Markdown**: All-in-one Markdown support with Mermaid diagrams
+- **Git & GitHub**: Pull requests, Copilot, GitLens
+- **Code Quality**: Spell checker, ESLint, accessibility linter
+
+#### Development Tasks
+
+Pre-configured tasks available via Command Palette (`Ctrl+Shift+P`):
+- `🚀 Jekyll: Serve (Development)` - Start development server with live reload
+- `🏗️ Jekyll: Build (Production)` - Build for production deployment
+- `🧹 Jekyll: Clean` - Clean build artifacts
+- `💎 Bundle: Install Dependencies` - Install Ruby gems
+- `📦 NPM: Install Dependencies` - Install Node.js packages
+- `🎨 Prettier: Format Code` - Format all code files
 
 ### Installation Steps
 

@@ -12,6 +12,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Automated quality assurance workflows
 - Performance optimization with PurgeCSS
 
+### Changed
+- Updated VS Code workspace configuration for improved development experience
+- Set Git Bash as default terminal for Windows development
+- Removed problematic LaTeX extensions that caused startup errors
+- Disabled automatic Jekyll server startup on workspace open
+- Cleaned up extension recommendations to only include available extensions
+- Commented out extension-specific settings that caused configuration warnings
+
 ## [2.0.0] - 2025-01-17
 
 ### Added

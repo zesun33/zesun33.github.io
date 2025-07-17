@@ -100,6 +100,21 @@ Currently serving as a **Graduate Technical Intern at Intel Corporation**, worki
 4. **Open in browser:**
    Navigate to `http://localhost:4000`
 
+### VS Code Development Environment
+
+The repository includes a pre-configured workspace file (`zesun-academic-website.code-workspace`) optimized for Jekyll development:
+
+- **🖥️ Git Bash Terminal**: Default terminal set to Git Bash for Windows
+- **🔧 Jekyll Tasks**: Pre-configured tasks for serve, build, and clean operations
+- **📦 Extension Recommendations**: Curated list of helpful extensions for Jekyll development
+- **⚙️ Code Formatting**: Prettier integration with Jekyll-specific settings
+- **🔍 File Associations**: Proper syntax highlighting for Liquid, YAML, and BibTeX files
+
+**Quick Start with VS Code:**
+1. Open the workspace file: `File > Open Workspace from File > zesun-academic-website.code-workspace`
+2. Install recommended extensions when prompted
+3. Use `Ctrl+Shift+P` and run `🚀 Jekyll: Serve (Development)` to start the development server
+
 ## 📖 Documentation
 
 - **[DEVELOPMENT.md](DEVELOPMENT.md)** - Comprehensive development guide
