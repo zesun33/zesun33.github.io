@@ -1,0 +1,505 @@
+{
+  "folders": [
+    {
+      "name": "website",
+      "path": "."
+    }
+  ],
+  "settings": {
+    // Editor Configuration
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit"
+    },
+    "editor.rulers": [80, 120],
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 80,
+    
+    // File Associations
+    "files.associations": {
+      "*.liquid": "liquid",
+      "*.bib": "bibtex",
+      "*.yml": "yaml",
+      "*.yaml": "yaml",
+      "_config.yml": "yaml",
+      "Gemfile": "ruby",
+      "Gemfile.lock": "ruby"
+    },
+    
+    // Language-specific settings
+    "[markdown]": {
+      "editor.wordWrap": "on",
+      "editor.quickSuggestions": {
+        "comments": "off",
+        "strings": "off",
+        "other": "off"
+      },
+      "editor.formatOnSave": false
+    },
+    "[yaml]": {
+      "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[scss]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[liquid]": {
+      "editor.defaultFormatter": "Shopify.theme-check-vscode"
+    },
+    
+    // Jekyll-specific settings
+    "jekyll.enabled": true,
+    "jekyll.autoStart": false,
+    "jekyll.serve.incremental": true,
+    "jekyll.serve.livereload": true,
+    "jekyll.serve.drafts": true,
+    
+    // Ruby settings
+    "ruby.intellisense": "rubyLocate",
+    "ruby.codeCompletion": "rcodetools",
+    "ruby.format": "rubocop",
+    
+    // Search and file exclusions
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/vendor": true,
+      "**/_site": true,
+      "**/Gemfile.lock": true,
+      "**/package-lock.json": true,
+      "**/.sass-cache": true,
+      "**/.jekyll-cache": true,
+      "**/.jekyll-metadata": true
+    },
+    "files.exclude": {
+      "**/.git": true,
+      "**/.DS_Store": true,
+      "**/Thumbs.db": true,
+      "**/_site": true,
+      "**/.sass-cache": true,
+      "**/.jekyll-cache": true,
+      "**/.jekyll-metadata": true
+    },
+    "files.watcherExclude": {
+      "**/.git/objects/**": true,
+      "**/.git/subtree-cache/**": true,
+      "**/node_modules/**": true,
+      "**/vendor/**": true,
+      "**/_site/**": true,
+      "**/.sass-cache/**": true,
+      "**/.jekyll-cache/**": true
+    },
+    
+    // Git settings
+    "git.ignoreLimitWarning": true,
+    "git.autofetch": true,
+    
+    // Terminal settings
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.cwd": "${workspaceFolder}",
+    
+    // Prettier configuration
+    "prettier.configPath": ".prettierrc",
+    "prettier.requireConfig": false,
+    "prettier.useEditorConfig": false,
+    
+    // YAML schema associations
+    "yaml.schemas": {
+      "https://json.schemastore.org/github-workflow.json": ".github/workflows/*.yml",
+      "https://json.schemastore.org/dependabot-v2.json": ".github/dependabot.yml"
+    },
+    
+    // Spell checking
+    "cSpell.words": [
+      "Zesun",
+      "Ahmed",
+      "Mia",
+      "neuromorphic",
+      "spintronics",
+      "FeFET",
+      "bibtex",
+      "jekyll",
+      "kramdown",
+      "bundler",
+      "gemfile",
+      "frontmatter",
+      "ORCID",
+      "ResearchGate",
+      "altmetric",
+      "giscus",
+      "photoswipe",
+      "mathjax",
+      "plotly",
+      "chartjs",
+      "echarts",
+      "leaflet",
+      "mermaid",
+      "pseudocode",
+      "lightbox",
+      "masonry",
+      "imagesloaded",
+      "venobox",
+      "swiper",
+      "spotlight"
+    ],
+    "cSpell.enableFiletypes": [
+      "liquid",
+      "bibtex",
+      "yaml"
+    ],
+    
+    // Emmet settings
+    "emmet.includeLanguages": {
+      "liquid": "html"
+    },
+    
+    // Live Server settings
+    "liveServer.settings.root": "/_site",
+    "liveServer.settings.port": 4000,
+    "liveServer.settings.CustomBrowser": "chrome",
+    
+    // Path Intellisense
+    "path-intellisense.mappings": {
+      "/": "${workspaceRoot}",
+      "assets": "${workspaceRoot}/assets",
+      "_includes": "${workspaceRoot}/_includes",
+      "_layouts": "${workspaceRoot}/_layouts",
+      "_sass": "${workspaceRoot}/_sass"
+    }
+  },
+  "extensions": {
+    "recommendations": [
+      // Jekyll & Static Site Development
+      "ginfuru.ginfuru-vscode-jekyll-syntax",
+      "ms-vscode.vscode-json",
+      
+      // Ruby Development
+      "rebornix.ruby",
+      "wingrunr21.vscode-ruby",
+      "kaiwood.endwise",
+      
+      // Web Development
+      "esbenp.prettier-vscode",
+      "bradlc.vscode-tailwindcss",
+      "formulahendry.auto-rename-tag",
+      "christian-kohler.path-intellisense",
+      
+      // Liquid Templates
+      "Shopify.theme-check-vscode",
+      "sissel.shopify-liquid",
+      
+      // YAML & Configuration
+      "redhat.vscode-yaml",
+      "ms-vscode.vscode-yaml",
+      
+      // Markdown
+      "yzhang.markdown-all-in-one",
+      "davidanson.vscode-markdownlint",
+      "bierner.markdown-mermaid",
+      "bierner.markdown-emoji",
+      
+      // BibTeX
+      "james-yu.latex-workshop",
+      
+      // Git & GitHub
+      "github.vscode-pull-request-github",
+      "github.copilot",
+      "github.copilot-chat",
+      "eamodio.gitlens",
+      
+      // Code Quality
+      "streetsidesoftware.code-spell-checker",
+      "ms-vscode.vscode-typescript-next",
+      "dbaeumer.vscode-eslint",
+      
+      // Utilities
+      "ms-vscode.live-server",
+      "ritwickdey.liveserver",
+      "ms-vscode.vscode-json",
+      "ms-vscode-remote.remote-containers",
+      
+      // Academic & Research
+      "tecosaur.latex-utilities",
+      "mathematic.vscode-latex",
+      
+      // Performance & Debugging
+      "ms-vscode.vscode-js-debug",
+      "firefox-devtools.vscode-firefox-debug",
+      
+      // Accessibility
+      "deque-systems.vscode-axe-linter"
+    ]
+  },
+  "tasks": {
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "🚀 Jekyll: Serve (Development)",
+        "type": "shell",
+        "command": "bundle",
+        "args": ["exec", "jekyll", "serve", "--livereload", "--drafts"],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "presentation": {
+          "echo": true,
+          "reveal": "always",
+          "focus": false,
+          "panel": "new",
+          "showReuseMessage": true,
+          "clear": false
+        },
+        "problemMatcher": [],
+        "runOptions": {
+          "runOn": "folderOpen"
+        }
+      },
+      {
+        "label": "🔌 MCP: Test Server Connections",
+        "type": "shell",
+        "command": "${workspaceFolder}/.kiro/tasks/test-mcp-connections.bat",
+        "group": "test",
+        "presentation": {
+          "echo": true,
+          "reveal": "always",
+          "focus": true,
+          "panel": "new",
+          "showReuseMessage": false,
+          "clear": true
+        },
+        "problemMatcher": []
+      },
+      {
+        "label": "🔧 MCP: Install Servers",
+        "type": "shell",
+        "command": "${workspaceFolder}/.kiro/tasks/install-mcp-servers.bat",
+        "group": "test",
+        "presentation": {
+          "echo": true,
+          "reveal": "always",
+          "focus": true,
+          "panel": "new",
+          "showReuseMessage": false,
+          "clear": true
+        },
+        "problemMatcher": []
+      },
+      {
+        "label": "⚙️ MCP: Setup All Servers",
+        "type": "shell",
+        "command": "${workspaceFolder}/.kiro/tasks/setup-mcp-servers.bat",
+        "group": {
+          "kind": "test",
+          "isDefault": true
+        },
+        "presentation": {
+          "echo": true,
+          "reveal": "always",
+          "focus": true,
+          "panel": "new",
+          "showReuseMessage": false,
+          "clear": true
+        },
+        "problemMatcher": []
+      },
+      {
+        "label": "🔧 MCP: Fix Configuration",
+        "type": "shell",
+        "command": "${workspaceFolder}/.kiro/tasks/fix-mcp-config.bat",
+        "group": "test",
+        "presentation": {
+          "echo": true,
+          "reveal": "always",
+          "focus": true,
+          "panel": "new",
+          "showReuseMessage": false,
+          "clear": true
+        },
+        "problemMatcher": []
+      },
+      {
+        "label": "🏗️ Jekyll: Build (Production)",
+        "type": "shell",
+        "command": "bundle",
+        "args": ["exec", "jekyll", "build"],
+        "group": "build",
+        "presentation": {
+          "echo": true,
+          "reveal": "always",
+          "focus": false,
+          "panel": "shared"
+        },
+        "problemMatcher": [],
+        "options": {
+          "env": {
+            "JEKYLL_ENV": "production"
+          }
+        }
+      },
+      {
+        "label": "🧹 Jekyll: Clean",
+        "type": "shell",
+        "command": "bundle",
+        "args": ["exec", "jekyll", "clean"],
+        "group": "build",
+        "presentation": {
+          "echo": true,
+          "reveal": "always",
+          "focus": false,
+          "panel": "shared"
+        }
+      },
+      {
+        "label": "💎 Bundle: Install Dependencies",
+        "type": "shell",
+        "command": "bundle",
+        "args": ["install"],
+        "group": "build",
+        "presentation": {
+          "echo": true,
+          "reveal": "always",
+          "focus": false,
+          "panel": "shared"
+        }
+      },
+      {
+        "label": "📦 NPM: Install Dependencies",
+        "type": "shell",
+        "command": "npm",
+        "args": ["install"],
+        "group": "build",
+        "presentation": {
+          "echo": true,
+          "reveal": "always",
+          "focus": false,
+          "panel": "shared"
+        }
+      },
+      {
+        "label": "🎨 Prettier: Format Code",
+        "type": "shell",
+        "command": "npx",
+        "args": ["prettier", "--write", "."],
+        "group": "build",
+        "presentation": {
+          "echo": true,
+          "reveal": "always",
+          "focus": false,
+          "panel": "shared"
+        }
+      },
+      {
+        "label": "🔍 Prettier: Check Formatting",
+        "type": "shell",
+        "command": "npx",
+        "args": ["prettier", "--check", "."],
+        "group": "test",
+        "presentation": {
+          "echo": true,
+          "reveal": "always",
+          "focus": false,
+          "panel": "shared"
+        }
+      },
+      {
+        "label": "🧪 Test: HTML Proofer (Internal Links)",
+        "type": "shell",
+        "command": "bundle",
+        "args": ["exec", "htmlproofer", "./_site", "--disable-external"],
+        "group": "test",
+        "presentation": {
+          "echo": true,
+          "reveal": "always",
+          "focus": false,
+          "panel": "shared"
+        },
+        "dependsOn": "🏗️ Jekyll: Build (Production)"
+      },
+      {
+        "label": "♿ Test: Accessibility (axe-core)",
+        "type": "shell",
+        "command": "npm",
+        "args": ["run", "test:accessibility"],
+        "group": "test",
+        "presentation": {
+          "echo": true,
+          "reveal": "always",
+          "focus": false,
+          "panel": "shared"
+        }
+      },
+      {
+        "label": "🚀 Serve: Production Build",
+        "type": "shell",
+        "command": "npm",
+        "args": ["run", "serve:prod"],
+        "group": "build",
+        "presentation": {
+          "echo": true,
+          "reveal": "always",
+          "focus": false,
+          "panel": "shared"
+        }
+      },
+      {
+        "label": "🔄 Update: All Dependencies",
+        "type": "shell",
+        "command": "npm",
+        "args": ["run", "deps:update"],
+        "group": "build",
+        "presentation": {
+          "echo": true,
+          "reveal": "always",
+          "focus": false,
+          "panel": "shared"
+        }
+      },
+      {
+        "label": "🛡️ Security: Audit Dependencies",
+        "type": "shell",
+        "command": "npm",
+        "args": ["run", "deps:audit"],
+        "group": "test",
+        "presentation": {
+          "echo": true,
+          "reveal": "always",
+          "focus": false,
+          "panel": "shared"
+        }
+      }
+    ]
+  },
+  "launch": {
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "🌐 Launch Jekyll Site",
+        "type": "node",
+        "request": "launch",
+        "program": "${workspaceFolder}/node_modules/.bin/http-server",
+        "args": [
+          "_site",
+          "-p",
+          "4000",
+          "-o"
+        ],
+        "console": "integratedTerminal",
+        "preLaunchTask": "🏗️ Jekyll: Build (Production)"
+      }
+    ]
+  }
+}
