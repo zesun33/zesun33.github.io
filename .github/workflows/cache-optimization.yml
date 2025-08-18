@@ -3,7 +3,7 @@ name: Cache Optimization
 on:
   schedule:
     # Clean up caches weekly
-    - cron: '0 2 * * 0' # Every Sunday at 2 AM
+    - cron: "0 2 * * 0" # Every Sunday at 2 AM
   workflow_dispatch:
 
 jobs:
@@ -18,12 +18,12 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
             });
-            
+
             // Keep only the 10 most recent caches
             const cachesToDelete = caches.data.actions_caches
               .sort((a, b) => new Date(b.last_accessed_at) - new Date(a.last_accessed_at))
               .slice(10);
-            
+
             for (const cache of cachesToDelete) {
               try {
                 await github.rest.actions.deleteActionsCacheById({
@@ -36,7 +36,7 @@ jobs:
                 console.log(`Failed to delete cache ${cache.key}: ${error.message}`);
               }
             }
-            
+
             console.log(`Cleaned up ${cachesToDelete.length} old caches`);
 
   optimize-build-cache:

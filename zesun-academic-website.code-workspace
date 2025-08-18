@@ -17,7 +17,7 @@
     "editor.rulers": [80, 120],
     "editor.wordWrap": "wordWrapColumn",
     "editor.wordWrapColumn": 80,
-    
+
     // File Associations
     "files.associations": {
       "*.liquid": "liquid",
@@ -28,7 +28,7 @@
       "Gemfile": "ruby",
       "Gemfile.lock": "ruby"
     },
-    
+
     // Language-specific settings
     "[markdown]": {
       "editor.wordWrap": "on",
@@ -60,19 +60,19 @@
     "[liquid]": {
       "editor.defaultFormatter": "Shopify.theme-check-vscode"
     },
-    
+
     // Jekyll-specific settings (commented out - these extensions may not be installed)
     // "jekyll.enabled": true,
     // "jekyll.autoStart": false,
     // "jekyll.serve.incremental": true,
     // "jekyll.serve.livereload": true,
     // "jekyll.serve.drafts": true,
-    
+
     // Ruby settings (commented out - these extensions may not be installed)
     // "ruby.intellisense": "rubyLocate",
     // "ruby.codeCompletion": "rcodetools",
     // "ruby.format": "rubocop",
-    
+
     // Search and file exclusions
     "search.exclude": {
       "**/node_modules": true,
@@ -102,11 +102,11 @@
       "**/.sass-cache/**": true,
       "**/.jekyll-cache/**": true
     },
-    
+
     // Git settings
     "git.ignoreLimitWarning": true,
     "git.autofetch": true,
-    
+
     // Terminal settings
     "terminal.integrated.defaultProfile.windows": "Git Bash",
     "terminal.integrated.profiles.windows": {
@@ -116,18 +116,18 @@
       }
     },
     "terminal.integrated.cwd": "${workspaceFolder}",
-    
+
     // Prettier configuration
     "prettier.configPath": ".prettierrc",
     "prettier.requireConfig": false,
     "prettier.useEditorConfig": false,
-    
+
     // YAML schema associations
     "yaml.schemas": {
       "https://json.schemastore.org/github-workflow.json": ".github/workflows/*.yml",
       "https://json.schemastore.org/dependabot-v2.json": ".github/dependabot.yml"
     },
-    
+
     // Spell checking
     "cSpell.words": [
       "Zesun",
@@ -161,22 +161,18 @@
       "swiper",
       "spotlight"
     ],
-    "cSpell.enableFiletypes": [
-      "liquid",
-      "bibtex",
-      "yaml"
-    ],
-    
+    "cSpell.enableFiletypes": ["liquid", "bibtex", "yaml"],
+
     // Emmet settings
     "emmet.includeLanguages": {
       "liquid": "html"
     },
-    
+
     // Live Server settings
     "liveServer.settings.root": "/_site",
     "liveServer.settings.port": 4000,
     "liveServer.settings.CustomBrowser": "chrome",
-    
+
     // Path Intellisense
     "path-intellisense.mappings": {
       "/": "${workspaceRoot}",
@@ -191,60 +187,60 @@
       // Jekyll & Static Site Development
       "ginfuru.ginfuru-vscode-jekyll-syntax",
       "ms-vscode.vscode-json",
-      
+
       // Ruby Development
       "rebornix.ruby",
       "wingrunr21.vscode-ruby",
       "kaiwood.endwise",
-      
+
       // Web Development
       "esbenp.prettier-vscode",
       "bradlc.vscode-tailwindcss",
       "formulahendry.auto-rename-tag",
       "christian-kohler.path-intellisense",
-      
+
       // Liquid Templates
       "Shopify.theme-check-vscode",
       "sissel.shopify-liquid",
-      
+
       // YAML & Configuration
       "redhat.vscode-yaml",
       "ms-vscode.vscode-yaml",
-      
+
       // Markdown
       "yzhang.markdown-all-in-one",
       "davidanson.vscode-markdownlint",
       "bierner.markdown-mermaid",
       "bierner.markdown-emoji",
-      
+
       // BibTeX (commented out - causes startup errors)
       // "james-yu.latex-workshop",
-      
+
       // Git & GitHub
       "github.vscode-pull-request-github",
       "github.copilot",
       "github.copilot-chat",
       "eamodio.gitlens",
-      
+
       // Code Quality
       "streetsidesoftware.code-spell-checker",
       "ms-vscode.vscode-typescript-next",
       "dbaeumer.vscode-eslint",
-      
+
       // Utilities
       "ms-vscode.live-server",
       "ritwickdey.liveserver",
       "ms-vscode.vscode-json",
       "ms-vscode-remote.remote-containers",
-      
+
       // Academic & Research (commented out - LaTeX extensions not needed for Jekyll)
       // "tecosaur.latex-utilities",
       // "mathematic.vscode-latex",
-      
+
       // Performance & Debugging
       "ms-vscode.vscode-js-debug",
       "firefox-devtools.vscode-firefox-debug",
-      
+
       // Accessibility
       "deque-systems.vscode-axe-linter"
     ]
@@ -269,8 +265,7 @@
           "showReuseMessage": true,
           "clear": false
         },
-        "problemMatcher": [],
-
+        "problemMatcher": []
       },
       {
         "label": "🔌 MCP: Test Server Connections",
@@ -495,12 +490,7 @@
         "type": "node",
         "request": "launch",
         "program": "${workspaceFolder}/node_modules/.bin/http-server",
-        "args": [
-          "_site",
-          "-p",
-          "4000",
-          "-o"
-        ],
+        "args": ["_site", "-p", "4000", "-o"],
         "console": "integratedTerminal",
         "preLaunchTask": "🏗️ Jekyll: Build (Production)"
       }

@@ -2,20 +2,14 @@
   "mcpServers": {
     "memory": {
       "command": "npx",
-      "args": [
-        "-y",
-        "@modelcontextprotocol/server-memory"
-      ],
+      "args": ["-y", "@modelcontextprotocol/server-memory"],
       "env": {},
       "disabled": false,
       "autoApprove": []
     },
     "github": {
       "command": "npx",
-      "args": [
-        "-y",
-        "@modelcontextprotocol/server-github"
-      ],
+      "args": ["-y", "@modelcontextprotocol/server-github"],
       "env": {
         "GITHUB_TOKEN": "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S"
       },
@@ -42,10 +36,7 @@
     },
     "brave_search": {
       "command": "npx",
-      "args": [
-        "-y",
-        "@modelcontextprotocol/server-brave-search"
-      ],
+      "args": ["-y", "@modelcontextprotocol/server-brave-search"],
       "env": {
         "BRAVE_API_KEY": "BSAnX-59N7_XuLAZeC816OTxXBMXU60"
       },
@@ -54,32 +45,21 @@
     },
     "sequential_thinking": {
       "command": "npx",
-      "args": [
-        "-y",
-        "@modelcontextprotocol/server-sequential-thinking"
-      ],
+      "args": ["-y", "@modelcontextprotocol/server-sequential-thinking"],
       "env": {},
       "disabled": false,
-      "autoApprove": [
-        "sequentialthinking"
-      ]
+      "autoApprove": ["sequentialthinking"]
     },
     "paper_research": {
       "command": "npx",
-      "args": [
-        "-y",
-        "@futurelab-studio/latest-science-mcp"
-      ],
+      "args": ["-y", "@futurelab-studio/latest-science-mcp"],
       "env": {},
       "disabled": false,
       "autoApprove": []
     },
     "context7": {
       "command": "npx",
-      "args": [
-        "-y",
-        "@upstash/context7-mcp@latest"
-      ],
+      "args": ["-y", "@upstash/context7-mcp@latest"],
       "env": {},
       "disabled": false,
       "autoApprove": []

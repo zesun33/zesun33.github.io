@@ -4,10 +4,10 @@
 
 This academic portfolio website is actively maintained with security updates applied to the following versions:
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 2.x.x   | ✅ Yes             |
-| 1.x.x   | ❌ No (Legacy)     |
+| Version | Supported      |
+| ------- | -------------- |
+| 2.x.x   | ✅ Yes         |
+| 1.x.x   | ❌ No (Legacy) |
 
 ## Security Considerations
 
@@ -53,6 +53,7 @@ Send an email to: **zesun.ahmed@psu.edu**
 **Subject**: `[SECURITY] Website Vulnerability Report`
 
 **Include**:
+
 - Description of the vulnerability
 - Steps to reproduce
 - Potential impact assessment
@@ -84,11 +85,13 @@ Please follow responsible disclosure practices:
 When contributing to this repository:
 
 1. **Dependency Updates**:
+
    - Keep Ruby gems updated via `bundle update`
    - Update Node.js packages via `npm audit fix`
    - Monitor security advisories for Jekyll and plugins
 
 2. **Code Security**:
+
    - Avoid hardcoding sensitive information
    - Use secure coding practices for any JavaScript
    - Validate and sanitize any user inputs (if added)
@@ -103,6 +106,7 @@ When contributing to this repository:
 When interacting with the website:
 
 1. **Comments (Giscus)**:
+
    - Uses your GitHub account for authentication
    - Comments are stored in GitHub Discussions
    - Follow GitHub's community guidelines

@@ -26,13 +26,13 @@ The website uses a **static site generation** approach with **Jekyll** and is au
 
 ### System Requirements
 
-| Component | Version | Purpose |
-|-----------|---------|---------|
-| **Ruby** | 3.3.5+ | Jekyll runtime |
-| **Node.js** | 18+ | Frontend tooling |
-| **Python** | 3.13+ | Jupyter notebooks |
-| **Git** | 2.0+ | Version control |
-| **ImageMagick** | 7.0+ | Image processing |
+| Component       | Version | Purpose           |
+| --------------- | ------- | ----------------- |
+| **Ruby**        | 3.3.5+  | Jekyll runtime    |
+| **Node.js**     | 18+     | Frontend tooling  |
+| **Python**      | 3.13+   | Jupyter notebooks |
+| **Git**         | 2.0+    | Version control   |
+| **ImageMagick** | 7.0+    | Image processing  |
 
 ### Account Requirements
 
@@ -45,40 +45,47 @@ The website uses a **static site generation** approach with **Jekyll** and is au
 ### Initial Setup
 
 1. **Clone the repository:**
+
    ```bash
    git clone https://github.com/zesun33/zesun33.github.io.git
    cd zesun33.github.io
    ```
 
 2. **Install Ruby dependencies:**
+
    ```bash
    bundle install
    ```
 
 3. **Install Node.js dependencies:**
+
    ```bash
    npm install
    ```
 
 4. **Install Python dependencies:**
+
    ```bash
    pip install -r requirements.txt
    ```
 
 5. **Install system dependencies:**
-   
+
    **Ubuntu/Debian:**
+
    ```bash
    sudo apt-get update
    sudo apt-get install imagemagick libmagickwand-dev
    ```
-   
+
    **macOS:**
+
    ```bash
    brew install imagemagick
    ```
-   
+
    **Windows:**
+
    ```bash
    # Use Windows Subsystem for Linux (WSL) or
    # Download ImageMagick from official website
@@ -87,38 +94,45 @@ The website uses a **static site generation** approach with **Jekyll** and is au
 ### Development Server
 
 **Start the development server:**
+
 ```bash
 bundle exec jekyll serve --livereload --drafts
 ```
 
 **Available options:**
+
 - `--livereload`: Auto-refresh browser on changes
 - `--drafts`: Include draft posts
 - `--incremental`: Faster builds (experimental)
 - `--host 0.0.0.0`: Allow external connections
 
 **Access the site:**
+
 - Local: `http://localhost:4000`
 - Network: `http://[your-ip]:4000`
 
 ### Development Workflow
 
 1. **Create a feature branch:**
+
    ```bash
    git checkout -b feature/your-feature-name
    ```
 
 2. **Make changes and test locally:**
+
    ```bash
    bundle exec jekyll serve --livereload
    ```
 
 3. **Build for production testing:**
+
    ```bash
    JEKYLL_ENV=production bundle exec jekyll build
    ```
 
 4. **Commit and push changes:**
+
    ```bash
    git add .
    git commit -m "Description of changes"
@@ -134,6 +148,7 @@ bundle exec jekyll serve --livereload --drafts
 The site automatically deploys when changes are pushed to the `main` branch:
 
 1. **Push to main branch:**
+
    ```bash
    git checkout main
    git merge feature/your-feature-name
@@ -141,6 +156,7 @@ The site automatically deploys when changes are pushed to the `main` branch:
    ```
 
 2. **Monitor deployment:**
+
    - Visit the [Actions tab](https://github.com/zesun33/zesun33.github.io/actions)
    - Check the "Deploy site" workflow status
    - Deployment typically takes 2-5 minutes
@@ -155,11 +171,13 @@ The site automatically deploys when changes are pushed to the `main` branch:
 For custom hosting or manual deployment:
 
 1. **Build the site:**
+
    ```bash
    JEKYLL_ENV=production bundle exec jekyll build
    ```
 
 2. **Test the build:**
+
    ```bash
    bundle exec htmlproofer ./_site --disable-external
    ```
@@ -175,6 +193,7 @@ For custom hosting or manual deployment:
 The repository is configured for GitHub Pages deployment:
 
 1. **Repository Settings:**
+
    - Go to Settings → Pages
    - Source: "GitHub Actions"
    - Custom domain: `zesun33.github.io` (or custom domain)
@@ -189,6 +208,7 @@ The repository is configured for GitHub Pages deployment:
 ### Jekyll Configuration
 
 **Development (`_config.yml`):**
+
 ```yaml
 url: "http://localhost:4000"
 baseurl: ""
@@ -196,6 +216,7 @@ environment: development
 ```
 
 **Production (GitHub Actions):**
+
 ```yaml
 url: "https://zesun33.github.io"
 baseurl: ""
@@ -205,10 +226,12 @@ environment: production
 ### Environment Variables
 
 **GitHub Actions Secrets:**
+
 - No sensitive secrets required for basic deployment
 - Optional: `GOOGLE_ANALYTICS_ID` for tracking
 
 **Local Development:**
+
 ```bash
 export JEKYLL_ENV=development
 export BUNDLE_PATH=vendor/bundle
@@ -219,6 +242,7 @@ export BUNDLE_PATH=vendor/bundle
 If using a custom domain:
 
 1. **Add CNAME file:**
+
    ```bash
    echo "yourdomain.com" > CNAME
    git add CNAME
@@ -227,13 +251,14 @@ If using a custom domain:
    ```
 
 2. **Configure DNS:**
+
    ```
    # A records
    185.199.108.153
    185.199.109.153
    185.199.110.153
    185.199.111.153
-   
+
    # Or CNAME record
    yourdomain.com → zesun33.github.io
    ```
@@ -247,6 +272,7 @@ If using a custom domain:
 ### Common Build Issues
 
 **1. Bundle install fails:**
+
 ```bash
 # Clear bundle cache
 bundle clean --force
@@ -255,6 +281,7 @@ bundle install
 ```
 
 **2. Jekyll build fails:**
+
 ```bash
 # Clear Jekyll cache
 bundle exec jekyll clean
@@ -262,6 +289,7 @@ bundle exec jekyll build --verbose
 ```
 
 **3. ImageMagick errors:**
+
 ```bash
 # Ubuntu/Debian
 sudo apt-get install imagemagick libmagickwand-dev
@@ -274,6 +302,7 @@ convert --version
 ```
 
 **4. Node.js/npm issues:**
+
 ```bash
 # Clear npm cache
 npm cache clean --force
@@ -284,16 +313,19 @@ npm install
 ### Deployment Issues
 
 **1. GitHub Actions failing:**
+
 - Check the Actions tab for error logs
 - Verify all required files are committed
 - Check for syntax errors in YAML files
 
 **2. Site not updating:**
+
 - Clear browser cache
 - Check GitHub Pages settings
 - Verify deployment completed successfully
 
 **3. Custom domain issues:**
+
 - Verify DNS configuration
 - Check CNAME file content
 - Wait for DNS propagation (up to 48 hours)
@@ -301,6 +333,7 @@ npm install
 ### Performance Issues
 
 **1. Slow build times:**
+
 ```bash
 # Use incremental builds for development
 bundle exec jekyll serve --incremental
@@ -314,6 +347,7 @@ exclude:
 ```
 
 **2. Large site size:**
+
 ```bash
 # Run PurgeCSS
 npm run build:css
@@ -327,17 +361,20 @@ npm run build:css
 ### Regular Tasks
 
 **Weekly:**
+
 - [ ] Check for broken links
 - [ ] Review site performance metrics
 - [ ] Monitor GitHub Actions status
 
 **Monthly:**
+
 - [ ] Update Ruby gems: `bundle update`
 - [ ] Update Node.js packages: `npm update`
 - [ ] Review and update content
 - [ ] Check accessibility compliance
 
 **Quarterly:**
+
 - [ ] Review and update dependencies
 - [ ] Performance audit with Lighthouse
 - [ ] Security review and updates
@@ -346,6 +383,7 @@ npm run build:css
 ### Dependency Updates
 
 **Ruby Gems:**
+
 ```bash
 # Check outdated gems
 bundle outdated
@@ -358,6 +396,7 @@ bundle update jekyll
 ```
 
 **Node.js Packages:**
+
 ```bash
 # Check outdated packages
 npm outdated
@@ -371,6 +410,7 @@ npm audit fix
 ```
 
 **Python Packages:**
+
 ```bash
 # Check outdated packages
 pip list --outdated
@@ -382,11 +422,13 @@ pip install --upgrade -r requirements.txt
 ### Backup Strategy
 
 **Automated Backups:**
+
 - Git repository serves as primary backup
 - GitHub provides redundant storage
 - All content is version-controlled
 
 **Manual Backups:**
+
 ```bash
 # Clone repository to backup location
 git clone --mirror https://github.com/zesun33/zesun33.github.io.git backup/
@@ -399,11 +441,13 @@ tar -czf site-backup-$(date +%Y%m%d).tar.gz _site/
 ### Monitoring
 
 **Automated Monitoring:**
+
 - GitHub Actions for build status
 - Dependabot for security updates
 - Link checker for broken links
 
 **Manual Monitoring:**
+
 - Google Search Console for SEO
 - Web Vitals for performance
 - Accessibility testing tools
@@ -411,12 +455,14 @@ tar -czf site-backup-$(date +%Y%m%d).tar.gz _site/
 ### Recovery Procedures
 
 **Site Recovery:**
+
 1. Identify the issue (build failure, content error, etc.)
 2. Revert to last known good commit if necessary
 3. Fix the issue in a feature branch
 4. Test thoroughly before merging to main
 
 **Data Recovery:**
+
 1. All content is in Git history
 2. Use `git log` and `git checkout` to recover files
 3. Publications are backed up in BibTeX format
@@ -425,16 +471,19 @@ tar -czf site-backup-$(date +%Y%m%d).tar.gz _site/
 ## Support and Resources
 
 ### Documentation
+
 - [Jekyll Documentation](https://jekyllrb.com/docs/)
 - [al-folio Theme Guide](https://github.com/alshedivat/al-folio)
 - [GitHub Pages Documentation](https://docs.github.com/en/pages)
 
 ### Community Support
+
 - [Jekyll Community Forum](https://talk.jekyllrb.com/)
 - [GitHub Community](https://github.community/)
 - [Stack Overflow](https://stackoverflow.com/questions/tagged/jekyll)
 
 ### Professional Support
+
 - Contact: zesun.ahmed@psu.edu
 - GitHub Issues: [Report problems](https://github.com/zesun33/zesun33.github.io/issues)
 

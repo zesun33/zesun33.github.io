@@ -5,7 +5,7 @@ on:
     branches: [main, master]
   schedule:
     # Run monthly SEO audit
-    - cron: '0 10 1 * *' # First day of month at 10 AM
+    - cron: "0 10 1 * *" # First day of month at 10 AM
   workflow_dispatch:
 
 jobs:
@@ -46,7 +46,7 @@ jobs:
         run: |
           echo "## SEO Audit Report" >> $GITHUB_STEP_SUMMARY
           echo "### Sitemap Analysis" >> $GITHUB_STEP_SUMMARY
-          
+
           if [ -f "_site/sitemap.xml" ]; then
             url_count=$(grep -c "<url>" _site/sitemap.xml || echo "0")
             echo "- ✅ Sitemap generated with $url_count URLs" >> $GITHUB_STEP_SUMMARY
@@ -57,7 +57,7 @@ jobs:
       - name: Check meta tags 🏷️
         run: |
           echo "### Meta Tags Analysis" >> $GITHUB_STEP_SUMMARY
-          
+
           # Check for essential meta tags in main pages
           for file in _site/*.html _site/blog/*.html; do
             if [ -f "$file" ]; then
@@ -89,14 +89,14 @@ jobs:
       - name: Validate structured data 📊
         run: |
           echo "### Structured Data Analysis" >> $GITHUB_STEP_SUMMARY
-          
+
           # Check for JSON-LD structured data
           if grep -r "application/ld+json" _site/ > /dev/null; then
             echo "- ✅ Structured data (JSON-LD) found" >> $GITHUB_STEP_SUMMARY
           else
             echo "- ⚠️  No structured data found" >> $GITHUB_STEP_SUMMARY
           fi
-          
+
           # Check for schema.org markup
           if grep -r "schema.org" _site/ > /dev/null; then
             echo "- ✅ Schema.org markup found" >> $GITHUB_STEP_SUMMARY
@@ -107,7 +107,7 @@ jobs:
       - name: Check robots.txt 🤖
         run: |
           echo "### Robots.txt Analysis" >> $GITHUB_STEP_SUMMARY
-          
+
           if [ -f "_site/robots.txt" ]; then
             echo "- ✅ robots.txt found" >> $GITHUB_STEP_SUMMARY
             echo "- Content preview:" >> $GITHUB_STEP_SUMMARY

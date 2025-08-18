@@ -62,6 +62,7 @@ The repository includes a pre-configured VS Code workspace (`zesun-academic-webs
 #### Recommended VS Code Extensions
 
 The workspace automatically suggests these extensions:
+
 - **Jekyll & Static Sites**: Jekyll syntax, Liquid templates
 - **Web Development**: Prettier, Tailwind CSS, auto-rename tags
 - **Markdown**: All-in-one Markdown support with Mermaid diagrams
@@ -71,6 +72,7 @@ The workspace automatically suggests these extensions:
 #### Development Tasks
 
 Pre-configured tasks available via Command Palette (`Ctrl+Shift+P`):
+
 - `🚀 Jekyll: Serve (Development)` - Start development server with live reload
 - `🏗️ Jekyll: Build (Production)` - Build for production deployment
 - `🧹 Jekyll: Clean` - Clean build artifacts
@@ -81,16 +83,19 @@ Pre-configured tasks available via Command Palette (`Ctrl+Shift+P`):
 ### Installation Steps
 
 1. **Install Ruby dependencies:**
+
    ```bash
    bundle install
    ```
 
 2. **Install Node.js dependencies:**
+
    ```bash
    npm install
    ```
 
 3. **Install Python dependencies:**
+
    ```bash
    pip install -r requirements.txt
    ```
@@ -104,16 +109,19 @@ Pre-configured tasks available via Command Palette (`Ctrl+Shift+P`):
 ### Local Development
 
 **Start development server:**
+
 ```bash
 bundle exec jekyll serve --livereload --drafts
 ```
 
 **Build for production:**
+
 ```bash
 JEKYLL_ENV=production bundle exec jekyll build
 ```
 
 **Run with Docker (alternative):**
+
 ```bash
 docker run -it --rm -v "$PWD":/usr/src/app -p "4000:4000" starefossen/github-pages
 ```
@@ -161,10 +169,12 @@ Dynamic CV generation from `_data/cv.yml`:
 The site uses the al-folio theme with customizations:
 
 1. **Colors and Typography:**
+
    - Edit `_sass/_variables.scss`
    - Customize color schemes in `_sass/_themes.scss`
 
 2. **Layout Modifications:**
+
    - Override layouts in `_layouts/`
    - Customize includes in `_includes/`
 
@@ -175,6 +185,7 @@ The site uses the al-folio theme with customizations:
 ### Content Management
 
 1. **Adding Publications:**
+
    ```bibtex
    @article{key2024,
      title={Your Paper Title},
@@ -189,6 +200,7 @@ The site uses the al-folio theme with customizations:
    ```
 
 2. **Adding Projects:**
+
    ```yaml
    ---
    layout: page
@@ -206,6 +218,7 @@ The site uses the al-folio theme with customizations:
    date: 2024-01-15
    inline: true
    ---
+
    Your news content here.
    ```
 
@@ -216,12 +229,14 @@ The site uses the al-folio theme with customizations:
 The site uses automated deployment via GitHub Actions:
 
 1. **Build Process:**
+
    - Ruby/Jekyll environment setup
    - Python dependencies for Jupyter notebooks
    - ImageMagick for image processing
    - CSS purging for optimization
 
 2. **Quality Checks:**
+
    - Accessibility testing (axe-core)
    - Broken link detection
    - Code quality analysis (CodeQL)
@@ -252,6 +267,7 @@ rsync -avz --delete _site/ user@server:/path/to/webroot/
 ### Common Issues
 
 1. **Bundle install fails:**
+
    ```bash
    # Update RubyGems and Bundler
    gem update --system
@@ -260,15 +276,17 @@ rsync -avz --delete _site/ user@server:/path/to/webroot/
    ```
 
 2. **ImageMagick errors:**
+
    ```bash
    # Ubuntu/Debian
    sudo apt-get install imagemagick libmagickwand-dev
-   
+
    # macOS
    brew install imagemagick
    ```
 
 3. **Jekyll build fails:**
+
    ```bash
    # Clear cache and rebuild
    bundle exec jekyll clean
@@ -283,6 +301,7 @@ rsync -avz --delete _site/ user@server:/path/to/webroot/
 ### Performance Issues
 
 1. **Slow build times:**
+
    - Use `--incremental` flag for development
    - Exclude unnecessary files in `_config.yml`
    - Optimize image sizes

@@ -4,19 +4,19 @@ on:
   push:
     branches: [main, master]
     paths:
-      - '_bibliography/**'
-      - '_data/**'
-      - '_posts/**'
-      - '_projects/**'
-      - '_pages/**'
+      - "_bibliography/**"
+      - "_data/**"
+      - "_posts/**"
+      - "_projects/**"
+      - "_pages/**"
   pull_request:
     branches: [main, master]
     paths:
-      - '_bibliography/**'
-      - '_data/**'
-      - '_posts/**'
-      - '_projects/**'
-      - '_pages/**'
+      - "_bibliography/**"
+      - "_data/**"
+      - "_posts/**"
+      - "_projects/**"
+      - "_pages/**"
 
 jobs:
   validate-content:
@@ -28,7 +28,7 @@ jobs:
       - name: Setup Python 🐍
         uses: actions/setup-python@v5
         with:
-          python-version: '3.13'
+          python-version: "3.13"
 
       - name: Install validation tools 🔧
         run: |
@@ -40,7 +40,7 @@ jobs:
           import bibtexparser
           import sys
           import os
-          
+
           errors = []
           for root, dirs, files in os.walk('_bibliography'):
               for file in files:
@@ -52,7 +52,7 @@ jobs:
                           print(f'✅ {filepath} is valid')
                       except Exception as e:
                           errors.append(f'❌ {filepath}: {str(e)}')
-          
+
           if errors:
               for error in errors:
                   print(error)
@@ -67,7 +67,7 @@ jobs:
           import yaml
           import sys
           import os
-          
+
           errors = []
           for root, dirs, files in os.walk('_data'):
               for file in files:
@@ -79,7 +79,7 @@ jobs:
                           print(f'✅ {filepath} is valid')
                       except Exception as e:
                           errors.append(f'❌ {filepath}: {str(e)}')
-          
+
           if errors:
               for error in errors:
                   print(error)
@@ -93,10 +93,10 @@ jobs:
           python -c "
           import bibtexparser
           import sys
-          
+
           required_fields = ['title', 'author', 'year']
           warnings = []
-          
+
           try:
               with open('_bibliography/papers.bib', 'r', encoding='utf-8') as f:
                   bib_db = bibtexparser.load(f)
@@ -125,25 +125,25 @@ jobs:
           echo "## Content Validation Report" >> $GITHUB_STEP_SUMMARY
           echo "| Content Type | Count | Status |" >> $GITHUB_STEP_SUMMARY
           echo "|--------------|-------|--------|" >> $GITHUB_STEP_SUMMARY
-          
+
           # Count publications
           if [ -f "_bibliography/papers.bib" ]; then
             pub_count=$(grep -c "^@" _bibliography/papers.bib || echo "0")
             echo "| Publications | $pub_count | ✅ |" >> $GITHUB_STEP_SUMMARY
           fi
-          
+
           # Count projects
           if [ -d "_projects" ]; then
             proj_count=$(find _projects -name "*.md" -not -name ".*" | wc -l)
             echo "| Projects | $proj_count | ✅ |" >> $GITHUB_STEP_SUMMARY
           fi
-          
+
           # Count posts
           if [ -d "_posts" ]; then
             post_count=$(find _posts -name "*.md" -not -name ".*" | wc -l)
             echo "| Blog Posts | $post_count | ✅ |" >> $GITHUB_STEP_SUMMARY
           fi
-          
+
           # Count news items
           if [ -d "_news" ]; then
             news_count=$(find _news -name "*.md" -not -name ".*" | wc -l)

@@ -44,42 +44,42 @@ This document provides a comprehensive overview of the technical architecture fo
 
 ### Backend Technologies
 
-| Component | Technology | Version | Purpose |
-|-----------|------------|---------|---------|
-| **Static Site Generator** | Jekyll | 4.x | Core site building |
-| **Theme Framework** | al-folio | Latest | Academic portfolio theme |
-| **Ruby Runtime** | Ruby | 3.3.5 | Jekyll execution environment |
-| **Package Manager** | Bundler | Latest | Ruby dependency management |
-| **Publication Management** | Jekyll-Scholar | Latest | BibTeX processing |
+| Component                  | Technology     | Version | Purpose                      |
+| -------------------------- | -------------- | ------- | ---------------------------- |
+| **Static Site Generator**  | Jekyll         | 4.x     | Core site building           |
+| **Theme Framework**        | al-folio       | Latest  | Academic portfolio theme     |
+| **Ruby Runtime**           | Ruby           | 3.3.5   | Jekyll execution environment |
+| **Package Manager**        | Bundler        | Latest  | Ruby dependency management   |
+| **Publication Management** | Jekyll-Scholar | Latest  | BibTeX processing            |
 
 ### Frontend Technologies
 
-| Component | Technology | Version | Purpose |
-|-----------|------------|---------|---------|
-| **Markup** | HTML5 | - | Semantic structure |
-| **Styling** | SCSS/CSS3 | - | Responsive design |
-| **JavaScript** | ES6+ | - | Interactive features |
-| **CSS Framework** | Bootstrap | 5.x | Responsive grid system |
-| **Icons** | Font Awesome | 6.x | Icon library |
+| Component         | Technology   | Version | Purpose                |
+| ----------------- | ------------ | ------- | ---------------------- |
+| **Markup**        | HTML5        | -       | Semantic structure     |
+| **Styling**       | SCSS/CSS3    | -       | Responsive design      |
+| **JavaScript**    | ES6+         | -       | Interactive features   |
+| **CSS Framework** | Bootstrap    | 5.x     | Responsive grid system |
+| **Icons**         | Font Awesome | 6.x     | Icon library           |
 
 ### Build Tools
 
-| Tool | Purpose | Configuration |
-|------|---------|---------------|
-| **Node.js** | Frontend tooling | `package.json` |
-| **Prettier** | Code formatting | `.prettierrc` |
-| **PurgeCSS** | CSS optimization | `purgecss.config.js` |
-| **ImageMagick** | Image processing | Jekyll plugin |
-| **Python** | Jupyter notebooks | `requirements.txt` |
+| Tool            | Purpose           | Configuration        |
+| --------------- | ----------------- | -------------------- |
+| **Node.js**     | Frontend tooling  | `package.json`       |
+| **Prettier**    | Code formatting   | `.prettierrc`        |
+| **PurgeCSS**    | CSS optimization  | `purgecss.config.js` |
+| **ImageMagick** | Image processing  | Jekyll plugin        |
+| **Python**      | Jupyter notebooks | `requirements.txt`   |
 
 ### Development Tools
 
-| Tool | Purpose | Usage |
-|------|---------|-------|
-| **Git** | Version control | Repository management |
-| **GitHub Actions** | CI/CD pipeline | `.github/workflows/` |
-| **Bundler** | Ruby dependencies | `Gemfile` |
-| **npm** | Node.js packages | `package.json` |
+| Tool               | Purpose           | Usage                 |
+| ------------------ | ----------------- | --------------------- |
+| **Git**            | Version control   | Repository management |
+| **GitHub Actions** | CI/CD pipeline    | `.github/workflows/`  |
+| **Bundler**        | Ruby dependencies | `Gemfile`             |
+| **npm**            | Node.js packages  | `package.json`        |
 
 ## Architecture Patterns
 
@@ -153,16 +153,19 @@ SCSS → Sass → Optimized CSS
 ### Content Management Workflow
 
 1. **Content Creation**:
+
    ```
    Author writes Markdown → Git commit → GitHub repository
    ```
 
 2. **Automated Processing**:
+
    ```
    GitHub webhook → Actions trigger → Jekyll build → Site generation
    ```
 
 3. **Publication Management**:
+
    ```
    BibTeX update → Jekyll-Scholar → Citation formatting → Publication pages
    ```
@@ -191,6 +194,7 @@ graph TD
 ### CI/CD Pipeline
 
 #### Build Stage
+
 ```yaml
 # .github/workflows/deploy.yml
 - Ruby 3.3.5 environment setup
@@ -203,6 +207,7 @@ graph TD
 ```
 
 #### Quality Assurance Stage
+
 ```yaml
 # Parallel quality checks
 - Accessibility testing (axe-core)
@@ -213,6 +218,7 @@ graph TD
 ```
 
 #### Deployment Stage
+
 ```yaml
 # GitHub Pages deployment
 - Artifact upload
@@ -241,6 +247,7 @@ End Users (Worldwide)
 ### Build-Time Optimizations
 
 1. **CSS Optimization**:
+
    ```javascript
    // purgecss.config.js
    - Remove unused CSS classes
@@ -249,6 +256,7 @@ End Users (Worldwide)
    ```
 
 2. **Image Processing**:
+
    ```ruby
    # Jekyll ImageMagick plugin
    - Generate responsive image variants
@@ -267,11 +275,13 @@ End Users (Worldwide)
 ### Runtime Optimizations
 
 1. **Caching Strategy**:
+
    - Browser caching headers
    - CDN edge caching
    - Service worker implementation (planned)
 
 2. **Loading Strategy**:
+
    - Critical CSS inlining
    - Lazy loading for images
    - Deferred JavaScript loading
@@ -283,36 +293,41 @@ End Users (Worldwide)
 
 ### Performance Metrics
 
-| Metric | Target | Current |
-|--------|--------|---------|
-| **First Contentful Paint** | < 1.5s | ~1.2s |
-| **Largest Contentful Paint** | < 2.5s | ~2.1s |
-| **Cumulative Layout Shift** | < 0.1 | ~0.05 |
-| **Time to Interactive** | < 3.5s | ~2.8s |
+| Metric                       | Target | Current |
+| ---------------------------- | ------ | ------- |
+| **First Contentful Paint**   | < 1.5s | ~1.2s   |
+| **Largest Contentful Paint** | < 2.5s | ~2.1s   |
+| **Cumulative Layout Shift**  | < 0.1  | ~0.05   |
+| **Time to Interactive**      | < 3.5s | ~2.8s   |
 
 ## Security Architecture
 
 ### Static Site Security
 
 1. **No Server-Side Processing**:
+
    - Eliminates server vulnerabilities
    - Reduces attack surface
    - Prevents code injection
 
 2. **HTTPS Enforcement**:
+
    - GitHub Pages SSL certificates
    - Automatic HTTP to HTTPS redirect
    - Secure cookie handling
 
 3. **Content Security Policy**:
    ```html
-   <meta http-equiv="Content-Security-Policy" 
-         content="default-src 'self'; script-src 'self' 'unsafe-inline'">
+   <meta
+     http-equiv="Content-Security-Policy"
+     content="default-src 'self'; script-src 'self' 'unsafe-inline'"
+   />
    ```
 
 ### Dependency Security
 
 1. **Automated Scanning**:
+
    - GitHub Security Advisories
    - Dependabot vulnerability alerts
    - Regular dependency updates
@@ -327,6 +342,7 @@ End Users (Worldwide)
 ### Quality Monitoring
 
 1. **Automated Testing**:
+
    ```yaml
    # GitHub Actions workflows
    - Accessibility compliance (axe-core)
@@ -343,6 +359,7 @@ End Users (Worldwide)
 ### Performance Analytics
 
 1. **Core Web Vitals**:
+
    - Lighthouse CI integration
    - Performance budget enforcement
    - Regression detection
@@ -357,6 +374,7 @@ End Users (Worldwide)
 ### Content Scalability
 
 1. **Publication Management**:
+
    - BibTeX scales to hundreds of papers
    - Automatic categorization and filtering
    - Efficient search implementation
@@ -369,6 +387,7 @@ End Users (Worldwide)
 ### Technical Scalability
 
 1. **Build Performance**:
+
    - Incremental builds for development
    - Parallel processing where possible
    - Efficient caching strategies
@@ -383,11 +402,13 @@ End Users (Worldwide)
 ### Planned Enhancements
 
 1. **Progressive Web App (PWA)**:
+
    - Service worker implementation
    - Offline content access
    - App-like user experience
 
 2. **Advanced Search**:
+
    - Elasticsearch integration
    - Faceted search capabilities
    - Real-time search suggestions
@@ -400,6 +421,7 @@ End Users (Worldwide)
 ### Technology Evolution
 
 1. **Build System**:
+
    - Potential migration to Eleventy or Next.js
    - Enhanced plugin ecosystem
    - Improved development experience
