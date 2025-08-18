@@ -4,9 +4,9 @@
     "label": "PhD Candidate in Electrical Engineering",
     "image": "",
     "email": "zesun.ahmed@psu.edu",
-    "phone": "",
+    "phone": "814-280-7244",
     "url": "https://zesun33.github.io",
-    "summary": "PhD candidate in Electrical Engineering at Penn State specializing in neuromorphic computing, machine learning hardware, and device-circuit co-design. Graduate Technical Intern at Intel Corporation with experience in thin film processes and ML/neuromorphic hardware for edge AI applications.",
+    "summary": "PhD candidate in Electrical Engineering at Penn State specializing in neuromorphic computing, machine learning hardware, and device-circuit co-design. Former Graduate Technical Intern at Intel Corporation with experience in advanced semiconductor manufacturing and AI-driven process optimization.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -29,6 +29,11 @@
         "network": "ResearchGate",
         "username": "Md-Zesun-Ahmed-Mia",
         "url": "https://www.researchgate.net/profile/Md-Zesun-Ahmed-Mia-2/"
+      },
+      {
+        "network": "ORCID",
+        "username": "0009-0004-3509-8455",
+        "url": "https://orcid.org/0009-0004-3509-8455"
       }
     ]
   },
@@ -147,69 +152,106 @@
       "name": "Delving deeper into astromorphic transformers",
       "publisher": "IEEE Transactions on Cognitive and Developmental Systems",
       "releaseDate": "2025-01-01",
-      "url": "",
+      "url": "https://ieeexplore.ieee.org/document/10976578/",
       "summary": "Research on bio-inspired transformer architectures for cognitive and developmental systems."
+    },
+    {
+      "name": "Neuromorphic Cybersecurity with Semi-supervised Lifelong Learning",
+      "publisher": "arXiv",
+      "releaseDate": "2025-08-07",
+      "url": "https://arxiv.org/abs/2508.04610",
+      "summary": "Spiking Neural Network architecture for lifelong Network Intrusion Detection System with bio-plausible learning mechanisms."
     },
     {
       "name": "Self-sensitizable neuromorphic device based on adaptive hydrogen gradient",
       "publisher": "Matter (Cell Press)",
       "releaseDate": "2024-05-01",
-      "url": "",
+      "url": "https://www.cell.com/matter/fulltext/S2590-2385(24)00108-5",
       "summary": "Collaborative work on novel neuromorphic devices using hydrogen gradient mechanisms."
     },
     {
       "name": "Ultra Low Cost, Low Power, High Speed Electronic Braille Device",
       "publisher": "iCACCESS 2024",
       "releaseDate": "2024-10-01",
-      "url": "",
+      "url": "https://ieeexplore.ieee.org/document/10499456/",
       "summary": "Development of accessible technology for persons with visual impairments."
+    },
+    {
+      "name": "Impact of Doping and Defects on Thermal Transport of Monolayer GaN Nanoribbons",
+      "publisher": "ICECE 2024",
+      "releaseDate": "2024-12-18",
+      "url": "https://ieeexplore.ieee.org/document/11024945/",
+      "summary": "Molecular dynamics simulation study on thermal transport in GaN nanostructures."
     }
   ],
   "skills": [
     {
-      "name": "Programming",
+      "name": "Programming Languages",
       "level": "Advanced",
       "icon": "fa-solid fa-code",
       "keywords": ["Python", "MATLAB", "C++", "Verilog", "Shell scripting"]
     },
     {
-      "name": "EDA Tools",
+      "name": "Modern Coding & AI Tools",
+      "level": "Expert",
+      "icon": "fa-solid fa-robot",
+      "keywords": [
+        "Advanced use of generative AI tools (Cursor, Copilot, VSCode, Cline) for research, teaching, and code development",
+        "Skilled in prompt engineering and integrating AI assistants into academic workflows"
+      ]
+    },
+    {
+      "name": "EDA/Simulation Tools",
       "level": "Expert",
       "icon": "fa-solid fa-microchip",
       "keywords": [
         "Cadence Virtuoso",
         "Spectre",
         "HSPICE",
-        "TCAD",
-        "COMSOL",
-        "Synopsys"
+        "TCAD Sentaurus",
+        "COMSOL Multiphysics",
+        "ModelSim",
+        "Synopsys (Design Compiler, PrimeTime, VCS)"
       ]
     },
     {
-      "name": "Device Characterization",
+      "name": "Device/Process Characterization",
       "level": "Advanced",
       "icon": "fa-solid fa-microscope",
       "keywords": [
         "AFM",
         "SEM",
-        "Probe Station",
         "Electrical Testing",
-        "Hall",
-        "XRD",
-        "TEM"
+        "Hall effect characterization",
+        "TEM",
+        "Reliability testing",
+        "Magnetic Probe Station (SemiProbe Magnetic Probing System)",
+        "Keithley and Keysight instruments with LabVIEW"
       ]
     },
     {
-      "name": "AI & Data Analysis",
-      "level": "Advanced",
-      "icon": "fa-solid fa-brain",
+      "name": "Nanofabrication Process Skills",
+      "level": "Intermediate",
+      "icon": "fa-solid fa-atom",
       "keywords": [
-        "Machine Learning",
-        "Neural Networks",
+        "Optical Lithography (MLA150) and Electron Beam Lithography (EBPG5200)",
+        "Ion beam dry etching and wet chemical etching",
+        "Material deposition using Temescal FC-2000 Evaporator (CVD)",
+        "Profilometer, Ellipsometer, Optical Microscopes characterization"
+      ]
+    },
+    {
+      "name": "Data Analysis & Statistical Tools",
+      "level": "Advanced",
+      "icon": "fa-solid fa-chart-line",
+      "keywords": [
         "Pandas",
         "NumPy",
+        "JMP",
         "Jupyter",
-        "AI Tools"
+        "Data Visualization",
+        "Statistical Analysis",
+        "Machine learning frameworks and neuromorphic simulation tools"
       ]
     }
   ],
@@ -247,11 +289,55 @@
       ]
     }
   ],
+  "awards": [
+    {
+      "title": "Harry G. Miller Fellowships in Engineering",
+      "date": "2025",
+      "awarder": "Pennsylvania State University",
+      "summary": "Fellowship in Engineering"
+    },
+    {
+      "title": "The Wormley Family Graduate Fellowship",
+      "date": "2025", 
+      "awarder": "Pennsylvania State University",
+      "summary": "Graduate Fellowship"
+    },
+    {
+      "title": "Arthur Waynick Graduate Scholarship",
+      "date": "2024",
+      "awarder": "Pennsylvania State University", 
+      "summary": "Graduate Scholarship"
+    },
+    {
+      "title": "Milton and Albertha Langdon Memorial Fellowship",
+      "date": "2023",
+      "awarder": "Pennsylvania State University",
+      "summary": "Memorial Fellowship"
+    },
+    {
+      "title": "Melvin P. Bloom Memorial Fellowship", 
+      "date": "2022",
+      "awarder": "Pennsylvania State University",
+      "summary": "Memorial Fellowship"
+    },
+    {
+      "title": "Undergrad Dean's List",
+      "date": "2016-2018",
+      "awarder": "Bangladesh University of Engineering & Technology (BUET)",
+      "summary": "Academic Excellence Recognition"
+    },
+    {
+      "title": "Honourable Mention, Notre Dame College, Dhaka",
+      "date": "2014", 
+      "awarder": "Notre Dame College, Dhaka",
+      "summary": "Academic Recognition"
+    }
+  ],
   "references": [
     {
       "name": "Dr. Abhronil Sengupta",
       "icon": "fa-solid fa-user-graduate",
-      "reference": "PhD Advisor and Professor at Pennsylvania State University. Expert in neuromorphic computing and device-circuit co-design."
+      "reference": "PhD Advisor and Associate Professor at Pennsylvania State University. Expert in neuromorphic computing and device-circuit co-design."
     }
   ],
   "projects": [
