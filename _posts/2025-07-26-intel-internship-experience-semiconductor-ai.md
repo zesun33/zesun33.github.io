@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Bridging Academia and Industry: My Intel Internship Journey in AI-Driven Semiconductor Manufacturing"
-date: 2025-07-26 09:00:00-0700
+date: 2025-07-26 09:00:00
 description: Reflections on my transformative experience as a Graduate Technical Intern at Intel Corporation, exploring the intersection of AI, machine learning, and advanced semiconductor process development.
 tags: internship intel semiconductor AI machine-learning process-development
-categories: experiences
+categories: research career
 related_posts: false
 ---
 
