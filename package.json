@@ -9,6 +9,8 @@
     "clean": "bundle exec jekyll clean",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
+    "prepare": "husky install",
+    "pre-push-check": "echo '⚠️  Remember: Always run format:check and get user approval before pushing to GitHub!' && npm run format:check",
     "optimize:css": "purgecss -c purgecss.config.js",
     "test:links": "bundle exec htmlproofer ./_site --disable-external",
     "test:accessibility": "axe --chromedriver-path $(npm root -g)/chromedriver/bin/chromedriver http://localhost:4000",
@@ -20,7 +22,8 @@
     "@shopify/prettier-plugin-liquid": "1.4.0",
     "prettier": "3.1.1",
     "http-server": "^14.1.1",
-    "purgecss": "^6.0.0"
+    "purgecss": "^6.0.0",
+    "husky": "^8.0.3"
   },
   "engines": {
     "node": ">=18.0.0",

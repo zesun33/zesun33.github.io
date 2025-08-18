@@ -1,0 +1,15 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# Run Prettier check before commit
+echo "Running Prettier check..."
+npx prettier --check .
+
+if [ $? -ne 0 ]; then
+  echo "❌ Prettier check failed. Running auto-fix..."
+  npx prettier --write .
+  echo "✅ Files formatted. Please review changes and commit again."
+  exit 1
+fi
+
+echo "✅ Prettier check passed!"
