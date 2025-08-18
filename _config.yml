@@ -156,6 +156,9 @@ collections:
 # Jekyll settings
 # -----------------------------------------------------------------------------
 
+# Allow future-dated posts to be displayed
+future: true
+
 # Markdown and syntax highlight
 markdown: kramdown
 highlighter: rouge
