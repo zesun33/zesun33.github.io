@@ -212,6 +212,7 @@ The site uses the al-folio theme with customizations:
    ```
 
 3. **Adding News:**
+
    ```markdown
    ---
    layout: post

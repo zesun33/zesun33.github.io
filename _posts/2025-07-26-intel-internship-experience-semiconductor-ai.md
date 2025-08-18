@@ -35,6 +35,7 @@ This experience highlighted the complexity of modern semiconductor manufacturing
 The characterization work was particularly rewarding, involving:
 
 ### **Multi-Modal Analysis Techniques**
+
 - **DSIMS (Dynamic Secondary Ion Mass Spectrometry)**: For depth profiling and compositional analysis
 - **XRR (X-Ray Reflectometry)**: For thickness and density measurements
 - **Stress Analysis**: Understanding mechanical properties of thin films
@@ -54,17 +55,19 @@ Perhaps the most intellectually stimulating aspect was developing a **predictive
 This internship reinforced my belief in the power of combining academic research with industrial applications. My background in **neuromorphic computing** and **brain-inspired AI** provided unique perspectives on:
 
 - **Adaptive learning algorithms** for process optimization
-- **Bio-inspired approaches** to complex system optimization  
+- **Bio-inspired approaches** to complex system optimization
 - **Energy-efficient computing** principles applicable to manufacturing automation
 
 ## **Key Takeaways and Future Directions**
 
 ### **Technical Insights**
+
 1. **AI in Manufacturing**: The semiconductor industry is rapidly adopting AI/ML, but success requires deep domain expertise combined with algorithmic innovation
-2. **Process-Device Co-optimization**: Modern semiconductor development demands simultaneous consideration of process constraints and device requirements  
+2. **Process-Device Co-optimization**: Modern semiconductor development demands simultaneous consideration of process constraints and device requirements
 3. **Data-Driven Discovery**: Advanced characterization generates vast amounts of data; the challenge is extracting actionable insights
 
 ### **Professional Growth**
+
 - **Cross-functional collaboration**: Learning to work effectively across diverse engineering disciplines
 - **Industrial pace and constraints**: Understanding how research timelines and priorities differ between academia and industry
 - **Systems thinking**: Appreciating the complexity of integrating individual innovations into production systems
@@ -85,4 +88,4 @@ The relationships built, lessons learned, and perspectives gained during this in
 
 ---
 
-*This internship was supported by Intel Corporation's Graduate Technical Intern program. I'm thankful for the mentorship and collaboration opportunities that made this experience so valuable.*
+_This internship was supported by Intel Corporation's Graduate Technical Intern program. I'm thankful for the mentorship and collaboration opportunities that made this experience so valuable._
