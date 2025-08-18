@@ -2,6 +2,28 @@
 
 This document provides detailed information for developers working on Md Zesun Ahmed Mia's academic website.
 
+## 🚨 CRITICAL: Development Workflow Rules
+
+### **Automated Quality Enforcement**
+
+This project enforces strict code quality standards with automated workflows:
+
+- **Prettier Pre-Commit Hooks**: Automatically run before every commit via Husky
+- **Commit Blocking**: Commits are blocked if formatting issues found
+- **Push Approval Required**: All GitHub pushes require explicit user approval
+- **Documentation**: See [`.workspace-rules.md`](.workspace-rules.md) for complete requirements
+
+### **Required Commands**
+
+```bash
+# ALWAYS run before committing
+npm run format:check    # Check code formatting
+npm run format         # Auto-fix formatting issues
+npm run pre-push-check  # Pre-deployment verification
+```
+
+**⚠️ WARNING**: Failure to follow these rules will result in CI failures and deployment issues.
+
 ## Architecture Overview
 
 ### Technology Stack

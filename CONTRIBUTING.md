@@ -2,6 +2,26 @@
 
 Thank you for your interest in contributing to this academic portfolio website. This document provides guidelines for contributing to the site's development and content.
 
+## 🚨 CRITICAL: New Contributor Requirements
+
+### **Mandatory Workflow Compliance**
+
+**All contributors must follow these automated quality standards:**
+
+1. **Prettier Formatting**: All code must pass `npm run format:check` before commits
+2. **Pre-commit Hooks**: Husky automatically enforces formatting (no bypassing allowed)
+3. **Push Approval**: All GitHub pushes require explicit approval from repository owner
+4. **Documentation**: Changes must include updated documentation
+
+### **Required Commands Before Contributing**
+```bash
+npm run format:check    # Verify code formatting
+npm run format         # Auto-fix any formatting issues
+npm run pre-push-check  # Comprehensive pre-submission verification
+```
+
+**📖 Complete Workflow Rules**: See [`.workspace-rules.md`](.workspace-rules.md) for detailed requirements.
+
 ## Table of Contents
 
 - [Getting Started](#getting-started)
@@ -90,6 +110,25 @@ Projects are managed in the `_projects/` directory:
 - Use consistent formatting and professional language
 
 ## Code Standards
+
+### **Automated Quality Enforcement**
+
+This repository uses **automated tools** to enforce code quality:
+
+- **Prettier**: Automatic code formatting (enforced via pre-commit hooks)
+- **Husky**: Git hooks prevent commits with formatting issues
+- **ESLint**: JavaScript linting and best practices
+- **Accessibility**: Automated WCAG 2.1 AA compliance testing
+
+### Code Quality Requirements
+
+- **Formatting**: All code must pass Prettier checks (automatically enforced)
+- **Conventions**: Follow existing Jekyll and al-folio theme patterns
+- **Documentation**: Update relevant documentation files for changes
+- **Testing**: Ensure changes don't break existing functionality
+- **Performance**: Maintain or improve site performance metrics
+
+## Previous Code Standards
 
 ### Jekyll/Liquid Templates
 

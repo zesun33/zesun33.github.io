@@ -15,7 +15,7 @@ I am a **PhD candidate in Electrical Engineering** at **Pennsylvania State Unive
 - **Emerging Semiconductor Devices** (FeFET, Spintronics)
 - **Device-Circuit Co-design** & Process Integration
 
-Currently serving as a **Graduate Technical Intern at Intel Corporation**, working on advanced semiconductor process development and neuromorphic hardware for edge AI applications.
+Former **Graduate Technical Intern at Intel Corporation** (May-July 2025), where I contributed to advanced semiconductor manufacturing through Design of Experiments (DOE) for thin film deposition, process integration tools, and AI/ML predictive frameworks for semiconductor process optimization.
 
 ## 🌟 Website Features
 
@@ -41,10 +41,12 @@ Currently serving as a **Graduate Technical Intern at Intel Corporation**, worki
 ## 🛠️ Technical Stack
 
 ### **Core Technologies**
-- **[Jekyll 4.x](https://jekyllrb.com/)** - Static site generator
-- **[al-folio Theme](https://github.com/alshedivat/al-folio)** - Academic portfolio theme
+- **[Jekyll 4.x](https://jekyllrb.com/)** - Static site generator with future posts support
+- **[al-folio Theme](https://github.com/alshedivat/al-folio)** - Academic portfolio theme (customized)
 - **[GitHub Pages](https://pages.github.com/)** - Hosting and deployment
-- **[GitHub Actions](https://github.com/features/actions)** - CI/CD pipeline
+- **[GitHub Actions](https://github.com/features/actions)** - CI/CD pipeline with automated quality checks
+- **[Husky](https://typicode.github.io/husky/)** - Git hooks for automated code quality enforcement
+- **[Prettier](https://prettier.io/)** - Code formatting with automated pre-commit checks
 
 ### **Frontend Technologies**
 - **HTML5** with semantic markup and accessibility features
@@ -63,6 +65,31 @@ Currently serving as a **Graduate Technical Intern at Intel Corporation**, worki
 - **Node.js & npm** for frontend tooling
 - **Python 3.13** for Jupyter notebook integration
 - **ImageMagick** for responsive image processing
+
+## 🔧 Development Workflow
+
+### **Automated Quality Assurance**
+This project enforces strict code quality standards with automated workflows:
+
+- **Pre-commit Hooks**: Prettier formatting checks run automatically before every commit
+- **GitHub Push Approval**: All deployments require explicit approval for production safety
+- **CI/CD Pipeline**: Comprehensive testing including Prettier, broken links, and accessibility checks
+- **Documentation Standards**: All changes must include updated documentation
+
+### **Development Commands**
+```bash
+# Format checking and fixing
+npm run format:check    # Check code formatting
+npm run format         # Auto-fix formatting issues
+npm run pre-push-check # Comprehensive pre-deployment verification
+
+# Development server
+npm run dev           # Start Jekyll development server
+npm run build         # Build production site
+```
+
+### **Workflow Rules**
+See [`.workspace-rules.md`](.workspace-rules.md) for comprehensive development workflow requirements.
 
 ## 🚀 Quick Start
 
@@ -139,6 +166,25 @@ The repository includes comprehensive automated testing:
 - **📈 Performance Monitoring** (Lighthouse)
 - **🎨 Code Formatting** (Prettier)
 - **🛡️ Security Scanning** (CodeQL)
+
+## 🚀 Recent Updates (August 2025)
+
+### **Major System Improvements**
+- **Workflow Automation**: Implemented Prettier pre-commit hooks and push approval system
+- **CV Data Synchronization**: Fixed resume.json vs _data/cv.yml discrepancy for accurate CV display
+- **Future Posts Support**: Enabled Jekyll future post display for 2025-dated content
+
+### **Content Updates**
+- **Intel Internship Completion**: Updated with detailed technical contributions and correct dates
+- **Modern Skills Integration**: Added AI tools proficiency (Cursor, Copilot, VSCode, Cline)
+- **Publications Enhancement**: Added Neuromorphic Cybersecurity paper and updated URLs
+- **Awards Section**: Complete fellowship and recognition history (2014-2025)
+
+### **Technical Enhancements**
+- **Zero Prettier Failures**: Automated code formatting with pre-commit enforcement  
+- **Enhanced Documentation**: Comprehensive workflow rules and development guides
+- **Performance Optimizations**: Improved loading times and Core Web Vitals scores
+- **Contact Information**: Added phone number and ORCID integration
 
 ## 📞 Contact & Academic Profiles
 
