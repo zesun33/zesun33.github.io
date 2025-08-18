@@ -3,6 +3,8 @@
   contents:
     - name: Full Name
       value: Md Zesun Ahmed Mia
+    - name: Phone
+      value: 814-280-7244
     - name: Email
       value: zesun.ahmed@psu.edu
     - name: ORCID iD
@@ -41,10 +43,12 @@
   contents:
     - title: Graduate Technical Intern
       institution: Intel Corporation, Hillsboro, OR
-      year: 05/2024 - Present
+      year: 05/2025 - 07/2025
       description:
-        - Thin film process and device integration for advanced memory and logic
-        - Developed ML and neuromorphic hardware for edge AI
+        - Designed and executed Design of Experiments (DOE) for exploratory thin film deposition projects, contributing to advanced technology node development
+        - Investigated first-of-its-kind process integration tool for advanced technology node development, evaluating integration feasibility and process window optimization
+        - Conducted comprehensive material characterization using DSIMS, XRR, stress analysis, and TEM image analysis to validate process performance and material properties
+        - Developed predictive analysis framework using AI and machine learning to assess thin film deposition impact on semiconductor process flows and device characteristics
     - title: Graduate Research Assistant
       institution: Penn State, State College, PA
       year: 08/2022 - Present
@@ -53,7 +57,7 @@
         - Led projects on spintronic/ferroelectric devices and SNNs
     - title: Graduate Teaching Assistant
       institution: Penn State, State College, PA
-      year: 08/2024 - Present
+      year: 08/2024 - 05/2025
       description:
         - Taught and supported Cadence Virtuoso, schematic/layout design, and lab courses
     - title: Lecturer
@@ -72,28 +76,29 @@
   contents:
     - title: Neuromorphic Computing
       items:
-        - Brain-inspired hardware
-        - Spiking Neural Networks (SNNs)
-        - Algorithm-device co-design
+        - Brain-inspired hardware, spiking neural networks (SNNs), event-driven sensing/compute
+        - On-chip learning (STDP), crossbar synapses, oscillatory/phase-change/spintronic neurons
+        - Temporal coding, algorithm-device co-design, low-power edge intelligence
     - title: Machine Learning Hardware
       items:
-        - ML accelerators
-        - In-memory computing
-        - Edge AI systems
+        - DNN/GNN/Transformer accelerators, systolic and dataflow architectures
+        - Sparsity- and quantization-aware compute, mixed-signal MACs
+        - Compute-in-memory, near-memory compute, memory hierarchies
+        - Compilation and mapping, performance/energy modeling
     - title: Emerging Devices
       items:
-        - Spintronics
-        - Ferroelectric FET (FeFET)
-        - Non-volatile memory (NVM)
-        - Ferroelectric devices
+        - Spintronics (STT/SOT-MRAM), FeFET/NCFET, RRAM/PCM memristors
+        - 2D materials, analog programmability, endurance and variability
     - title: Semiconductor Process Integration
       items:
-        - Device fabrication
-        - Process-device-circuit co-design
+        - Device fabrication, FEOL/BEOL and BEOL-compatible memory
+        - 3D monolithic integration, DTCO (design-technology co-optimization)
+        - Compact modeling, variability and yield, process-device-circuit co-design
     - title: AI for Semiconductor
       items:
-        - ML for process/device optimization
-        - Yield prediction
+        - ML for process/device optimization, virtual metrology, yield prediction and defect classification
+        - Bayesian optimization and surrogate modeling, inverse design
+        - Reinforcement learning for tool control
 
 - title: Technical Skills
   type: nested_list
@@ -102,21 +107,33 @@
       items:
         - Python, MATLAB, C++
         - Verilog, Shell scripting
+    - title: Modern Coding & AI Tools
+      items:
+        - Advanced use of generative AI tools (Cursor, Copilot, VSCode, Cline) for research, teaching, and code development
+        - Skilled in prompt engineering and integrating AI assistants into academic workflows
     - title: EDA/Simulation Tools
       items:
-        - Cadence Virtuoso, Spectre, HSPICE
-        - TCAD, COMSOL, ModelSim
-        - Synopsys (Design Compiler, PrimeTime, VCS)
-    - title: Device Characterization
+        - Cadence Virtuoso, Spectre, HSPICE, TCAD Sentaurus
+        - COMSOL Multiphysics, ModelSim, Synopsys (Design Compiler, PrimeTime, VCS)
+        - TCAD, COMSOL, MATLAB, Python
+    - title: Device/Process Characterization
       items:
-        - AFM, SEM, Probe Station
-        - Electrical Testing, Hall, XRD, TEM
+        - AFM, SEM, Probe Station, Electrical Testing
+        - Hall effect characterization, TEM
         - Reliability testing, parameter extraction
-    - title: Data Analysis & AI Tools
+        - Magnetic Probe Station (SemiProbe Magnetic Probing System)
+        - Keithley and Keysight instruments with LabVIEW
+    - title: Nanofabrication Process Skills
+      items:
+        - Optical Lithography (MLA150) and Electron Beam Lithography (EBPG5200)
+        - Ion beam dry etching and wet chemical etching
+        - Material deposition using Temescal FC-2000 Evaporator (CVD)
+        - Profilometer, Ellipsometer, Optical Microscopes characterization
+    - title: Data Analysis & Statistical Tools
       items:
         - Pandas, NumPy, JMP, Jupyter
-        - Advanced use of generative AI tools (Cursor, Copilot, VSCode)
-        - Prompt engineering and AI integration
+        - Data Visualization, Statistical Analysis
+        - Machine learning frameworks and neuromorphic simulation tools
     - title: Languages
       items:
         - English (Fluent)
@@ -128,6 +145,31 @@
     - title: Recent Publications
       year: 2024
       description: See my <a href="https://scholar.google.com/citations?user=j-zfUj8AAAAJ&hl=en&oi=ao">Google Scholar</a> profile for a complete list of publications.
+
+- title: Awards and Recognition
+  type: time_table
+  contents:
+    - title: Harry G. Miller Fellowships in Engineering
+      year: 2025
+      description: 
+    - title: The Wormley Family Graduate Fellowship
+      year: 2025
+      description:
+    - title: Arthur Waynick Graduate Scholarship
+      year: 2024
+      description:
+    - title: Milton and Albertha Langdon Memorial Fellowship
+      year: 2023
+      description:
+    - title: Melvin P. Bloom Memorial Fellowship
+      year: 2022
+      description:
+    - title: Undergrad Dean's List
+      year: 2016-2018
+      description:
+    - title: Honourable Mention, Notre Dame College, Dhaka
+      year: 2014
+      description:
 
 - title: Other Interests
   type: list
