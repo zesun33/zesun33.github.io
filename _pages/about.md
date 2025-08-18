@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: PhD Candidate in Electrical Engineering | Neuromorphic Computing Researcher | Intel Graduate Technical Intern
+subtitle: PhD Candidate in Electrical Engineering | Neuromorphic Computing Researcher | Ex-Intel Graduate Technical Intern
 
 profile:
   align: right
@@ -11,8 +11,7 @@ profile:
   more_info: >
     <p>PhD Candidate, Electrical Engineering</p>
     <p>Pennsylvania State University</p>
-    <p>Graduate Technical Intern</p>
-    <p>Intel Corporation</p>
+    <p>Ex-Intel Graduate Technical Intern</p>
 
 news: true # includes a list of news items
 announcements:
