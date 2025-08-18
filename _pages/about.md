@@ -29,7 +29,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-## About Md Zesun Ahmed Mia
+## About Zesun
+
+> *"Curiosity drives me to seek new questions and create new knowledge. I believe progress in science comes from collaboration, open-mindedness, and the courage to explore beyond boundaries."*
 
 I am a **PhD candidate in Electrical Engineering** at **Pennsylvania State University**, specializing in **neuromorphic computing**, **machine learning hardware**, and **emerging semiconductor devices**. Currently, I serve as a **Graduate Technical Intern at Intel Corporation**, where I work on cutting-edge **thin film process development** and **device integration** for next-generation computing systems.
 
@@ -55,7 +57,6 @@ My research centers on **brain-inspired computing architectures** that bridge th
 - Researching **spintronics** and **non-volatile memory (NVM)** technologies
 - Advancing **device-circuit co-design** methodologies
 
-
 ### Academic Background
 
 I am currently pursuing a **Doctor of Philosophy (PhD) in Electrical Engineering** at **Pennsylvania State University**, focusing on **neuromorphic computing** and **brain-inspired AI hardware**. My doctoral research centers on developing novel **astromorphic computing architectures** that integrate astrocyte-neuron interactions to enhance machine learning efficiency and long-context processing capabilities.
@@ -66,7 +67,7 @@ My undergraduate degree in **Electrical and Electronic Engineering** from **Bang
 
 ### Industry Experience
 
-At **Intel Corporation**, I contribute to **advanced semiconductor process development**, focusing on **thin film deposition**, **device characterization**, and **process-device-circuit integration**. This experience bridges the gap between academic research and industrial applications, particularly in **ML/neuromorphic hardware** for **edge AI** systems.
+As a **Graduate Technical Intern at Intel Corporation** (05/2025 - 07/2025), I designed and executed Design of Experiments (DOE) for exploratory thin film deposition projects, contributing to advanced technology node development. I investigated first-of-its-kind process integration tools and conducted comprehensive material characterization using DSIMS, XRR, stress analysis, and TEM image analysis. I also developed predictive analysis frameworks using AI and machine learning to assess thin film deposition impact on semiconductor process flows and device characteristics.
 
 ### Technical Expertise
 
@@ -88,9 +89,16 @@ At **Intel Corporation**, I contribute to **advanced semiconductor process devel
 
 **AI & Advanced Computing:**
 
-- Advanced proficiency in **generative AI tools** (Cursor, GitHub Copilot, VSCode)
-- **Prompt engineering** and **AI-assisted development**
+- Advanced proficiency in **generative AI tools** (Cursor, GitHub Copilot, VSCode, Cline) for research, teaching, and code development
+- **Prompt engineering** and **AI-assisted development** with integration into academic workflows
 - **Edge AI optimization** and **hardware-software co-design**
+
+**Process & Nanofabrication Skills:**
+
+- **Lithography**: Optical Lithography (MLA150) and Electron Beam Lithography (EBPG5200)
+- **Etching**: Ion beam dry etching and wet chemical etching techniques
+- **Deposition**: Material deposition using Temescal FC-2000 Evaporator (CVD)
+- **Advanced Characterization**: Magnetic Probe Station (SemiProbe), Keithley/Keysight instruments with LabVIEW
 
 ### Research Impact & Publications
 
@@ -106,6 +114,7 @@ I envision a future where **brain-inspired computing** revolutionizes artificial
 
 ### Contact & Academic Identity
 
+📞 **Phone**: 814-280-7244  
 📧 **Email**: [zesun.ahmed@psu.edu](mailto:zesun.ahmed@psu.edu)  
 🆔 **ORCID**: [0009-0004-3509-8455](https://orcid.org/0009-0004-3509-8455)  
 🎓 **Google Scholar**: [View Publications](https://scholar.google.com/citations?user=j-zfUj8AAAAJ&hl=en&oi=ao)  
