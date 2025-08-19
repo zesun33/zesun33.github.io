@@ -6,6 +6,7 @@ description: Reflections on my transformative experience as a Graduate Technical
 tags: internship intel semiconductor AI machine-learning process-development
 categories: research career
 related_posts: false
+published: true
 ---
 
 After three intensive months as a **Graduate Technical Intern at Intel Corporation**, I'm excited to share insights from this transformative experience that bridged my academic research in neuromorphic computing with real-world semiconductor manufacturing challenges.
