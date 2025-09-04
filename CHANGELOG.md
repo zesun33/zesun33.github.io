@@ -22,6 +22,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Cleaned up extension recommendations to only include available extensions
 - Commented out extension-specific settings that caused configuration warnings
 
+## [2.0.1] - 2025-09-04
+
+### Changed
+
+- Updated CV data to match latest LaTeX variants
+  - Corrected M.S. timeline to 08/2022–08/2024
+  - Expanded Graduate Research Assistant role with detailed technical contributions
+  - Enhanced Technical Skills with Modern Coding & AI Tools section
+  - Added missing BUET Lecturer (Part-time) experience to timeline
+
+### Files Touched
+
+- `_data/cv.yml`
+- `assets/json/resume.json`
+
+### Notes
+
+- No functional changes to site build; content updates only
+
 ## [2.0.0] - 2025-01-17
 
 ### Added

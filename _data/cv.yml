@@ -28,7 +28,7 @@
         - Focus: Neuromorphic Computing, Device-Circuit Co-design
     - title: M.S. in Electrical Engineering
       institution: Pennsylvania State University, State College, PA, USA
-      year: 08/2019 - 08/2021
+      year: 08/2022 - 08/2024
       description:
         - CGPA: 4.00/4.00
         - Thesis: Neuromorphic Computing for Lifelong Learning
@@ -53,8 +53,12 @@
       institution: Penn State, State College, PA
       year: 08/2022 - Present
       description:
-        - Research in neuromorphic computing, ML hardware, and device-circuit co-design
-        - Led projects on spintronic/ferroelectric devices and SNNs
+        - Developed fabrication processes for and characterized spintronic devices; also performed electrical characterization of Ferroelectric FETs (FeFETs) to extract key performance parameters
+        - Engineered physics-based device models using TCAD (Silvaco/Sentaurus) and developed compact models in Verilog-A and MATLAB from characterization data for circuit simulation
+        - Architecting a novel, high-performance ML accelerator tailored for Transformer-based workloads, focusing on hardware-software co-design principles
+        - Pioneered a hardware-aware training framework to integrate fabricated spintronic devices into system-level designs, co-optimizing device physics and ML model performance
+        - Investigated advanced neuromorphic and brain-inspired algorithms (e.g., Equilibrium Propagation, Astromorphic Transformer), evaluating their performance against traditional DNN/SNN models
+        - Developed an adaptive Spike-Timing-Dependent Plasticity (STDP) learning rule for Dynamic Spiking Neural Networks (SNNs) to enable continual learning, with performance validated in cybersecurity threat detection scenarios
     - title: Graduate Teaching Assistant
       institution: Penn State, State College, PA
       year: 08/2024 - 05/2025
@@ -65,6 +69,11 @@
       year: 02/2021 - 08/2022
       description:
         - Taught Digital Circuit Design, Device Physics, Power Electronics
+    - title: Lecturer (Part-time)
+      institution: Bangladesh University of Engineering & Technology (BUET), Dhaka, Bangladesh
+      year: 02/2020 - 02/2021
+      description:
+        - Supervised laboratory sessions for Digital Circuit Design (Cadence Virtuoso) and Power Electronics
     - title: R&D Engineer (Part-time)
       institution: SEMWAVES Ltd., London, UK
       year: 09/2020 - 07/2021

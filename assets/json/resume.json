@@ -58,12 +58,14 @@
       "url": "https://psu.edu",
       "startDate": "2022-08-01",
       "endDate": "Present",
-      "summary": "Research in neuromorphic computing, ML hardware, and device-circuit co-design. Led projects on spintronic/ferroelectric devices and SNNs.",
+      "summary": "Research in neuromorphic computing, ML hardware, and device-circuit co-design. Leading comprehensive projects on spintronic/ferroelectric devices and advanced ML accelerators.",
       "highlights": [
-        "Neuromorphic computing research",
-        "Device-circuit co-design",
-        "Spintronic devices",
-        "Spiking Neural Networks"
+        "Developed fabrication processes for and characterized spintronic devices; performed electrical characterization of Ferroelectric FETs (FeFETs)",
+        "Engineered physics-based device models using TCAD (Silvaco/Sentaurus) and developed compact models in Verilog-A and MATLAB",
+        "Architecting novel, high-performance ML accelerator tailored for Transformer-based workloads with hardware-software co-design",
+        "Pioneered hardware-aware training framework integrating fabricated spintronic devices into system-level designs",
+        "Investigated advanced neuromorphic algorithms (Equilibrium Propagation, Astromorphic Transformer) vs traditional DNN/SNN models",
+        "Developed adaptive STDP learning rule for Dynamic SNNs enabling continual learning for cybersecurity applications"
       ]
     },
     {
@@ -92,6 +94,20 @@
         "Device Physics",
         "Power Electronics",
         "Course instruction"
+      ]
+    },
+    {
+      "name": "Bangladesh University of Engineering & Technology (BUET)",
+      "position": "Lecturer (Part-time)",
+      "url": "https://buet.ac.bd",
+      "startDate": "2020-02-01",
+      "endDate": "2021-02-01",
+      "summary": "Supervised laboratory sessions for Digital Circuit Design (Cadence Virtuoso) and Power Electronics courses.",
+      "highlights": [
+        "Digital Circuit Design lab supervision",
+        "Cadence Virtuoso instruction",
+        "Power Electronics lab sessions",
+        "Student mentoring and guidance"
       ]
     },
     {
@@ -130,8 +146,8 @@
       "url": "https://psu.edu",
       "area": "Electrical Engineering",
       "studyType": "MS",
-      "startDate": "2019-08-01",
-      "endDate": "2021-08-01",
+      "startDate": "2022-08-01",
+      "endDate": "2024-08-01",
       "score": "4.00/4.00",
       "courses": ["Neuromorphic Computing for Lifelong Learning"]
     },
