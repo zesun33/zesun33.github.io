@@ -21,8 +21,15 @@ layout: default
           </a>
         {% endif %}
       </h1>
+      {% if page.show_cv_variants != false %}
+        {% include cv_variant_selector.liquid %}
+      {% endif %}
       {% if page.description %}
-        <p class="post-description">{{ page.description }}</p>
+        {% if page.description contains '<div' or page.description contains '<p' or page.description contains '<h' %}
+          <div class="post-description">{{ page.description }}</div>
+        {% else %}
+          <p class="post-description">{{ page.description }}</p>
+        {% endif %}
       {% endif %}
     </header>
 
@@ -72,8 +79,15 @@ layout: default
           </a>
         {% endif %}
       </h1>
+      {% if page.show_cv_variants != false %}
+        {% include cv_variant_selector.liquid %}
+      {% endif %}
       {% if page.description %}
-        <p class="post-description">{{ page.description }}</p>
+        {% if page.description contains '<div' or page.description contains '<p' or page.description contains '<h' %}
+          <div class="post-description">{{ page.description }}</div>
+        {% else %}
+          <p class="post-description">{{ page.description }}</p>
+        {% endif %}
       {% endif %}
     </header>
 
