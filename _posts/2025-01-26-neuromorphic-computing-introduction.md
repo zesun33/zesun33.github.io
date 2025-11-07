@@ -69,7 +69,7 @@ Brain-inspired computing addresses these through:
 
 ## My Research: Astromorphic Transformers
 
-In my work at Penn State and Intel, I focus on **astromorphic transformers** - a novel approach that incorporates astrocyte-neuron interactions into transformer architectures. This research explores:
+In my work at Penn State, as well as my experience at Intel, I focus on **astromorphic transformers** - a novel approach that incorporates astrocyte-neuron interactions into transformer architectures. This research explores:
 
 ### Key Innovations:
 

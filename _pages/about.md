@@ -32,7 +32,7 @@ social: true # includes social icons at the bottom of the page
 
 > _"Curiosity drives me to seek new questions and create new knowledge. I believe progress in science comes from collaboration, open-mindedness, and the courage to explore beyond boundaries."_
 
-I am a **PhD candidate in Electrical Engineering** at **Pennsylvania State University**, specializing in **neuromorphic computing**, **machine learning hardware**, and **emerging semiconductor devices**. Currently, I serve as a **Graduate Technical Intern at Intel Corporation**, where I work on cutting-edge **thin film process development** and **device integration** for next-generation computing systems.
+I am a **PhD candidate in Electrical Engineering** at **Pennsylvania State University**, specializing in **neuromorphic computing**, **machine learning hardware**, and **emerging semiconductor devices**. Previously, I served as a **Graduate Technical Intern at Intel Corporation** (May-July 2025), where I worked on cutting-edge **thin film process development** and **device integration** for next-generation computing systems.
 
 ### Research Focus
 

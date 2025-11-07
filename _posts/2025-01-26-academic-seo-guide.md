@@ -129,4 +129,4 @@ Building an academic website is an investment in your professional future. Start
 
 ---
 
-_About the author: Md Zesun Ahmed Mia is a PhD candidate in Electrical Engineering at Pennsylvania State University, specializing in neuromorphic computing and machine learning hardware. He currently serves as a Graduate Technical Intern at Intel Corporation._
+_About the author: Md Zesun Ahmed Mia is a PhD candidate in Electrical Engineering at Pennsylvania State University, specializing in neuromorphic computing and machine learning hardware. He previously served as a Graduate Technical Intern at Intel Corporation (May-July 2025)._
