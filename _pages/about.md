@@ -72,13 +72,14 @@ As a **Graduate Technical Intern at Intel Corporation** (05/2025 - 07/2025), I d
 
 **Programming & Simulation:**
 
-- **Python**, **MATLAB**, **C++**, **Verilog**, **Shell scripting**
-- **Machine learning frameworks** and **neuromorphic simulation tools**
+- **Python**, **MATLAB**, **C++**, **CUDA**, **Verilog**, **Shell scripting**
+- **Machine learning frameworks** (PyTorch, TensorFlow, **JAX**) and **neuromorphic simulation tools**
 
 **EDA Tools & Device Simulation:**
 
 - **Cadence Virtuoso**, **Spectre**, **HSPICE**, **TCAD Sentaurus**
 - **COMSOL Multiphysics**, **ModelSim**, **Synopsys Design Compiler**
+- **ADC/DAC design**, **mixed-signal**, **SRAM design**, **CIM systems**
 
 **Device Characterization & Fabrication:**
 

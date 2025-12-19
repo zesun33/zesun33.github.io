@@ -53,12 +53,11 @@
       institution: Penn State, University Park, PA
       year: 08/2022 - Present
       description:
-        - Developed fabrication processes for and characterized spintronic devices; also performed electrical characterization of Ferroelectric FETs (FeFETs) to extract key performance parameters
+        - Leading the design of a bit-serial ML accelerator for Transformer workloads, implementing CIM/PIM architectures with custom dataflow optimization for energy-efficient inference
+        - Developed advanced ML algorithms including Astromorphic Transformer and RMAAT for long-context sequence modeling, achieving superior accuracy over baseline models
+        - Pioneered device-circuit-ML co-design integrating spintronic NVM devices with hardware-aware training, demonstrating end-to-end flow from fabrication to system deployment
         - Engineered physics-based device models using TCAD (Silvaco/Sentaurus) and developed compact models in Verilog-A and MATLAB from characterization data for circuit simulation
-        - Architecting a novel, high-performance ML accelerator tailored for Transformer-based workloads, focusing on hardware-software co-design principles
-        - Pioneered a hardware-aware training framework to integrate fabricated spintronic devices into system-level designs, co-optimizing device physics and ML model performance
-        - Investigated advanced neuromorphic and brain-inspired algorithms (e.g., Equilibrium Propagation, Astromorphic Transformer), evaluating their performance against traditional DNN/SNN models
-        - Developed an adaptive Spike-Timing-Dependent Plasticity (STDP) learning rule for Dynamic Spiking Neural Networks (SNNs) to enable continual learning, with performance validated in cybersecurity threat detection scenarios
+        - Architecting neuromorphic accelerator with in-situ learning capability, enabling on-chip weight updates without off-chip memory access
     - title: Graduate Teaching Assistant
       institution: Penn State, University Park, PA
       year: 08/2024 - 05/2025

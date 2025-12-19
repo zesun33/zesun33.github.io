@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Spintronic Device-Based Memory
-description: Fabrication and characterization of spintronic memory arrays using advanced device physics
+description: End-to-end fabrication and characterization of spintronic memory arrays for neuromorphic computing
 importance: 3
 category: work
 related_publications: true
@@ -10,11 +10,11 @@ published: false
 
 ## Spintronic Device-Based Memory
 
-Lead Student Researcher, 2022–Present. This project focuses on the **fabrication and characterization of spintronic memory arrays**, leveraging advanced spintronics principles for next-generation non-volatile memory applications.
+Lead Student Researcher, 2023–Present. This project focuses on **end-to-end fabrication and comprehensive characterization of spintronic memory arrays**, leveraging advanced spintronics principles for next-generation non-volatile memory and neuromorphic computing applications.
 
 ### Research Overview
 
-Developing spintronic memory devices that exploit the spin degree of freedom of electrons for data storage and processing. The work combines advanced nanofabrication techniques with comprehensive device characterization to create high-performance memory solutions.
+Led end-to-end fabrication of spintronic memory arrays using **e-beam lithography**, **sputtering deposition**, and **lift-off patterning**. Performed comprehensive electrical characterization including **I-V curves**, **R-H loops**, **retention**, and **endurance** testing. Extracted device parameters for **compact model development** and advanced non-volatile memory technologies for **neuromorphic computing** and **in-memory processing** applications.
 
 ### Project Scope
 
