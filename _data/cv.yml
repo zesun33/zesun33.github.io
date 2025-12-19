@@ -21,7 +21,7 @@
   contents:
     - title: Ph.D. in Electrical Engineering
       institution: Pennsylvania State University, University Park, PA, USA
-      year: 08/2022 - 08/2027 (Expected)
+      year: 08/2022 - 05/2027 (Expected)
       description:
         - CGPA: 4.00/4.00
         - Advisor: Dr. Abhronil Sengupta
@@ -58,6 +58,7 @@
         - Pioneered device-circuit-ML co-design integrating spintronic NVM devices with hardware-aware training, demonstrating end-to-end flow from fabrication to system deployment
         - Engineered physics-based device models using TCAD (Silvaco/Sentaurus) and developed compact models in Verilog-A and MATLAB from characterization data for circuit simulation
         - Architecting neuromorphic accelerator with in-situ learning capability, enabling on-chip weight updates without off-chip memory access
+        - Developed adaptive Spike-Timing-Dependent Plasticity (STDP) learning rule for Dynamic SNNs to enable continual learning, validated in cybersecurity threat detection scenarios
     - title: Graduate Teaching Assistant
       institution: Penn State, University Park, PA
       year: 08/2024 - 05/2025
