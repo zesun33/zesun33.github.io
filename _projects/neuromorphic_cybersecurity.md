@@ -15,21 +15,24 @@ This project presents a **Spiking Neural Network (SNN)** architecture for **life
 ### Key Innovations
 
 1.  **Hierarchical Architecture**:
-    *   **Static SNN**: Efficiently identifies potential intrusions.
-    *   **Dynamic SNN**: Adaptive classifier that learns specific attack types.
+
+    - **Static SNN**: Efficiently identifies potential intrusions.
+    - **Dynamic SNN**: Adaptive classifier that learns specific attack types.
 
 2.  **Bio-Plausible Learning**:
-    *   Utilizes **Grow When Required (GWR)**-inspired structural plasticity.
-    *   Implements a novel **Adaptive Spike-Timing-Dependent Plasticity (Ad-STDP)** learning rule.
+
+    - Utilizes **Grow When Required (GWR)**-inspired structural plasticity.
+    - Implements a novel **Adaptive Spike-Timing-Dependent Plasticity (Ad-STDP)** learning rule.
 
 3.  **Lifelong Learning Capabilities**:
-    *   Enables the network to learn new threats incrementally.
-    *   Preserves existing knowledge (mitigating catastrophic forgetting).
-    *   Achieved **85.3% overall accuracy** on the UNSW-NB15 benchmark in a continual learning setting.
+
+    - Enables the network to learn new threats incrementally.
+    - Preserves existing knowledge (mitigating catastrophic forgetting).
+    - Achieved **85.3% overall accuracy** on the UNSW-NB15 benchmark in a continual learning setting.
 
 4.  **Hardware Efficiency**:
-    *   Demonstrates high operational sparsity.
-    *   Optimized for low-power deployment on neuromorphic hardware (validated using Intel Lava framework).
+    - Demonstrates high operational sparsity.
+    - Optimized for low-power deployment on neuromorphic hardware (validated using Intel Lava framework).
 
 ## Publication
 
