@@ -66,39 +66,47 @@ My undergraduate degree in **Electrical and Electronic Engineering** from **Bang
 
 ### Industry Experience
 
-As a **Graduate Technical Intern at Intel Corporation** (05/2025 - 07/2025), I designed and executed Design of Experiments (DOE) for exploratory thin film deposition projects, contributing to advanced technology node development. I investigated first-of-its-kind process integration tools and conducted comprehensive material characterization using DSIMS, XRR, stress analysis, and TEM image analysis. I also developed predictive analysis frameworks using AI and machine learning to assess thin film deposition impact on semiconductor process flows and device characteristics.
+As a **Graduate Technical Intern at Intel Corporation** (05/2025 - 07/2025), I worked on thin film deposition process development for advanced technology nodes. I designed and executed Design of Experiments (DOE) for exploratory deposition projects, conducted material characterization (DSIMS, XRR, stress analysis), and developed AI-driven predictive models to assess process impact on circuit electrical parameters and device reliability. This experience bridged my semiconductor process knowledge with ML-based process-circuit co-optimization.
 
 ### Technical Expertise
 
-**Programming & Simulation:**
+**ML Systems & Accelerators:**
 
-- **Python**, **MATLAB**, **C++**, **CUDA**, **Verilog**, **Shell scripting**
-- **Machine learning frameworks** (PyTorch, TensorFlow, **JAX**) and **neuromorphic simulation tools**
+- **Hardware-aware ML**, **ML accelerator/ASIC design**, **neural network accelerator architecture**
+- **Transformer/LLM acceleration**, **model compression** (PTQ/QAT, pruning, distillation), **mixed-precision** (FP16/INT8)
+- **Device-circuit-ML co-design**, **dataflow optimization**, **PIM**, **near-memory computing**
+
+**Programming & ML Frameworks:**
+
+- **Python**, **CUDA**, **C/C++**, **MATLAB**, **Verilog**, **Shell/Bash**, **Git**, **Docker**
+- **PyTorch**, **TensorFlow**, **JAX**, **ONNX**, **TensorRT**; experiment tracking (**W&B**, **Matplotlib**); data tooling (**Pandas**, **NumPy**, **Jupyter**)
+
+**Digital/ASIC Design:**
+
+- **RTL design**, **CMOS/FinFET circuit design**, **SRAM design**, **sense amplifier design**, **memory peripheral circuits**
+- **FPGA prototyping**, **synthesis**, **P&R**, **DFT**, **static timing analysis**, **timing closure**
 
 **EDA Tools & Device Simulation:**
 
-- **Cadence Virtuoso**, **Spectre**, **HSPICE**, **TCAD Sentaurus**
-- **COMSOL Multiphysics**, **ModelSim**, **Synopsys Design Compiler**
-- **ADC/DAC design**, **mixed-signal**, **SRAM design**, **CIM systems**
+- **Cadence Virtuoso**, **Spectre**, **HSPICE**, **TCAD Sentaurus**, **COMSOL Multiphysics**
+- **ModelSim**, **Quartus**, **Vivado**, **Synopsys** (Design Compiler, PrimeTime, VCS)
+- **ADC/DAC design**, **mixed-signal**, **CIM systems**
 
 **Device Characterization & Fabrication:**
 
-- **Atomic Force Microscopy (AFM)**, **Scanning Electron Microscopy (SEM)**
-- **Probe station measurements**, **Hall effect characterization**
-- **X-ray Diffraction (XRD)**, **Transmission Electron Microscopy (TEM)**
+- **AFM**, **SEM**, **TEM**, **XRD**, **XRR**, **Probe station measurements**, **Hall effect characterization**
+- **Lithography**: Optical (MLA150) and E-beam (EBPG5200); **Etching**: Ion beam dry and wet chemical
+- **Deposition**: CVD, PVD, sputtering; **Magnetic Probe Station** (SemiProbe), **Keithley/Keysight** with LabVIEW
+
+**Process Integration & DTCO:**
+
+- **Semiconductor process integration**, **thin film deposition** (CVD, HDP-CVD, PVD), **yield optimization**
+- **Design-technology co-optimization (DTCO)**, **system-technology co-optimization (STCO)**, **cross-layer PPA**
 
 **AI & Advanced Computing:**
 
-- Advanced proficiency in **generative AI tools** (Cursor, GitHub Copilot, VSCode, Cline) for research, teaching, and code development
-- **Prompt engineering** and **AI-assisted development** with integration into academic workflows
-- **Edge AI optimization** and **hardware-software co-design**
-
-**Process & Nanofabrication Skills:**
-
-- **Lithography**: Optical Lithography (MLA150) and Electron Beam Lithography (EBPG5200)
-- **Etching**: Ion beam dry etching and wet chemical etching techniques
-- **Deposition**: Material deposition using Temescal FC-2000 Evaporator (CVD)
-- **Advanced Characterization**: Magnetic Probe Station (SemiProbe), Keithley/Keysight instruments with LabVIEW
+- Advanced proficiency in **generative AI tools** (Cursor, GitHub Copilot, Cline) for research and code development
+- **Prompt engineering**, **AI-assisted development**, **edge AI optimization**
 
 ### Research Impact & Publications
 
