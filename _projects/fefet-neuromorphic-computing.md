@@ -1,11 +1,10 @@
 ---
 layout: page
-title: FeFET Neuromorphic Computing
-description: Ferroelectric device development for synaptic applications in neuromorphic systems
-importance: 4
+title: Variation-Tolerant Ferroelectric Neural Computing
+description: Device-circuit-algorithm co-design for variation-tolerant FeFET-based neuromorphic systems
+importance: 2
 category: work
-related_publications: true
-published: false
+related_publications: saha2025toward
 ---
 
 ## Ferroelectric Device for Neuromorphic Computing
@@ -108,6 +107,8 @@ This work contributes to advancing **device-circuit co-design** methodologies fo
 - In-memory computing with ferroelectric devices
 - Quantum effects in scaled ferroelectric devices
 
-### Publications and Dissemination
+## Publication
 
-Results from this work have been presented at IEEE conferences, contributing to the understanding of ferroelectric devices in neuromorphic computing applications and advancing the field of brain-inspired hardware systems.
+This work was presented at the **IEEE 68th International Midwest Symposium on Circuits and Systems (MWSCAS) 2025** as a Special Session Paper.
+
+[Read the paper](https://ieeexplore.ieee.org/document/10974532)
