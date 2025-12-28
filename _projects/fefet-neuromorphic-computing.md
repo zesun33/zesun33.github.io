@@ -59,4 +59,4 @@ This work contributes to enabling **reliable, energy-efficient neuromorphic comp
 
 This work was presented at the **IEEE 68th International Midwest Symposium on Circuits and Systems (MWSCAS) 2025** as a Special Session Paper.
 
-[Read the paper](https://ieeexplore.ieee.org/document/10974532)
+[Read the paper](https://ieeexplore.ieee.org/document/11244385/)
