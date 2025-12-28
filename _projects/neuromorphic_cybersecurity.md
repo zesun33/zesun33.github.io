@@ -36,4 +36,4 @@ This project presents a **Spiking Neural Network (SNN)** architecture for **life
 ## Publication
 
 This work was presented at the **International Conference on Neuromorphic Systems (ICONS) 2025**.
-[Read the paper](https://arxiv.org/abs/2508.04610)
+[Read the paper](https://doi.org/10.1109/ICONS69015.2025.00043)
