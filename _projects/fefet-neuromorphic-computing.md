@@ -7,105 +7,53 @@ category: work
 related_publications: saha2025toward
 ---
 
-## Ferroelectric Device for Neuromorphic Computing
+## Overview
 
-This project focuses on developing **FeFET-based synaptic devices** with multi-level conductance states specifically designed for **spiking neural networks (SNNs)** and neuromorphic computing applications.
+This research addresses the **reliability challenges of ferroelectric field-effect transistors (FeFETs)** in neuromorphic computing, particularly the device-level non-idealities that emerge at scaled dimensions. These variations can significantly degrade the accuracy of **in-memory crossbar-based AI accelerators**.
 
-### Research Overview
+## FeFET Device Characterization
 
-Ferroelectric Field-Effect Transistors (FeFETs) offer unique properties for neuromorphic applications, including non-volatile memory, multiple conductance states, and low-power operation. This work explores their potential as artificial synapses in brain-inspired computing systems.
+We characterize hafnia-based FeFETs with the gate stack comprising:
 
-### Key Technical Achievements
+- **Doped HfO₂** (8nm thick) as ferroelectric layer
+- **SiO₂** (1nm thick) as native oxide interlayer
+- Device sizes: **0.24µm × 0.24µm**, **0.5µm × 0.24µm**, and **1µm × 1µm**
 
-**Device Development:**
+### Conductance Modulation
 
-🔬 **Multi-Level States**: Developed FeFET devices with programmable multi-level conductance states mimicking biological synaptic plasticity
+Devices are programmed using a pulse scheme with:
 
-⚡ **Synaptic Functionality**: Implemented long-term potentiation (LTP) and long-term depression (LTD) mechanisms
+- **Reset pulse**: -4V to ensure negative polarization
+- **Programming pulse**: 2V to 4V with 20mV steps
+- **Read voltage**: 1.2V at gate terminal
 
-🔄 **Endurance Testing**: Characterized device endurance under repeated programming cycles
+Larger devices show gradual conductance changes due to more domains, while scaled devices exhibit **stochastic, discrete, and non-linear** conductance changes.
 
-💾 **Retention Analysis**: Evaluated long-term data retention for neuromorphic applications
+## Key Non-Idealities
 
-**System Integration:**
+### Cycle-to-Cycle (C2C) Variations
 
-🖥️ **Test PCB Development**: Integrated devices into custom test PCBs for comprehensive benchmarking
+Significant variations in programming profiles across 50 repeated measurements of individual devices, caused by stochastic nucleation processes dominating polarization switching dynamics.
 
-📊 **Performance Characterization**: Systematic evaluation of synaptic device performance metrics
+### Device-to-Device (D2D) Variations
 
-🔗 **Hardware Integration**: Developed interfaces for neuromorphic system integration
+Deviations measured across 3 different devices of each dimension, with lower operating voltages significantly increasing conductance variations in scaled devices.
 
-### Device Physics and Engineering
+### Variation Severity
 
-**Ferroelectric Properties:**
+The ratio σ/µ (standard deviation to mean) increases significantly at lower programming voltages, especially in smaller devices with fewer ferroelectric domains.
 
-- Polarization switching dynamics
-- Coercive field optimization
-- Interface engineering for enhanced performance
-- Scaling considerations for advanced nodes
+## Variation-Aware Design Approach
 
-**Neuromorphic Functionality:**
+We propose algorithmic techniques to combat variations leveraging recent advances in deep learning, including:
 
-- Synaptic weight implementation through conductance modulation
-- Spike-timing dependent plasticity (STDP) emulation
-- Neural network training compatibility
-- Power consumption optimization
+1. **Bayesian Neural Network (BNN) Formulation**: Treating synaptic weights as probability distributions
+2. **Hardware-Algorithm Co-Design**: Mapping BNN framework onto FeFET crossbar arrays
+3. **Self-Repair Mechanisms**: Drawing inspiration from glial cell self-repair in biological brains
 
-### Device-Circuit Co-Design
+## Impact
 
-**Circuit Integration:**
-
-- **Analog/Mixed-Signal Circuits**: Co-designed with custom circuits for SNNs
-- **Neuromorphic Accelerators**: Integration into larger neuromorphic computing systems
-- **Energy Efficiency**: Hardware-in-the-loop tests demonstrating energy-efficient learning and inference
-
-**System-Level Optimization:**
-
-- Read/write operation optimization
-- Noise immunity and reliability enhancement
-- Peripheral circuit design for array operations
-- Scalability analysis for large neural networks
-
-### Applications in Neuromorphic Computing
-
-**Target Applications:**
-
-- **Spiking Neural Networks**: Artificial synapses for temporal information processing
-- **Online Learning**: Adaptive systems with in-situ learning capabilities
-- **Edge AI**: Ultra-low power inference at the edge
-- **Brain-Inspired Computing**: Biomimetic information processing
-
-### Research Impact
-
-This work contributes to advancing **device-circuit co-design** methodologies for neuromorphic systems, demonstrating how ferroelectric devices can enable energy-efficient learning and inference in hardware neural networks.
-
-### Collaboration and Integration
-
-**Spintronic Integration:**
-
-- Combined FeFET and MTJ (Magnetic Tunnel Junction) devices
-- Hybrid synaptic architectures
-- Multi-modal neuromorphic systems
-
-**System Validation:**
-
-- Hardware-in-the-loop testing platforms
-- Benchmarking against biological synapses
-- Performance comparison with other emerging memory technologies
-
-### Technical Expertise Developed
-
-- **Ferroelectric Device Physics**: Deep understanding of polarization dynamics
-- **Neuromorphic Circuit Design**: Analog and mixed-signal circuit development
-- **Device Characterization**: Advanced electrical characterization techniques
-- **System Integration**: Hardware-software co-design for neuromorphic systems
-
-### Future Research Directions
-
-- Advanced ferroelectric materials exploration
-- 3D integration for high-density neural networks
-- In-memory computing with ferroelectric devices
-- Quantum effects in scaled ferroelectric devices
+This work contributes to enabling **reliable, energy-efficient neuromorphic computing** by bridging device physics, circuit design, and algorithm development for variation-tolerant FeFET-based AI accelerators.
 
 ## Publication
 
