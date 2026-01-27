@@ -51,7 +51,7 @@ The project leverages astrocytic **non-linearities** and **memory retention** to
 ### Publications
 
 - **IEEE Transactions on Cognitive and Developmental Systems** (2025) - "Delving Deeper Into Astromorphic Transformers"
-- **OpenReview** (2024) - "RMAAT: A Bio-Inspired Approach for Efficient Long-Context Sequence Processing in Transformers"
+- **ICLR 2026** - "RMAAT: Astrocyte-Inspired Memory Compression and Replay for Efficient Long-Context Transformers"
 
 ### Research Team
 

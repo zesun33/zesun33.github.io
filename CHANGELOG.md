@@ -22,6 +22,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Cleaned up extension recommendations to only include available extensions
 - Commented out extension-specific settings that caused configuration warnings
 
+## [2.1.0] - 2026-01-27
+
+### Added
+
+- **ICLR 2026 Publication**: Added "RMAAT" paper to publications database (`papers.bib`)
+- **News Announcement**: Post tracking the ICLR 2026 acceptance
+- **Blog Post**: Deep dive into "Astromorphic Computing" and the RMAAT architecture
+- **Project Update**: Updated RMAAT project to "Published" status with new PDF and links
+
+### Changed
+
+- Updated publication list with ICLR 2026 entry
+- Promoted RMAAT from hidden project to featured work
+- Archived old submission news for RMAAT
+
 ## [2.0.1] - 2025-09-04
 
 ### Changed

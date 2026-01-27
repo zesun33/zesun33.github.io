@@ -1,6 +1,6 @@
 # Project Status Report
 
-**Generated**: August 18, 2025  
+**Generated**: January 27, 2026  
 **Repository**: [zesun33/zesun33.github.io](https://github.com/zesun33/zesun33.github.io)  
 **Website**: [https://zesun33.github.io](https://zesun33.github.io)
 
@@ -8,13 +8,13 @@
 
 This Jekyll-based academic portfolio website is **production-ready** and follows industry best practices for static site development, deployment, and maintenance. The site successfully showcases the academic and research work of Md Zesun Ahmed Mia, PhD candidate in Electrical Engineering at Penn State and former Graduate Technical Intern at Intel Corporation.
 
-### **Major Recent Achievements (August 2025)**
+### **Major Recent Achievements (January 2026)**
 
+- ✅ **ICLR 2026 Acceptance**: Added "RMAAT" paper details, PDF resources, and blog announcement
 - ✅ **Zero CI Failures**: Implemented Prettier pre-commit hooks and workflow automation
 - ✅ **CV Data Synchronization**: Fixed resume.json vs \_data/cv.yml discrepancy
 - ✅ **Intel Experience Integration**: Comprehensive internship documentation and technical contributions
-- ✅ **Modern Skills Portfolio**: Advanced AI tools, nanofabrication, and semiconductor characterization
-- ✅ **Complete Academic Profile**: 7 fellowships, 8+ publications, comprehensive recognition history
+- ✅ **Complete Academic Profile**: 7 fellowships, 9+ publications, comprehensive recognition history
 
 ## ✅ Completed Implementation
 
@@ -87,7 +87,7 @@ This Jekyll-based academic portfolio website is **production-ready** and follows
 
 ### Academic Content
 
-- [x] **Publications**: 8+ peer-reviewed papers (2021-2025) including IEEE TCDS and Matter
+- [x] **Publications**: 9+ peer-reviewed papers (2021-2026) including ICLR, IEEE TCDS and Matter
 - [x] **Research Projects**: 10+ major projects documented with detailed portfolios
 - [x] **CV**: Complete academic and professional history with Intel experience
 - [x] **Teaching**: Course and mentoring experience with Cadence Virtuoso
