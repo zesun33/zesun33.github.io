@@ -165,6 +165,20 @@
   ],
   "publications": [
     {
+      "name": "Trilinear Compute-in-Memory Architecture for Energy-Efficient Transformer Acceleration",
+      "publisher": "arXiv",
+      "releaseDate": "2026-04-01",
+      "url": "https://arxiv.org/abs/2604.07628",
+      "summary": "DG-FeFET Compute-in-Memory architecture executing the full Transformer attention dataflow in-memory without runtime NVM reprogramming, delivering up to 46.6% energy reduction and 20.4% latency improvement on BERT-base and ViT-base."
+    },
+    {
+      "name": "RMAAT: Astrocyte-Inspired Memory Compression and Replay for Efficient Long-Context Transformers",
+      "publisher": "ICLR 2026",
+      "releaseDate": "2026-01-26",
+      "url": "https://openreview.net/forum?id=sTkJdbVxsI",
+      "summary": "Recurrent Memory Augmented Astromorphic Transformer with linear-complexity attention and astrocyte-inspired memory compression for long-context sequence modeling."
+    },
+    {
       "name": "Delving deeper into astromorphic transformers",
       "publisher": "IEEE Transactions on Cognitive and Developmental Systems",
       "releaseDate": "2025-01-01",
@@ -307,6 +321,12 @@
   ],
   "awards": [
     {
+      "title": "Melvin P. Bloom Memorial Outstanding Doctoral Research Award",
+      "date": "2026",
+      "awarder": "Penn State Electrical Engineering Department",
+      "summary": "Departmental award recognizing outstanding doctoral research."
+    },
+    {
       "title": "Harry G. Miller Fellowships in Engineering",
       "date": "2025",
       "awarder": "Pennsylvania State University",
@@ -358,6 +378,30 @@
   ],
   "projects": [
     {
+      "name": "TrilinearCIM: All-in-Memory Transformer Acceleration",
+      "summary": "DG-FeFET Compute-in-Memory architecture that performs the full Transformer attention dataflow in-memory without runtime NVM reprogramming, using a novel three-operand multiply-accumulate primitive (Y = A * B * C).",
+      "highlights": [
+        "First architecture to perform complete Transformer attention exclusively in NVM cores without runtime reprogramming",
+        "Up to 46.6% energy reduction and 20.4% latency improvement on BERT-base / ViT-base",
+        "~3x global buffer reduction by eliminating intermediate Q/K matrix storage"
+      ],
+      "startDate": "2025-01-01",
+      "endDate": "2026-04-01",
+      "url": "https://arxiv.org/abs/2604.07628"
+    },
+    {
+      "name": "RMAAT: Bio-Inspired Long-Context Transformers",
+      "summary": "Recurrent Memory Augmented Astromorphic Transformer integrating astrocyte-inspired memory compression and linear-complexity attention for efficient long-context sequence modeling. Accepted at ICLR 2026.",
+      "highlights": [
+        "ICLR 2026 acceptance",
+        "Up to 1.73x training speedup and 4.4x memory reduction on Long Range Arena",
+        "Novel Astrocytic Memory Replay Backpropagation (AMRB) training algorithm"
+      ],
+      "startDate": "2024-01-01",
+      "endDate": "2026-01-01",
+      "url": "https://openreview.net/forum?id=sTkJdbVxsI"
+    },
+    {
       "name": "Astromorphic Transformers",
       "summary": "Research on bio-inspired transformer architectures published in IEEE TCDS, focusing on cognitive and developmental computing systems.",
       "highlights": [
@@ -367,18 +411,6 @@
       ],
       "startDate": "2023-01-01",
       "endDate": "2025-01-01",
-      "url": ""
-    },
-    {
-      "name": "Electronic Braille Device",
-      "summary": "Development of ultra low cost, low power, high speed electronic Braille device for accessibility applications.",
-      "highlights": [
-        "Accessibility Technology",
-        "Low Power Design",
-        "iCACCESS 2024"
-      ],
-      "startDate": "2023-01-01",
-      "endDate": "2024-10-01",
       "url": ""
     }
   ]

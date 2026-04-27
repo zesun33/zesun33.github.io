@@ -5,35 +5,18 @@
 @string{elsevier = {Elsevier}}
 @string{springer = {Springer}}
 
-@article{mia2025delving,
-  title       = {Delving deeper into astromorphic transformers},
-  author      = {Mia, Md Zesun Ahmed and Bal, Malyaban and Sengupta, Abhronil},
-  journal     = {IEEE Transactions on Cognitive and Developmental Systems},
-  year        = {2025},
-  publisher   = ieee,
+@article{mia2026trilinear,
+  title       = {Trilinear Compute-in-Memory Architecture for Energy-Efficient Transformer Acceleration},
+  author      = {Mia, Md Zesun Ahmed and Duan, Jiahui and Ni, Kai and Sengupta, Abhronil},
+  journal     = {arXiv preprint arXiv:2604.07628},
+  year        = {2026},
+  url         = {https://arxiv.org/abs/2604.07628},
+  arxiv       = {2604.07628},
   bibtex_show = {true},
   selected    = {true},
-  pdf         = {Delving Deeper Into Astromorphic Transformers.pdf},
-  url         = {https://ieeexplore.ieee.org/document/10976578/},
-  abstract    = {Preliminary attempts at incorporating the critical role of astrocytes—cells that constitute more than 50% of human brain cells—in brain-inspired neuromorphic computing remain in infancy. This paper seeks to delve deeper into various key aspects of neuron-synapse-astrocyte interactions to mimic self-attention mechanisms in Transformers. The crosslayer perspective explored in this work involves bioplausible modeling of Hebbian and presynaptic plasticities in neuronastrocyte networks, incorporating effects of non-linearities and feedback along with algorithmic formulations to map the neuronastrocyte computations to self-attention mechanism and evaluating the impact of incorporating bio-realistic effects from the machine learning application side. Our analysis on sentiment and image classification tasks (IMDB and CIFAR10 datasets) highlights the advantages of Astromorphic Transformers, offering improved accuracy and learning speed. Furthermore, the model demonstrates strong natural language generation capabilities on the WikiText-2 dataset, achieving better perplexity compared to conventional models, thus showcasing enhanced generalization and stability across diverse machine learning tasks.},
-  abbr        = {IEEE TCDS}
-}
-
-@article{zhang2024self,
-  title       = {Self-sensitizable neuromorphic device based on adaptive hydrogen gradient},
-  author      = {Zhang, Tao and Hu, Mingjie and Mia, Md Zesun Ahmed and Zhang, Hao and Mao, Wei and Fukutani, Katsuyuki and Matsuzaki, Hiroyuki and Wen, Lingzhi and Wang, Cong and Zhao, Hongbo and others},
-  journal     = {Matter},
-  volume      = {7},
-  number      = {5},
-  pages       = {1799--1816},
-  year        = {2024},
-  publisher   = elsevier,
-  bibtex_show = {true},
-  selected    = {true},
-  url         = {https://www.cell.com/matter/fulltext/S2590-2385(24)00108-5},
-  pdf         = {Self-sensitizable neuromorphic device based on adaptive hydrogen gradient.pdf},
-  abstract    = {Neuromorphic computing aims to achieve superior efficiency by simulating the human brain to surpass traditional computers. It is crucial for neuromorphic devices to possess excellent biological characteristics, offering a vital way to address existing technical bottlenecks in artificial intelligence (AI). Here, we demonstrate adaptive self-sensitization based on a hydrogen gradient in artificial neurons, empowering neural networks to effectively tackle long-standing challenges of model failure in unknown situations beyond pre-defined boundaries. This advancement propels the design of adaptive neuromorphic devices to process unforeseeable signals autonomously. It significantly promotes the development of AI capable of interacting with complex environments, enhancing capabilities to perform tasks such as autonomous navigation, disaster rescue, and outer space exploration and opening up new possibilities for self-guided cognitive systems.},
-  abbr        = {Matter}
+  pdf         = {Trilinear_Compute_in_Memory_Architecture_for_Energy_Efficient_Transformer_Acceleration.pdf},
+  abstract    = {Transformer acceleration on Compute-in-Memory (CIM) hardware is bottlenecked by repeated runtime non-volatile memory (NVM) reprogramming of the dynamic attention operands (Q, K, V). We introduce TrilinearCIM, a Double-Gate FeFET (DG-FeFET)-based CIM architecture that performs the full attention dataflow in-memory without runtime ferroelectric reprogramming. A novel three-operand multiply-accumulate primitive (Y = A * B * C), enabled by DG-FeFET back-gate modulation, maps static projection weights to the non-volatile top gate while applying dynamic token activations through the volatile back gate. To our knowledge, this is the first architecture to perform complete Transformer attention computation exclusively in NVM cores without runtime reprogramming. TrilinearCIM reduces global buffer capacity requirements by ~3x by eliminating intermediate Q/K matrix storage. Evaluated on BERT-base (GLUE) and ViT-base (ImageNet, CIFAR-10/100), it outperforms conventional FeFET CIM on 7 of 9 GLUE tasks, achieving up to 46.6% energy reduction and 20.4% latency improvement at 37.3% area overhead.},
+  abbr        = {arXiv}
 }
 
 @inproceedings{mia2026rmaat,
@@ -63,6 +46,50 @@
   selected    = {true},
   pdf         = {Neuromorphic_Cybersecurity_with_Semi_supervised_Lifelong_Learning.pdf},
   abbr        = {ICONS}
+}
+
+@article{mia2025delving,
+  title       = {Delving deeper into astromorphic transformers},
+  author      = {Mia, Md Zesun Ahmed and Bal, Malyaban and Sengupta, Abhronil},
+  journal     = {IEEE Transactions on Cognitive and Developmental Systems},
+  year        = {2025},
+  publisher   = ieee,
+  bibtex_show = {true},
+  selected    = {true},
+  pdf         = {Delving Deeper Into Astromorphic Transformers.pdf},
+  url         = {https://ieeexplore.ieee.org/document/10976578/},
+  abstract    = {Preliminary attempts at incorporating the critical role of astrocytes—cells that constitute more than 50% of human brain cells—in brain-inspired neuromorphic computing remain in infancy. This paper seeks to delve deeper into various key aspects of neuron-synapse-astrocyte interactions to mimic self-attention mechanisms in Transformers. The crosslayer perspective explored in this work involves bioplausible modeling of Hebbian and presynaptic plasticities in neuronastrocyte networks, incorporating effects of non-linearities and feedback along with algorithmic formulations to map the neuronastrocyte computations to self-attention mechanism and evaluating the impact of incorporating bio-realistic effects from the machine learning application side. Our analysis on sentiment and image classification tasks (IMDB and CIFAR10 datasets) highlights the advantages of Astromorphic Transformers, offering improved accuracy and learning speed. Furthermore, the model demonstrates strong natural language generation capabilities on the WikiText-2 dataset, achieving better perplexity compared to conventional models, thus showcasing enhanced generalization and stability across diverse machine learning tasks.},
+  abbr        = {IEEE TCDS}
+}
+
+@inproceedings{saha2025toward,
+  title        = {Toward Variation-Tolerant Ferroelectric Neural Computing: Special Session Paper},
+  author       = {Saha, Arnob and Mia, Md Zesun Ahmed and Duan, Jiahui and Ni, Kai and Sengupta, Abhronil},
+  booktitle    = {2025 IEEE 68th International Midwest Symposium on Circuits and Systems (MWSCAS)},
+  pages        = {583--587},
+  year         = {2025},
+  organization = ieee,
+  bibtex_show  = {true},
+  selected     = {true},
+  pdf          = {Toward Variation-Tolerant Ferroelectric Neural Computing.pdf},
+  abbr         = {MWSCAS}
+}
+
+@article{zhang2024self,
+  title       = {Self-sensitizable neuromorphic device based on adaptive hydrogen gradient},
+  author      = {Zhang, Tao and Hu, Mingjie and Mia, Md Zesun Ahmed and Zhang, Hao and Mao, Wei and Fukutani, Katsuyuki and Matsuzaki, Hiroyuki and Wen, Lingzhi and Wang, Cong and Zhao, Hongbo and others},
+  journal     = {Matter},
+  volume      = {7},
+  number      = {5},
+  pages       = {1799--1816},
+  year        = {2024},
+  publisher   = elsevier,
+  bibtex_show = {true},
+  selected    = {true},
+  url         = {https://www.cell.com/matter/fulltext/S2590-2385(24)00108-5},
+  pdf         = {Self-sensitizable neuromorphic device based on adaptive hydrogen gradient.pdf},
+  abstract    = {Neuromorphic computing aims to achieve superior efficiency by simulating the human brain to surpass traditional computers. It is crucial for neuromorphic devices to possess excellent biological characteristics, offering a vital way to address existing technical bottlenecks in artificial intelligence (AI). Here, we demonstrate adaptive self-sensitization based on a hydrogen gradient in artificial neurons, empowering neural networks to effectively tackle long-standing challenges of model failure in unknown situations beyond pre-defined boundaries. This advancement propels the design of adaptive neuromorphic devices to process unforeseeable signals autonomously. It significantly promotes the development of AI capable of interacting with complex environments, enhancing capabilities to perform tasks such as autonomous navigation, disaster rescue, and outer space exploration and opening up new possibilities for self-guided cognitive systems.},
+  abbr        = {Matter}
 }
 
 @inproceedings{mia2024ultra,
@@ -134,17 +161,4 @@
   pdf          = {IRFD - A Feature Engineering based Ensemble Classification for Detecting Electrical Fraud in Traditional Meters.pdf},
   abstract     = {Nations have suffered significant economic losses as a result of non-technical electric losses resulting from power fraud. It is a criminal act of stealing electricity by applying various mechanisms that incorporate unauthorized tapping to the power line, bypassing the smart meter, etc. Electricity theft is a significant concern for not only developing countries but also developed countries as well. However, for most developing countries, the implications are catastrophic, given that their usage is always less than their demands. Electricity theft must be detected precisely and quickly in order to be mitigated. In our study, we have proposed a method of predictive ensemble machine learning techniques (IRFD) with a novel combination of feature distinction methods to detect electricity theft. In our proposed model, we have combined feature selection technique, Recursive Feature Elimination with Stratified 10-Fold cross-validation (RFECV) and Isolation Forest (IF), to identify and remove outliers along with several machine learning classifiers to forecast the theft of electricity. This study additionally enhances the management of highly imbalanced fraudulent data with Borderline-SMOTE with SVM (SVMSMOTE) and feature scaling with StandardScaler. Following the study, the Random Forest classifier observed a higher degree of accuracy (97.06%) with higher precision, recall, and F1-Score. To evaluate the efficacy of our proposed model, comparative analysis of the classification metrics is also assessed with several machine learning classifiers like Logistic Regression, Gradient Boosting, XGBoost, AdaBoost, KNN, ANN, along with Random Forest before and after fitting our proposed feature engineering techniques.},
   abbr         = {ICCIT}
-}
-
-@inproceedings{saha2025toward,
-  title        = {Toward Variation-Tolerant Ferroelectric Neural Computing: Special Session Paper},
-  author       = {Saha, Arnob and Mia, Md Zesun Ahmed and Duan, Jiahui and Ni, Kai and Sengupta, Abhronil},
-  booktitle    = {2025 IEEE 68th International Midwest Symposium on Circuits and Systems (MWSCAS)},
-  pages        = {583--587},
-  year         = {2025},
-  organization = ieee,
-  bibtex_show  = {true},
-  selected     = {true},
-  pdf          = {Toward Variation-Tolerant Ferroelectric Neural Computing.pdf},
-  abbr         = {MWSCAS}
 }

@@ -152,12 +152,15 @@
   type: time_table
   contents:
     - title: Recent Publications
-      year: 2024
+      year: 2026
       description: See my <a href="https://scholar.google.com/citations?user=j-zfUj8AAAAJ&hl=en&oi=ao">Google Scholar</a> profile for a complete list of publications.
 
 - title: Awards and Recognition
   type: time_table
   contents:
+    - title: Melvin P. Bloom Memorial Outstanding Doctoral Research Award, Penn State Electrical Engineering Department
+      year: 2026
+      description:
     - title: Harry G. Miller Fellowships in Engineering
       year: 2025
       description:

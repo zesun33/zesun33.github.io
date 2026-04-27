@@ -36,7 +36,7 @@ I am a **PhD candidate in Electrical Engineering** at **Pennsylvania State Unive
 
 ### Research Focus
 
-My research centers on **brain-inspired computing architectures** that bridge the gap between biological neural networks and artificial intelligence hardware. I am particularly interested in:
+My research centers on **brain-inspired computing architectures** and **memory-centric machine learning acceleration** that bridge the gap between biological neural networks, emerging memory devices, and artificial intelligence hardware. I am particularly interested in:
 
 **Neuromorphic Computing & Brain-Inspired AI:**
 
@@ -47,6 +47,7 @@ My research centers on **brain-inspired computing architectures** that bridge th
 **Machine Learning Hardware & AI Accelerators:**
 
 - Designing **in-memory computing architectures** for edge AI applications
+- Building **DG-FeFET Compute-in-Memory accelerators** for dynamic-operand ML workloads, with TrilinearCIM demonstrating runtime-reprogramming-free Transformer attention
 - Optimizing **ML accelerator designs** for neuromorphic workloads
 - Developing **energy-efficient AI hardware** solutions
 
@@ -110,7 +111,7 @@ As a **Graduate Technical Intern at Intel Corporation** (05/2025 - 07/2025), I w
 
 ### Research Impact & Publications
 
-My research has been published in prestigious journals including **IEEE Transactions on Cognitive and Developmental Systems** and **Matter (Cell Press)**. I have presented work at international conferences such as **IEEE ISIEA**, **ICECE**, and **iCACCESS**, covering topics from **3nm GAAFETs** to **electronic braille devices** for accessibility technology.
+My recent work includes **TrilinearCIM**, a DG-FeFET Compute-in-Memory architecture for memory-centric ML acceleration, and **RMAAT**, an ICLR 2026 bio-inspired long-context Transformer architecture. My research has been published in venues including **ICLR**, **IEEE Transactions on Cognitive and Developmental Systems**, and **Matter (Cell Press)**, spanning topics from astromorphic computing and ML acceleration to neuromorphic devices and semiconductor technology.
 
 ### Teaching & Mentorship
 
@@ -128,8 +129,8 @@ I envision a future where **brain-inspired computing** revolutionizes artificial
 🎓 **Google Scholar**: [View Publications](https://scholar.google.com/citations?user=j-zfUj8AAAAJ&hl=en&oi=ao)  
 💼 **LinkedIn**: [Connect with me](https://www.linkedin.com/in/zesun-ahmed/)
 
-Feel free to explore my publications, ongoing projects, and recent news. I welcome opportunities for collaboration and discussion about research in neuromorphic computing, ML hardware, and emerging semiconductor technologies.
+Feel free to explore my publications, ongoing projects, and recent news. I welcome opportunities for collaboration and discussion about research in neuromorphic computing, memory-centric ML acceleration, ML hardware, and emerging semiconductor technologies.
 
 ---
 
-**Keywords:** neuromorphic computing, machine learning hardware, spintronics, semiconductor devices, AI accelerators, brain-inspired computing, emerging devices, FeFET, Penn State, electrical engineering, PhD research, Intel Corporation, edge AI, spiking neural networks, device-circuit co-design
+**Keywords:** neuromorphic computing, machine learning hardware, TrilinearCIM, memory-centric ML acceleration, compute-in-memory, spintronics, semiconductor devices, AI accelerators, brain-inspired computing, emerging devices, FeFET, Penn State, electrical engineering, PhD research, Intel Corporation, edge AI, spiking neural networks, device-circuit co-design
