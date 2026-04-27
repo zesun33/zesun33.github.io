@@ -39,6 +39,7 @@
   },
   "work": [
     {
+      "type": "industry",
       "name": "Intel Corporation",
       "position": "Graduate Technical Intern",
       "url": "https://intel.com",
@@ -53,6 +54,7 @@
       ]
     },
     {
+      "type": "academic",
       "name": "Pennsylvania State University",
       "position": "Graduate Research Assistant",
       "url": "https://psu.edu",
@@ -69,6 +71,7 @@
       ]
     },
     {
+      "type": "academic",
       "name": "Pennsylvania State University",
       "position": "Graduate Teaching Assistant",
       "url": "https://psu.edu",
@@ -83,6 +86,7 @@
       ]
     },
     {
+      "type": "academic",
       "name": "University of Liberal Arts Bangladesh",
       "position": "Lecturer",
       "url": "https://ulab.edu.bd",
@@ -97,6 +101,7 @@
       ]
     },
     {
+      "type": "academic",
       "name": "Bangladesh University of Engineering & Technology (BUET)",
       "position": "Lecturer (Part-time)",
       "url": "https://buet.ac.bd",
@@ -111,6 +116,7 @@
       ]
     },
     {
+      "type": "industry",
       "name": "SEMWAVES Ltd.",
       "position": "R&D Engineer (Part-time)",
       "url": "",
