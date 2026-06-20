@@ -40,6 +40,21 @@
   "work": [
     {
       "type": "industry",
+      "name": "Micron Technology",
+      "position": "Machine Learning Engineer Intern",
+      "url": "https://micron.com",
+      "startDate": "2026-05-01",
+      "endDate": "2026-07-01",
+      "summary": "Pathfinding analysis of NVM-based Compute-in-Memory architectures for LLM inference acceleration at the Pathfinding and Strategy Group, Richardson, TX.",
+      "highlights": [
+        "Analyzed ML workloads (LLMs: LLama-3, Gemma-3, Gemma-4; CNNs) on Compute-in-Memory (CIM) architectures, quantifying energy, latency, and area trade-offs for next-generation AI accelerators at the pathfinding stage",
+        "Modeled Non-Volatile Memory (NVM) device characteristics (technology-agnostic) to evaluate speedup and energy savings for memory-centric ML inference",
+        "Characterized LLM serving performance (TPOT, TTFT) under Prefill-Decode and Attention-FFN disaggregation schemes (PD, AFD) for hyperscale inference deployment",
+        "Investigated quantization error and CIM analog error mitigation techniques to preserve model accuracy under analog compute noise and limited ADC precision"
+      ]
+    },
+    {
+      "type": "industry",
       "name": "Intel Corporation",
       "position": "Graduate Technical Intern",
       "url": "https://intel.com",
@@ -222,6 +237,19 @@
   ],
   "skills": [
     {
+      "name": "LLM Serving & CIM",
+      "level": "Advanced",
+      "icon": "fa-solid fa-server",
+      "keywords": [
+        "LLM serving analysis (TPOT, TTFT)",
+        "Prefill-Decode (PD) and Attention-FFN (AFD) disaggregation",
+        "LLama-3, Gemma-3, Gemma-4 workload characterization",
+        "Compute-in-Memory (CIM) architecture analysis with NVM",
+        "Quantization error analysis (INT8/INT4/FP8, mixed-precision)",
+        "CIM analog error mitigation (noise-aware training, retraining-aware, ADC scaling)"
+      ]
+    },
+    {
       "name": "Programming Languages",
       "level": "Advanced",
       "icon": "fa-solid fa-code",
@@ -383,6 +411,18 @@
     }
   ],
   "projects": [
+    {
+      "name": "ML Workload Analysis for CIM-NVM AI Accelerators",
+      "summary": "Industry pathfinding project at Micron Technology (Pathfinding and Strategy Group, Richardson, TX) analyzing how NVM-based Compute-in-Memory architectures can accelerate LLM inference, with emphasis on energy, latency, and throughput trade-offs relative to conventional digital accelerators.",
+      "highlights": [
+        "Modeled NVM device characteristics (technology-agnostic) to evaluate speedup and energy savings for memory-centric ML inference",
+        "Profiled state-of-the-art LLMs (LLama-3, Gemma-3, Gemma-4) under Prefill-Decode and Attention-FFN disaggregation (PD, AFD); quantified TPOT and TTFT trade-offs",
+        "Investigated quantization error propagation through CIM compute paths and CIM analog error mitigation (noise-aware, retraining-aware, ADC scaling)"
+      ],
+      "startDate": "2026-05-01",
+      "endDate": "2026-07-01",
+      "url": ""
+    },
     {
       "name": "TrilinearCIM: All-in-Memory Transformer Acceleration",
       "summary": "DG-FeFET Compute-in-Memory architecture that performs the full Transformer attention dataflow in-memory without runtime NVM reprogramming, using a novel three-operand multiply-accumulate primitive (Y = A * B * C).",

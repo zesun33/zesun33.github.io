@@ -41,6 +41,14 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Machine Learning Engineer Intern
+      institution: Micron Technology, Richardson, TX
+      year: 05/2026 - 07/2026 (Expected)
+      description:
+        - Analyzed ML workloads (LLMs: LLama-3, Gemma-3, Gemma-4; CNNs) on Compute-in-Memory (CIM) architectures, quantifying energy, latency, and area trade-offs for next-generation AI accelerators at the pathfinding stage
+        - Modeled Non-Volatile Memory (NVM) device characteristics (technology-agnostic) to evaluate speedup and energy savings for memory-centric ML inference
+        - Characterized LLM serving performance (TPOT, TTFT) under Prefill-Decode and Attention-FFN disaggregation schemes (PD, AFD) for hyperscale inference deployment
+        - Investigated quantization error and CIM analog error mitigation techniques to preserve model accuracy under analog compute noise and limited ADC precision
     - title: Graduate Technical Intern
       institution: Intel Corporation, Hillsboro, OR
       year: 05/2025 - 07/2025
@@ -93,10 +101,14 @@
         - DNN/GNN/Transformer accelerators, systolic and dataflow architectures
         - Sparsity- and quantization-aware compute, mixed-signal MACs
         - Compute-in-memory, near-memory compute, memory hierarchies
+        - LLM serving optimization: Prefill-Decode (PD) and Attention-FFN (AFD) disaggregation; TPOT/TTFT analysis
+        - CIM-NVM architecture analysis for memory-centric AI accelerators
+        - CIM analog error mitigation (noise-aware training, retraining-aware, ADC scaling) and quantization error analysis
         - Compilation and mapping, performance/energy modeling
     - title: Emerging Devices
       items:
         - Spintronics (STT/SOT-MRAM), FeFET/NCFET, RRAM/PCM memristors
+        - Non-Volatile Memory (NVM) for Compute-in-Memory (CIM) architectures
         - 2D materials, analog programmability, endurance and variability
     - title: Semiconductor Process Integration
       items:
@@ -142,6 +154,7 @@
       items:
         - Pandas, NumPy, JMP, Jupyter
         - Data Visualization, Statistical Analysis
+        - LLM serving analysis (TPOT/TTFT) and quantization error analysis
         - Machine learning frameworks and neuromorphic simulation tools
     - title: Languages
       items:
