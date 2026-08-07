@@ -81,12 +81,20 @@ This project enforces strict code quality standards with automated workflows:
 # Format checking and fixing
 npm run format:check    # Check code formatting
 npm run format         # Auto-fix formatting issues
-npm run pre-push-check # Comprehensive pre-deployment verification
+npm run pre-push-check # Pre-deployment verification (Prettier)
 
 # Development server
-npm run dev           # Start Jekyll development server
+npm run preview:docker # Docker preview (Windows / no Ruby on PATH) → http://127.0.0.1:4000/
+npm run dev           # Jekyll via Ruby/Bundler (if installed)
 npm run build         # Build production site
 ```
+
+### **Before push**
+1. `npm run format:check`
+2. Launch local preview (`npm run preview:docker` or `npm run dev`) and check changed pages
+3. Ask for explicit push approval
+
+See [`.workspace-rules.md`](.workspace-rules.md) and [DEVELOPMENT.md](DEVELOPMENT.md) (Docker on Windows).
 
 ### **Workflow Rules**
 See [`.workspace-rules.md`](.workspace-rules.md) for comprehensive development workflow requirements.
@@ -121,11 +129,18 @@ See [`.workspace-rules.md`](.workspace-rules.md) for comprehensive development w
 
 3. **Start development server:**
    ```bash
-   bundle exec jekyll serve --livereload
+   # Preferred on Windows when Ruby/Bundler are not on PATH:
+   npm run preview:docker
+
+   # Or, if Ruby/Bundler work locally:
+   npm run dev
+   # / bundle exec jekyll serve --livereload
    ```
 
 4. **Open in browser:**
-   Navigate to `http://localhost:4000`
+   Navigate to `http://127.0.0.1:4000` (Docker) or `http://localhost:4000`
+
+   Docker preview needs a one-time junction `C:\zesun-site` → this repo; see [DEVELOPMENT.md](DEVELOPMENT.md).
 
 ### VS Code Development Environment
 

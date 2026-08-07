@@ -10,14 +10,17 @@ Thank you for your interest in contributing to this academic portfolio website. 
 
 1. **Prettier Formatting**: All code must pass `npm run format:check` before commits
 2. **Pre-commit Hooks**: Husky automatically enforces formatting (no bypassing allowed)
-3. **Push Approval**: All GitHub pushes require explicit approval from repository owner
-4. **Documentation**: Changes must include updated documentation
+3. **Local Preview**: Launch the site locally and smoke-check changed pages before requesting a push
+4. **Push Approval**: All GitHub pushes require explicit approval from repository owner
+5. **Documentation**: Changes must include updated documentation
 
 ### **Required Commands Before Contributing**
 ```bash
 npm run format:check    # Verify code formatting
 npm run format         # Auto-fix any formatting issues
-npm run pre-push-check  # Comprehensive pre-submission verification
+npm run pre-push-check  # Prettier pre-submission verification
+npm run preview:docker  # Local site via Docker (Windows-friendly)
+# or: npm run dev
 ```
 
 **📖 Complete Workflow Rules**: See [`.workspace-rules.md`](.workspace-rules.md) for detailed requirements.
@@ -162,7 +165,8 @@ This repository uses **automated tools** to enforce code quality:
 
 2. **Make your changes:**
    - Update relevant files
-   - Test locally with `bundle exec jekyll serve`
+   - Test locally with `npm run preview:docker` (or `npm run dev` / `bundle exec jekyll serve`)
+   - Run `npm run format:check` before requesting a push
    - Verify all links and formatting
 
 3. **Commit your changes:**

@@ -1,0 +1,32 @@
+---
+description: Personal website pre-commit/pre-push — Prettier + local Jekyll preview
+alwaysApply: true
+---
+
+# Personal Website Workflow
+
+When working in `personal-website` (zesun33.github.io):
+
+## Before commit
+- Run `npm run format:check` (fix with `npm run format` if needed).
+- Do not bypass Husky / Prettier hooks.
+
+## Before asking to push
+1. Run `npm run format:check` (and `npm run pre-push-check`).
+2. Launch the site locally and smoke-check news/publications/pages that changed.
+3. Ask the user explicitly before any `git push`.
+
+## Local preview on this Windows machine
+Ruby/`bundle` are often not on PATH. Prefer Docker via:
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File _scripts/docker-serve.ps1
+```
+
+Or `npm run preview:docker`.
+
+- Requires Docker Desktop and junction `C:\zesun-site` → repo (script/docs explain setup).
+- Preview: http://127.0.0.1:4000/
+- Uses `_scripts/preview_overrides.yml` to exclude `assets/jupyter/` (no `jupyter` CLI in the image).
+
+Details: `DEVELOPMENT.md`, `.workspace-rules.md`.

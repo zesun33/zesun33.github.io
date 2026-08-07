@@ -5,6 +5,25 @@
 @string{elsevier = {Elsevier}}
 @string{springer = {Springer}}
 
+@article{meem2026energy,
+  title       = {Energy-aware spike budgeting for continual learning in spiking neural networks for neuromorphic vision},
+  author      = {Meem, Anika Tabassum and Nadid, Muntasir Hossain and Mia, Md Zesun Ahmed},
+  journal     = {Neuromorphic Computing and Engineering},
+  volume      = {6},
+  number      = {3},
+  pages       = {034004},
+  year        = {2026},
+  publisher   = {IOP Publishing},
+  doi         = {10.1088/2634-4386/ae8627},
+  url         = {https://doi.org/10.1088/2634-4386/ae8627},
+  arxiv       = {2602.12236},
+  bibtex_show = {true},
+  selected    = {true},
+  pdf         = {Energy-aware_spike_budgeting_for_continual_learning_in_spiking_neural_networks_for_neuromorphic_vision.pdf},
+  abstract    = {Neuromorphic vision systems based on spiking neural networks (SNNs) offer event-driven sparse computation for event-based and frame-based cameras, yet catastrophic forgetting remains a critical barrier to deployment in continually evolving environments. Existing continual learning methods, developed primarily for artificial neural networks, seldom jointly optimize accuracy and activity-dependent spike cost, with particularly limited exploration on event-based datasets. We propose an energy-aware spike budgeting framework for continual SNN learning that integrates experience replay, learnable leaky integrate-and-fire neuron parameters, and an adaptive spike-budget controller to enforce dataset-specific spike-activity constraints during training. Our approach exhibits modality-dependent behavior: on frame-based datasets (MNIST, CIFAR-10), spike budgeting acts as a sparsity-inducing regularizer, improving accuracy while reducing spike rates by up to 47%; on event-based datasets (DVS-Gesture, N-MNIST, CIFAR-10-DVS), controlled budget relaxation enables accuracy gains up to 17.45% points with minimal computational overhead. Across five benchmarks spanning both modalities, our method demonstrates consistent performance improvements while keeping spike activity under explicit control, supporting practical continual learning under an activity-driven synaptic-event proxy rather than a direct hardware-energy measurement.},
+  abbr        = {NCE}
+}
+
 @article{mia2026trilinear,
   title       = {Trilinear Compute-in-Memory Architecture for Energy-Efficient Transformer Acceleration},
   author      = {Mia, Md Zesun Ahmed and Duan, Jiahui and Ni, Kai and Sengupta, Abhronil},

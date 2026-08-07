@@ -43,7 +43,7 @@
   contents:
     - title: Machine Learning Engineer Intern
       institution: Micron Technology, Richardson, TX
-      year: 05/2026 - 07/2026 (Expected)
+      year: 05/2026 - 07/2026
       description:
         - Analyzed ML workloads (LLMs: LLama-3, Gemma-3, Gemma-4; CNNs) on Compute-in-Memory (CIM) architectures, quantifying energy, latency, and area trade-offs for next-generation AI accelerators at the pathfinding stage
         - Modeled Non-Volatile Memory (NVM) device characteristics (technology-agnostic) to evaluate speedup and energy savings for memory-centric ML inference
@@ -167,6 +167,37 @@
     - title: Recent Publications
       year: 2026
       description: See my <a href="https://scholar.google.com/citations?user=j-zfUj8AAAAJ&hl=en&oi=ao">Google Scholar</a> profile for a complete list of publications.
+
+- title: Professional Service and Affiliations
+  type: time_table
+  contents:
+    - title: Reviewer, Conference on Neural Information Processing Systems (NeurIPS)
+      year: 2026
+      description:
+    - title: Reviewer, IOP Physica Scripta
+      year: 2026
+      description:
+    - title: Reviewer, IEEE International Midwest Symposium on Circuits and Systems (MWSCAS)
+      year: 2026
+      description:
+    - title: Reviewer, IEEE Transactions on Neural Networks and Learning Systems (TNNLS)
+      year: 2025
+      description:
+    - title: Reviewer, Design Automation Conference (DAC)
+      year: 2025
+      description:
+    - title: Reviewer, IEEE International Midwest Symposium on Circuits and Systems (MWSCAS)
+      year: 2025
+      description:
+    - title: Member, Graduate Student Advisory Committee, Penn State
+      year: 2024-2026
+      description:
+    - title: Student Member, Institute of Electrical and Electronics Engineers (IEEE)
+      year: 2015-Present
+      description:
+    - title: Executive Member, IEEE Electron Devices Society (EDS) Bangladesh Section
+      year: 2021-2022
+      description:
 
 - title: Awards and Recognition
   type: time_table

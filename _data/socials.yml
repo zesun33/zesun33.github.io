@@ -8,9 +8,8 @@
 # dblp_url: # your DBLP profile url
 # discord_id: # your discord id (18-digit unique numerical identifier)
 email: zesun123@gmail.com
-work_email: zesun.ahmed@psu.edu
-# facebook_id: zesun.ahmed # your facebook id
-# flickr_id: # your flickr id
+# work_email is shown in About; not a supported socials.yml icon key (renders a broken empty <img>)
+# work_email: zesun.ahmed@psu.edu
 github_username: zesun33
 # gitlab_username: # your GitLab user name
 # ieee_id: # your ieeexplore.ieee.org/author/id

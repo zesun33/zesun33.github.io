@@ -11,15 +11,18 @@ This project enforces strict code quality standards with automated workflows:
 - **Prettier Pre-Commit Hooks**: Automatically run before every commit via Husky
 - **Commit Blocking**: Commits are blocked if formatting issues found
 - **Push Approval Required**: All GitHub pushes require explicit user approval
+- **Local Preview Required**: Launch the site locally and smoke-check changed pages before requesting a push
 - **Documentation**: See [`.workspace-rules.md`](.workspace-rules.md) for complete requirements
 
 ### **Required Commands**
 
 ```bash
-# ALWAYS run before committing
+# ALWAYS run before committing / before requesting a push
 npm run format:check    # Check code formatting
 npm run format         # Auto-fix formatting issues
-npm run pre-push-check  # Pre-deployment verification
+npm run pre-push-check  # Pre-deployment verification (Prettier)
+npm run preview:docker  # Local site via Docker (preferred on Windows)
+# or: npm run dev       # if Ruby/Bundler are installed
 ```
 
 **⚠️ WARNING**: Failure to follow these rules will result in CI failures and deployment issues.
@@ -130,11 +133,15 @@ Pre-configured tasks available via Command Palette (`Ctrl+Shift+P`):
 
 ### Local Development
 
-**Start development server:**
+**Start development server (Ruby/Bundler on PATH):**
 
 ```bash
 bundle exec jekyll serve --livereload --drafts
+# or
+npm run dev
 ```
+
+Open http://localhost:4000 (or http://127.0.0.1:4000).
 
 **Build for production:**
 
@@ -142,9 +149,40 @@ bundle exec jekyll serve --livereload --drafts
 JEKYLL_ENV=production bundle exec jekyll build
 ```
 
-**Run with Docker (alternative):**
+### Local Development (Docker on Windows)
+
+On this machine, `bundle`/`ruby` are often missing from PATH. Use Docker Desktop instead.
+
+**One-time setup — junction without spaces** (Docker volume mounts break on paths with spaces):
+
+```powershell
+New-Item -ItemType Junction -Path 'C:\zesun-site' -Target 'C:\Users\Md Zesun Ahmed Mia\Documents\projects\personal-website'
+```
+
+**Start preview:**
+
+```powershell
+npm run preview:docker
+# equivalent:
+# powershell -NoProfile -ExecutionPolicy Bypass -File _scripts/docker-serve.ps1
+```
+
+- Site: http://127.0.0.1:4000/
+- LiveReload: port 35729
+- Stop: `docker stop zesun-jekyll`
+
+**Preview notes:**
+
+- Script mounts `C:/zesun-site` into `jekyll/jekyll:4`, runs `bundle install`, then `jekyll serve`.
+- Uses `_scripts/preview_overrides.yml` so `assets/jupyter/` is excluded (the image has no `jupyter` CLI). Full CI/production builds still convert notebooks when Python/jupyter is available.
+- Do **not** rely on the old `starefossen/github-pages` one-liner; it does not build this al-folio site correctly.
+
+**Before every push:** run `npm run format:check`, launch local preview, smoke-check changed pages, then ask for push approval (see `.workspace-rules.md`).
+
+**Deprecated / do not use for this repo:**
 
 ```bash
+# Broken for this site — leaves an empty WEBrick directory listing
 docker run -it --rm -v "$PWD":/usr/src/app -p "4000:4000" starefossen/github-pages
 ```
 

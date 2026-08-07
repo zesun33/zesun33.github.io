@@ -5,12 +5,12 @@ description: Pre-silicon analysis of NVM-based Compute-in-Memory architectures f
 importance: 2
 category: work
 related_publications: false
-published: false
+published: true
 ---
 
 ## Micron ML Accelerator Pathfinding
 
-**Industry Project** &nbsp;—&nbsp; Micron Technology, Pathfinding and Strategy Group, Richardson, TX (05/2026–07/2026, Expected)
+**Industry Project** &nbsp;—&nbsp; Micron Technology, Pathfinding and Strategy Group, Richardson, TX (05/2026–07/2026)
 
 This industry pathfinding project analyzes how **Non-Volatile Memory (NVM)-based Compute-in-Memory (CIM) architectures** can accelerate large language model (LLM) inference, with an emphasis on energy, latency, and throughput trade-offs relative to conventional digital accelerators.
 

@@ -1,0 +1,33 @@
+# Local Docker preview overrides — jupyter CLI is not in jekyll/jekyll image.
+# Loaded via: jekyll serve --config _config.yml,_scripts/preview_overrides.yml
+# Jekyll replaces `exclude` when merging configs, so keep base excludes + notebook path.
+# Do NOT exclude `_scripts/` — search.liquid.js (and *-setup.js) live there and emit
+# /assets/js/search-data.js. Only skip Docker helper files in that folder.
+exclude:
+  - vendor
+  - .git/
+  - .github/
+  - .husky/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - package.json
+  - package-lock.json
+  - purgecss.config.js
+  - requirements.txt
+  - SECURITY.md
+  - DEPLOYMENT.md
+  - DEVELOPMENT.md
+  - CONTRIBUTING.md
+  - CHANGELOG.md
+  - ARCHITECTURE.md
+  - PROJECT_STATUS.md
+  - LICENSE
+  - README.md
+  - .lighthouserc.json
+  - .prettierignore
+  - .workspace-rules.md
+  - zesun-academic-website.code-workspace
+  - assets/jupyter/
+  - _scripts/docker-serve.ps1
+  - _scripts/preview_overrides.yml

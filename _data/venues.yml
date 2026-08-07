@@ -16,6 +16,10 @@
   color: "#ff7f0e"
   description: Matter (Cell Press)
 
+"NCE":
+  color: "#17becf"
+  description: Neuromorphic Computing and Engineering (IOP Publishing)
+
 "iCACCESS":
   color: "#2ca02c"
   description: International Conference on Accessibility and Computing for Persons with Disabilities

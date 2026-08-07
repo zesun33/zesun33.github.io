@@ -186,6 +186,13 @@
   ],
   "publications": [
     {
+      "name": "Energy-aware spike budgeting for continual learning in spiking neural networks for neuromorphic vision",
+      "publisher": "Neuromorphic Computing and Engineering",
+      "releaseDate": "2026-07-15",
+      "url": "https://doi.org/10.1088/2634-4386/ae8627",
+      "summary": "Supervised ULAB student research introducing an energy-aware spike budgeting framework for continual SNN learning, with up to 47% spike-rate reduction on frame-based datasets and up to 17.45 percentage-point accuracy gains on event-based vision benchmarks."
+    },
+    {
       "name": "Trilinear Compute-in-Memory Architecture for Energy-Efficient Transformer Acceleration",
       "publisher": "arXiv",
       "releaseDate": "2026-04-01",
@@ -351,6 +358,64 @@
         "Lab Supervision",
         "Academic Instruction"
       ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "NeurIPS",
+      "position": "Reviewer",
+      "startDate": "2026",
+      "summary": "Conference on Neural Information Processing Systems (NeurIPS)"
+    },
+    {
+      "organization": "IOP Physica Scripta",
+      "position": "Reviewer",
+      "startDate": "2026",
+      "summary": "Peer reviewer for IOP Physica Scripta"
+    },
+    {
+      "organization": "IEEE MWSCAS",
+      "position": "Reviewer",
+      "startDate": "2026",
+      "summary": "IEEE International Midwest Symposium on Circuits and Systems (MWSCAS)"
+    },
+    {
+      "organization": "IEEE TNNLS",
+      "position": "Reviewer",
+      "startDate": "2025",
+      "summary": "IEEE Transactions on Neural Networks and Learning Systems (TNNLS)"
+    },
+    {
+      "organization": "Design Automation Conference (DAC)",
+      "position": "Reviewer",
+      "startDate": "2025",
+      "summary": "Design Automation Conference (DAC)"
+    },
+    {
+      "organization": "IEEE MWSCAS",
+      "position": "Reviewer",
+      "startDate": "2025",
+      "summary": "IEEE International Midwest Symposium on Circuits and Systems (MWSCAS)"
+    },
+    {
+      "organization": "Pennsylvania State University",
+      "position": "Member, Graduate Student Advisory Committee",
+      "startDate": "2024",
+      "endDate": "2026",
+      "summary": "Graduate Student Advisory Committee, Penn State"
+    },
+    {
+      "organization": "IEEE",
+      "position": "Student Member",
+      "startDate": "2015",
+      "summary": "Institute of Electrical and Electronics Engineers (IEEE)"
+    },
+    {
+      "organization": "IEEE Electron Devices Society (EDS) Bangladesh Section",
+      "position": "Executive Member",
+      "startDate": "2021",
+      "endDate": "2022",
+      "summary": "Executive Member, IEEE EDS Bangladesh Section"
     }
   ],
   "awards": [

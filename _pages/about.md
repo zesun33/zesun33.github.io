@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: PhD Candidate in Electrical Engineering | Neuromorphic Computing Researcher | Ex-Intel Graduate Technical Intern
+subtitle: PhD Candidate in Electrical Engineering | Neuromorphic Computing Researcher | Ex-Micron & Ex-Intel Intern
 
 profile:
   align: right
@@ -11,6 +11,7 @@ profile:
   more_info: >
     <p>PhD Candidate, Electrical Engineering</p>
     <p>Pennsylvania State University</p>
+    <p>Ex-Micron ML Engineer Intern</p>
     <p>Ex-Intel Graduate Technical Intern</p>
 
 news: true # includes a list of news items
@@ -32,7 +33,7 @@ social: true # includes social icons at the bottom of the page
 
 > _"Curiosity drives me to seek new questions and create new knowledge. I believe progress in science comes from collaboration, open-mindedness, and the courage to explore beyond boundaries."_
 
-I am a **PhD candidate in Electrical Engineering** at **Pennsylvania State University**, specializing in **neuromorphic computing**, **machine learning hardware**, and **emerging semiconductor devices**. Previously, I served as a **Graduate Technical Intern at Intel Corporation** (May-July 2025), where I worked on cutting-edge **thin film process development** and **device integration** for next-generation computing systems.
+I am a **PhD candidate in Electrical Engineering** at **Pennsylvania State University**, specializing in **neuromorphic computing**, **machine learning hardware**, and **emerging semiconductor devices**. Most recently, I served as a **Machine Learning Engineer Intern at Micron Technology** (May–July 2026), analyzing **NVM-based Compute-in-Memory** architectures for LLM inference acceleration. Previously, I was a **Graduate Technical Intern at Intel Corporation** (May–July 2025), working on **thin film process development** and **device integration** for next-generation computing systems.
 
 ### Research Focus
 
@@ -46,9 +47,10 @@ My research centers on **brain-inspired computing architectures** and **memory-c
 
 **Machine Learning Hardware & AI Accelerators:**
 
-- Designing **in-memory computing architectures** for edge AI applications
-- Building **DG-FeFET Compute-in-Memory accelerators** for dynamic-operand ML workloads, with TrilinearCIM demonstrating runtime-reprogramming-free Transformer attention
-- Optimizing **ML accelerator designs** for neuromorphic workloads
+- Designing **in-memory computing architectures** for edge AI and hyperscale inference applications
+- Building **DG-FeFET Compute-in-Memory accelerators** for dynamic-operand ML workloads, with **TrilinearCIM** demonstrating runtime-reprogramming-free Transformer attention
+- Pathfinding **CIM-NVM architectures for LLM inference**, including energy/latency trade-offs and serving disaggregation (Prefill–Decode, Attention–FFN)
+- Optimizing **ML accelerator designs** for neuromorphic and Transformer workloads
 - Developing **energy-efficient AI hardware** solutions
 
 **Emerging Devices & Semiconductor Technology:**
@@ -67,7 +69,9 @@ My undergraduate degree in **Electrical and Electronic Engineering** from **Bang
 
 ### Industry Experience
 
-As a **Graduate Technical Intern at Intel Corporation** (05/2025 - 07/2025), I worked on thin film deposition process development for advanced technology nodes. I designed and executed Design of Experiments (DOE) for exploratory deposition projects, conducted material characterization (DSIMS, XRR, stress analysis), and developed AI-driven predictive models to assess process impact on circuit electrical parameters and device reliability. This experience bridged my semiconductor process knowledge with ML-based process-circuit co-optimization.
+As a **Machine Learning Engineer Intern at Micron Technology** (05/2026–07/2026) in the Pathfinding and Strategy Group (Richardson, TX), I analyzed **NVM-based Compute-in-Memory (CIM)** architectures for LLM inference acceleration. I modeled technology-agnostic NVM device characteristics, characterized LLM serving under Prefill–Decode and Attention–FFN disaggregation (TPOT/TTFT), and investigated quantization error and CIM analog error mitigation for memory-centric ML inference.
+
+As a **Graduate Technical Intern at Intel Corporation** (05/2025–07/2025), I worked on thin film deposition process development for advanced technology nodes. I designed and executed Design of Experiments (DOE) for exploratory deposition projects, conducted material characterization (DSIMS, XRR, stress analysis), and developed AI-driven predictive models to assess process impact on circuit electrical parameters and device reliability. This experience bridged my semiconductor process knowledge with ML-based process-circuit co-optimization.
 
 ### Technical Expertise
 
@@ -111,11 +115,11 @@ As a **Graduate Technical Intern at Intel Corporation** (05/2025 - 07/2025), I w
 
 ### Research Impact & Publications
 
-My recent work includes **TrilinearCIM**, a DG-FeFET Compute-in-Memory architecture for memory-centric ML acceleration, and **RMAAT**, an ICLR 2026 bio-inspired long-context Transformer architecture. My research has been published in venues including **ICLR**, **IEEE Transactions on Cognitive and Developmental Systems**, and **Matter (Cell Press)**, spanning topics from astromorphic computing and ML acceleration to neuromorphic devices and semiconductor technology.
+My recent work includes **TrilinearCIM**, a DG-FeFET Compute-in-Memory architecture for memory-centric Transformer acceleration, and **RMAAT**, an ICLR 2026 bio-inspired long-context Transformer architecture. Industry pathfinding at **Micron** further shaped how I evaluate CIM-NVM opportunities for LLM inference. As supervisor and corresponding author, I also contributed to an **NCE 2026** paper on energy-aware spike budgeting for continual learning in SNNs with ULAB student collaborators. My research has been published in venues including **ICLR**, **Neuromorphic Computing and Engineering (NCE)**, **IEEE Transactions on Cognitive and Developmental Systems**, and **Matter (Cell Press)**, spanning astromorphic computing, ML acceleration, neuromorphic devices, and semiconductor technology.
 
 ### Teaching & Mentorship
 
-As a **Graduate Teaching Assistant** at Penn State, I mentor students in **analog circuit design**, **Cadence Virtuoso**, and **semiconductor device physics**. I am passionate about making complex engineering concepts accessible and inspiring the next generation of researchers in neuromorphic computing.
+As a **Graduate Teaching Assistant** at Penn State, I mentor students in **analog circuit design**, **Cadence Virtuoso**, and **semiconductor device physics**. Previously, as a **Lecturer at ULAB**, I supervised undergraduate research that culminated in a peer-reviewed **NCE** publication—an experience that continues to shape how I approach mentoring. I am passionate about making complex engineering concepts accessible and inspiring the next generation of researchers in neuromorphic computing and ML hardware.
 
 ### Vision & Future Directions
 
@@ -133,4 +137,4 @@ Feel free to explore my publications, ongoing projects, and recent news. I welco
 
 ---
 
-**Keywords:** neuromorphic computing, machine learning hardware, TrilinearCIM, memory-centric ML acceleration, compute-in-memory, spintronics, semiconductor devices, AI accelerators, brain-inspired computing, emerging devices, FeFET, Penn State, electrical engineering, PhD research, Intel Corporation, edge AI, spiking neural networks, device-circuit co-design
+**Keywords:** neuromorphic computing, machine learning hardware, TrilinearCIM, Micron, memory-centric ML acceleration, compute-in-memory, CIM-NVM, LLM inference, spintronics, semiconductor devices, AI accelerators, brain-inspired computing, emerging devices, FeFET, Penn State, electrical engineering, PhD research, Intel Corporation, NCE, edge AI, spiking neural networks, device-circuit co-design

@@ -97,6 +97,8 @@ The website uses a **static site generation** approach with **Jekyll** and is au
 
 ```bash
 bundle exec jekyll serve --livereload --drafts
+# On Windows without Ruby on PATH:
+# npm run preview:docker
 ```
 
 **Available options:**
