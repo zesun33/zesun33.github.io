@@ -3,7 +3,7 @@ layout: page
 title: TrilinearCIM - All-in-Memory Transformer Acceleration
 description: DG-FeFET Compute-in-Memory architecture eliminating runtime NVM reprogramming for Transformer attention
 importance: 1
-category: work
+category: Research
 related_publications: true
 published: true
 ---

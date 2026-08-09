@@ -4,7 +4,7 @@ title: IRFD - Electricity Fraud Detection
 description: Feature engineering based ensemble classification for traditional meter fraud detection
 img:
 importance: 11
-category: work
+category: Research
 related_publications: true
 ---
 

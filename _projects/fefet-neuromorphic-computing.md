@@ -3,7 +3,7 @@ layout: page
 title: Variation-Tolerant Ferroelectric Neural Computing
 description: Device-circuit-algorithm co-design for variation-tolerant FeFET-based neuromorphic systems
 importance: 2
-category: work
+category: Research
 related_publications: saha2025toward
 ---
 

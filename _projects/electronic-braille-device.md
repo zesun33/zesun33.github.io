@@ -3,7 +3,7 @@ layout: page
 title: Electronic Braille Device
 description: Ultra low-cost, high-speed assistive technology for visually impaired
 importance: 3
-category: work
+category: Research
 related_publications: true
 ---
 

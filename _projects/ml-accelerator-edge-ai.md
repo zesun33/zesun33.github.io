@@ -3,7 +3,7 @@ layout: page
 title: ML Accelerator for Edge AI
 description: Low-power machine learning accelerator design achieving >10x energy efficiency over CPU
 importance: 2
-category: work
+category: Research
 related_publications: false
 published: false
 ---

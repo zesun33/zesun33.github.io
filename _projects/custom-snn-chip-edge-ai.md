@@ -3,7 +3,7 @@ layout: page
 title: Custom SNN Chip for Edge AI
 description: Low-power spiking neural network hardware for edge inference applications
 importance: 5
-category: work
+category: Research
 related_publications: false
 published: false
 ---

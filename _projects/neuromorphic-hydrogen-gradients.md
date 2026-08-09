@@ -3,7 +3,7 @@ layout: page
 title: Neuromorphic Devices with Hydrogen Gradients
 description: Self-sensitizable devices for enhanced synaptic plasticity
 importance: 2
-category: work
+category: Research
 related_publications: true
 ---
 

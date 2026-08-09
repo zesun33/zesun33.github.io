@@ -3,7 +3,7 @@ layout: page
 title: Spintronic Device-Based Memory
 description: End-to-end fabrication and characterization of spintronic memory arrays for neuromorphic computing
 importance: 3
-category: work
+category: Research
 related_publications: true
 published: false
 ---

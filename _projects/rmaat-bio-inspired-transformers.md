@@ -3,7 +3,7 @@ layout: page
 title: RMAAT - Bio-Inspired Transformers
 description: Efficient long-context sequence processing using astrocyte-inspired memory and attention
 importance: 1
-category: work
+category: Research
 related_publications: true
 published: true
 ---

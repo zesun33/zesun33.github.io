@@ -2,10 +2,10 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: This page showcases a selection of my research and academic projects. These projects span various topics, including neuromorphic computing, machine learning, and semiconductor device modeling. Explore them to see the practical applications of my research.
+description: Research in neuromorphic computing, machine learning, and semiconductor devices, plus open-source tools for HW/EDA agent workflows and ML systems.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [Research, Open-source tools]
 horizontal: false
 ---
 

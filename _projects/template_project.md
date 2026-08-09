@@ -38,7 +38,7 @@ title: [Project Title]
 description: [Brief project description]
 img: assets/img/[image-file]
 importance: [1-20, lower numbers appear first]
-category: work/fun/future/hidden
+category: Research/Open-source tools/future/hidden
 related_publications: true/false
 
 ---

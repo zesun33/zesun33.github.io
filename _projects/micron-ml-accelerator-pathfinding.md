@@ -3,7 +3,7 @@ layout: page
 title: Micron ML Accelerator Pathfinding
 description: Pre-silicon analysis of NVM-based Compute-in-Memory architectures for LLM inference acceleration at Micron Technology
 importance: 2
-category: work
+category: Research
 related_publications: false
 published: true
 ---

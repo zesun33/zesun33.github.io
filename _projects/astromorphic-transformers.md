@@ -3,7 +3,7 @@ layout: page
 title: Astromorphic Transformers
 description: Bio-inspired neural architectures incorporating astrocyte-neuron interactions for efficient sequence processing
 importance: 1
-category: work
+category: Research
 related_publications: true
 ---
 

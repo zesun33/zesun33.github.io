@@ -3,7 +3,7 @@ layout: page
 title: Neuromorphic Cybersecurity with Lifelong Learning
 description: A bio-inspired SNN architecture for Network Intrusion Detection Systems (NIDS) capable of lifelong learning.
 importance: 1
-category: work
+category: Research
 related_publications: mia2025neuromorphic
 ---
 
