@@ -28,6 +28,5 @@ As LLM serving scales to hyperscale, the memory bandwidth and energy cost of con
 ### Research Team
 
 - **Lead**: Md Zesun Ahmed Mia (PhD Candidate, Penn State)
-- **Advisor**: Dr. Abhronil Sengupta (Penn State)
 - **Host Group**: Pathfinding and Strategy, Micron Technology, Richardson, TX
 - **Intern Manager / Mentor**: Dave Roberts (Micron)
