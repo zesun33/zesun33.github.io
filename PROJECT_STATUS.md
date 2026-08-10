@@ -242,7 +242,7 @@ This Jekyll-based academic portfolio website is **production-ready** and follows
 
 - **Primary Contact**: zesun.ahmed@psu.edu
 - **Institution**: Pennsylvania State University
-- **Research Group**: Neuromorphic Computing Lab
+- **Research Group**: NeuroAI Lab
 
 ## 🏆 Success Metrics
 
