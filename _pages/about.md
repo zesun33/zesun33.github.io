@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>PhD Candidate, Electrical Engineering</p>
-    <p>NeuroAI Lab, Pennsylvania State University</p>
+    <p><a href="https://sites.psu.edu/sengupta/" target="_blank" rel="noopener">NeuroAI Lab</a>, Pennsylvania State University</p>
     <p>Ex-Micron ML Engineer Intern</p>
     <p>Ex-Intel Graduate Technical Intern</p>
 
@@ -61,7 +61,7 @@ My research centers on **brain-inspired computing architectures** and **memory-c
 
 ### Academic Background
 
-I am currently pursuing a **Doctor of Philosophy (PhD) in Electrical Engineering** at **Pennsylvania State University** in the **NeuroAI Lab** (advisor: Dr. Abhronil Sengupta), focusing on **neuromorphic computing** and **brain-inspired AI hardware**. My doctoral research centers on developing novel **astromorphic computing architectures** that integrate astrocyte-neuron interactions to enhance machine learning efficiency and long-context processing capabilities.
+I am currently pursuing a **Doctor of Philosophy (PhD) in Electrical Engineering** at **Pennsylvania State University** in the **[NeuroAI Lab](https://sites.psu.edu/sengupta/)** (advisor: Dr. Abhronil Sengupta), focusing on **neuromorphic computing** and **brain-inspired AI hardware**. My doctoral research centers on developing novel **astromorphic computing architectures** that integrate astrocyte-neuron interactions to enhance machine learning efficiency and long-context processing capabilities.
 
 I completed my **Master of Science in Electrical Engineering** at Penn State with a **perfect 4.00 GPA**, specializing in **neuromorphic computing for lifelong learning**. My graduate coursework and research provided deep expertise in **device-circuit co-design**, **machine learning hardware**, and **emerging semiconductor technologies**.
 
