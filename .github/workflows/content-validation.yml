@@ -17,6 +17,7 @@ on:
       - "_posts/**"
       - "_projects/**"
       - "_pages/**"
+  workflow_dispatch:
 
 jobs:
   validate-content:
