@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: PhD Candidate in Electrical Engineering | Neuromorphic Computing Researcher | Ex-Micron & Ex-Intel Intern
+subtitle: PhD Candidate in Electrical Engineering | NPU & AI Accelerator Research Intern | Ex-Micron & Ex-Intel Intern
 
 profile:
   align: right
@@ -11,6 +11,7 @@ profile:
   more_info: >
     <p>PhD Candidate, Electrical Engineering</p>
     <p><a href="https://sites.psu.edu/sengupta/" target="_blank" rel="noopener">NeuroAI Lab</a>, Pennsylvania State University</p>
+    <p>GlobalFoundries NPU & AI Accelerator Research Intern</p>
     <p>Ex-Micron ML Engineer Intern</p>
     <p>Ex-Intel Graduate Technical Intern</p>
 
@@ -33,7 +34,7 @@ social: true # includes social icons at the bottom of the page
 
 > _"Curiosity drives me to seek new questions and create new knowledge. I believe progress in science comes from collaboration, open-mindedness, and the courage to explore beyond boundaries."_
 
-I am a **PhD candidate in Electrical Engineering** at **Pennsylvania State University**, specializing in **neuromorphic computing**, **machine learning hardware**, and **emerging semiconductor devices**. Most recently, I served as a **Machine Learning Engineer Intern at Micron Technology** (May–July 2026), analyzing **NVM-based Compute-in-Memory** architectures for LLM inference acceleration. Previously, I was a **Graduate Technical Intern at Intel Corporation** (May–July 2025), working on **thin film process development** and **device integration** for next-generation computing systems.
+I am a **PhD candidate in Electrical Engineering** at **Pennsylvania State University**, specializing in **neuromorphic computing**, **machine learning hardware**, and **semiconductor devices**. I am currently an **NPU & AI Accelerator Research Intern at GlobalFoundries** (September 2026–present), studying memory reliability and hardware-efficient Edge AI architectures. Previously, I served as a **Machine Learning Engineer Intern at Micron Technology** (May–July 2026), analyzing **NVM-based Compute-in-Memory** architectures for LLM inference acceleration, and as a **Graduate Technical Intern at Intel Corporation** (May–July 2025), working on **thin film process development** and **device integration**.
 
 ### Research Focus
 
@@ -68,6 +69,8 @@ I completed my **Master of Science in Electrical Engineering** at Penn State wit
 My undergraduate degree in **Electrical and Electronic Engineering** from **Bangladesh University of Engineering and Technology (BUET)** provided a strong foundation in **semiconductor device physics**, **circuit design**, and **electronics fundamentals**. This rigorous program established my core knowledge in electrical engineering principles and prepared me for advanced graduate research.
 
 ### Industry Experience
+
+As an **NPU & AI Accelerator Research Intern at GlobalFoundries** (09/2026–present) in Malta, NY, I develop Python fault-injection methods to evaluate how memory bit errors affect quantized neural networks using ResNet/CIFAR workloads. I also explore hierarchical Edge AI architectures and hardware-friendly approaches including spiking neural networks, hyperdimensional computing, continual learning, compute-in-memory, and non-volatile memories, with a focus on reducing data movement and supporting low-power sensor-proximal intelligence.
 
 As a **Machine Learning Engineer Intern at Micron Technology** (05/2026–07/2026) in the Pathfinding and Strategy Group (Richardson, TX), I analyzed **NVM-based Compute-in-Memory (CIM)** architectures for LLM inference acceleration. I modeled technology-agnostic NVM device characteristics, characterized LLM serving under Prefill–Decode and Attention–FFN disaggregation (TPOT/TTFT), and investigated quantization error and CIM analog error mitigation for memory-centric ML inference.
 
@@ -127,7 +130,6 @@ I envision a future where **brain-inspired computing** revolutionizes artificial
 
 ### Contact & Academic Identity
 
-📞 **Phone**: 814-280-7244  
 📧 **Email**: [zesun.ahmed@psu.edu](mailto:zesun.ahmed@psu.edu)  
 🆔 **ORCID**: [0009-0004-3509-8455](https://orcid.org/0009-0004-3509-8455)  
 🎓 **Google Scholar**: [View Publications](https://scholar.google.com/citations?user=j-zfUj8AAAAJ&hl=en&oi=ao)  
@@ -137,4 +139,4 @@ Feel free to explore my publications, ongoing projects, and recent news. I welco
 
 ---
 
-**Keywords:** neuromorphic computing, machine learning hardware, TrilinearCIM, Micron, memory-centric ML acceleration, compute-in-memory, CIM-NVM, LLM inference, spintronics, semiconductor devices, AI accelerators, brain-inspired computing, emerging devices, FeFET, Penn State, electrical engineering, PhD research, Intel Corporation, NCE, edge AI, spiking neural networks, device-circuit co-design
+**Keywords:** neuromorphic computing, machine learning hardware, TrilinearCIM, GlobalFoundries, NPU, edge AI, memory reliability, fault injection, Micron, memory-centric ML acceleration, compute-in-memory, CIM-NVM, LLM inference, spintronics, semiconductor devices, AI accelerators, brain-inspired computing, emerging devices, FeFET, Penn State, electrical engineering, PhD research, Intel Corporation, NCE, edge AI, spiking neural networks, device-circuit co-design

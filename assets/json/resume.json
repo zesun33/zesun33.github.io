@@ -4,9 +4,8 @@
     "label": "PhD Candidate in Electrical Engineering",
     "image": "",
     "email": "zesun.ahmed@psu.edu",
-    "phone": "814-280-7244",
     "url": "https://zesun33.github.io",
-    "summary": "PhD candidate in Electrical Engineering at Penn State specializing in neuromorphic computing, machine learning hardware, and device-circuit co-design. Former Graduate Technical Intern at Intel Corporation with experience in advanced semiconductor manufacturing and AI-driven process optimization.",
+    "summary": "PhD candidate in Electrical Engineering at Penn State specializing in neuromorphic computing, machine learning hardware, and device-circuit co-design. Currently an NPU & AI Accelerator Research Intern at GlobalFoundries; former Machine Learning Engineer Intern at Micron and Graduate Technical Intern at Intel.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -38,6 +37,19 @@
     ]
   },
   "work": [
+    {
+      "type": "industry",
+      "name": "GlobalFoundries",
+      "position": "NPU & AI Accelerator Research Intern",
+      "url": "https://www.globalfoundries.com",
+      "startDate": "2026-09-01",
+      "endDate": "Present",
+      "summary": "Research on reliable, hardware-efficient Edge AI and accelerator architectures in Malta, NY.",
+      "highlights": [
+        "Develop a Python fault-injection framework to evaluate how memory bit errors affect quantized neural networks using ResNet/CIFAR workloads, quantify component-level sensitivity, and study role-aware protection for reliable, energy-efficient AI accelerators",
+        "Explore hardware-oriented hierarchical Edge AI architectures and alternatives including spiking neural networks, hyperdimensional computing, continual learning, compute-in-memory, and non-volatile memories to reduce data movement and support low-power sensor-proximal intelligence"
+      ]
+    },
     {
       "type": "industry",
       "name": "Micron Technology",
@@ -403,19 +415,6 @@
       "startDate": "2024",
       "endDate": "2026",
       "summary": "Graduate Student Advisory Committee, Penn State"
-    },
-    {
-      "organization": "IEEE",
-      "position": "Student Member",
-      "startDate": "2015",
-      "summary": "Institute of Electrical and Electronics Engineers (IEEE)"
-    },
-    {
-      "organization": "IEEE Electron Devices Society (EDS) Bangladesh Section",
-      "position": "Executive Member",
-      "startDate": "2021",
-      "endDate": "2022",
-      "summary": "Executive Member, IEEE EDS Bangladesh Section"
     }
   ],
   "awards": [

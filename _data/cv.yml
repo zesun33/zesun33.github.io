@@ -3,8 +3,6 @@
   contents:
     - name: Full Name
       value: Md Zesun Ahmed Mia
-    - name: Phone
-      value: 814-280-7244
     - name: Email
       value: zesun.ahmed@psu.edu
     - name: ORCID iD
@@ -42,6 +40,12 @@
 - title: Experience
   type: time_table
   contents:
+    - title: NPU & AI Accelerator Research Intern
+      institution: GlobalFoundries, Malta, NY
+      year: 09/2026 - Present
+      description:
+        - Develop a Python fault-injection framework to evaluate how memory bit errors affect quantized neural networks using ResNet/CIFAR workloads, quantify component-level sensitivity, and study role-aware protection for reliable, energy-efficient AI accelerators
+        - Explore hardware-oriented hierarchical Edge AI architectures and alternatives including spiking neural networks, hyperdimensional computing, continual learning, compute-in-memory, and non-volatile memories to reduce data movement and support low-power sensor-proximal intelligence
     - title: Machine Learning Engineer Intern
       institution: Micron Technology, Richardson, TX
       year: 05/2026 - 07/2026
@@ -192,12 +196,6 @@
       description:
     - title: Member, Graduate Student Advisory Committee, Penn State
       year: 2024-2026
-      description:
-    - title: Student Member, Institute of Electrical and Electronics Engineers (IEEE)
-      year: 2015-Present
-      description:
-    - title: Executive Member, IEEE Electron Devices Society (EDS) Bangladesh Section
-      year: 2021-2022
       description:
 
 - title: Awards and Recognition
