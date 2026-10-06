@@ -36,6 +36,9 @@ jobs:
           # The validation script uses the bibtexparser v1 API (`load`).
           pip install pyyaml "bibtexparser<2" markdown
 
+      - name: Validate portfolio showcase
+        run: python3 _scripts/check_portfolio.py
+
       - name: Validate BibTeX files 📚
         run: |
           python -c "

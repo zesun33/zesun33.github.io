@@ -1,0 +1,23 @@
+{% for group in site.data.portfolio.groups %}
+  {% assign entries = site.data.portfolio.projects | where: 'family', group.id %}
+  <h2 id="{{ group.id }}">{{ group.title | escape }}</h2>
+  <div class="row row-cols-1 row-cols-md-2">
+    {% for entry in entries %}
+      <div class="col mb-3">
+        <div class="card h-100">
+          <div class="card-body">
+            <h3 class="h5"><a href="{{ entry.url }}">{{ entry.path | escape }}</a></h3>
+            <p class="small"><span class="border rounded px-2 py-1">{{ entry.status_label | escape }}</span></p>
+            <p>{{ entry.description | escape }}.</p>
+            <p class="small"><strong>First task:</strong> {{ entry.guide.first_task | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+            <p class="small"><strong>Scope:</strong> {{ entry.guide.scope | escape }}</p>
+            <a href="{{ entry.start_url }}">{{ entry.guide.start_label | escape }}</a>
+            {% if entry.featured %}
+              · <a href="{{ '/projects/' | append: entry.path | append: '/' | relative_url }}">Project story</a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+{% endfor %}

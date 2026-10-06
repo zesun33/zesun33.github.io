@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: Repositories
-description: Public GitHub profile and selected open-source tooling and ML-systems repositories.
+description: A complete directory of my hardware tools, GPU studies, tutorials, and architecture plans, with first tasks and current scope.
 nav: true
 nav_order: 4
 ---
@@ -35,13 +35,14 @@ nav_order: 4
 {% endif %}
 {% endif %}
 
-{% if site.data.repositories.github_repos %}
+## Choose a practical starting point
 
-## Selected repositories
+[Follow the tutorials]({{ '/projects/hw-ml-tutorials/' | relative_url }}), browse [featured project stories]({{ '/projects/' | relative_url }}#open-source-tools), or open the [portfolio getting-started guide]({{ site.data.portfolio.getting_started_url }}).
 
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for repo in site.data.repositories.github_repos %}
-    {% include repository/repo.liquid repository=repo %}
-  {% endfor %}
-</div>
-{% endif %}
+Each code project keeps its own repository. Labels distinguish usable tools, measured experiments, learning exercises, architecture drafts, and roadmap-only projects. The Rust entry contains public curriculum metadata; its basics remain private.
+
+{% include portfolio_directory.liquid %}
+
+## Website source
+
+[This academic website](https://github.com/zesun33/zesun33.github.io) uses Jekyll and the al-folio theme. [The portfolio catalog]({{ site.data.portfolio.catalog_url }}) supplies the descriptions and scope used in this directory.

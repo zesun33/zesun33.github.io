@@ -1,0 +1,14 @@
+<div class="row row-cols-1 row-cols-md-3">
+  {% for name in site.data.portfolio.featured limit:3 %}
+    {% assign entry = site.data.portfolio.projects | where: 'path', name | first %}
+    <div class="col mb-3">
+      <div class="card h-100 hoverable">
+        <div class="card-body">
+          <h3 class="h5"><a href="{{ '/projects/' | append: name | append: '/' | relative_url }}">{{ name | escape }}</a></h3>
+          <p>{{ entry.description | escape }}.</p>
+          <p class="small mb-0">{{ entry.status_label | escape }}</p>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>

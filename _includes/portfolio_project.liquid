@@ -1,0 +1,15 @@
+{% assign entry = site.data.portfolio.projects | where: 'path', page.portfolio_id | first %}
+{% if entry %}
+<p><span class="small border rounded px-2 py-1">{{ entry.status_label | escape }}</span></p>
+<p><strong>Who it is for:</strong> {{ entry.guide.audience | escape }}</p>
+<p><strong>First task:</strong> {{ entry.guide.first_task | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+<p><strong>What you can produce:</strong> {{ entry.guide.outcome | escape }}</p>
+<p><strong>Current scope:</strong> {{ entry.guide.scope | escape }}</p>
+<p>
+  <a class="btn btn-sm btn-outline-primary mr-2 mb-2" href="{{ entry.start_url }}">Start with the example</a>
+  <a class="btn btn-sm btn-outline-primary mr-2 mb-2" href="{{ entry.url }}">Source and documentation</a>
+  {% unless page.portfolio_id == "hw-ml-tutorials" %}
+  <a class="btn btn-sm btn-outline-primary mb-2" href="{{ '/projects/hw-ml-tutorials/' | relative_url }}">Step-by-step tutorials</a>
+  {% endunless %}
+</p>
+{% endif %}

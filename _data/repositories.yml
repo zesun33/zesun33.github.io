@@ -3,21 +3,35 @@ github_users:
 
 repo_description_lines_max: 2
 
+# Exported from the personal-projects catalog; see DEVELOPMENT.md.
 github_repos:
-  # Meta catalog
   - zesun33/personal-projects
-
-  # HW agent tooling
   - zesun33/hw-agent-tooling
   - zesun33/eda-docker-images
   - zesun33/eda-devcontainer
-
-  # ML systems practice
+  - zesun33/mcp-verilog
+  - zesun33/hw-agent-skills
+  - zesun33/hw-verification-suite
+  - zesun33/mcp-cocotb
+  - zesun33/mcp-yosys
+  - zesun33/mcp-rtl-review
+  - zesun33/mcp-openroad
+  - zesun33/mcp-gds
+  - zesun33/mcp-formal
+  - zesun33/mcp-fpga
+  - zesun33/mcp-spice
+  - zesun33/hw-agent-scaffold
+  - zesun33/gh-actions-for-hw
+  - zesun33/kernel-forge
+  - zesun33/agentic-asic
   - zesun33/cuda-gemm-optimization
   - zesun33/cuda-memory-benchmark
   - zesun33/parallel-computing-lab
   - zesun33/resnet-tensorrt-bench
   - zesun33/triton-flash-attention-lite
-
-  # Academic website
+  - zesun33/lif-spiking-core
+  - zesun33/cim-bit-serial-pe
+  - zesun33/neuro-cim-tile
+  - zesun33/tiny-tpu-systolic-array
+  - zesun33/hw-ml-tutorials
   - zesun33/zesun33.github.io

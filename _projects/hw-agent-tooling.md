@@ -1,17 +1,27 @@
 ---
 layout: page
-title: HW Agent Tooling
-description: Hub and roadmap for MCP servers, agent skills, and CLIs that help coding agents work on hardware and ML systems.
-importance: 1
+title: "Hardware agent tooling: how the pieces fit"
+description: "Follow the tool family from runtime and review guidance to simulation, synthesis, and workflow automation."
+importance: 6
 category: Open-source tools
-github: https://github.com/zesun33/hw-agent-tooling
-redirect: https://github.com/zesun33/hw-agent-tooling
+portfolio_id: hw-agent-tooling
 published: true
 ---
 
-Landing page for the **HW agent tooling** family: agent-oriented tooling for EDA and ML systems workflows, with a shared roadmap and verification notes.
+## The problem
 
-Related foundations:
+Hardware tooling spans containers, editor environments, review rubrics, individual operations, CI, and orchestration. A collection of repository names does not explain which piece to use first.
 
-- [EDA Docker Images](https://github.com/zesun33/eda-docker-images)
-- [EDA Dev Containers](https://github.com/zesun33/eda-devcontainer)
+## What I built
+
+I organized EDA MCP servers, agent instruction packs, runtime images, a starter CLI, and workflow tools. This hub explains their relationships and includes a FIFO review → simulation → synthesis walkthrough.
+
+{% include portfolio_project.liquid %}
+
+## A first useful result
+
+Start with the scaffold for a first simulation, use one MCP server for a specific operation, or read the FIFO walkthrough. The tutorial adds smaller consecutive exercises and a real MCP SDK client that needs no LLM account.
+
+## Evidence and limits
+
+Each tool keeps its own code, checks, and releases. The hub transcripts illustrate a workflow; fresh execution and toolchain versions establish a result for your input. The complete directory distinguishes usable tools from exercises and architecture plans.

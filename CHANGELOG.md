@@ -224,3 +224,10 @@ For questions about specific releases or features, please:
 1. Check the [Issues](https://github.com/zesun33/zesun33.github.io/issues) page
 2. Review the [Documentation](DEVELOPMENT.md)
 3. Contact the maintainer for academic content questions
+
+## 2026-10-06 — Practical project showcase
+
+- Added homepage highlights and six featured engineering project pages with problem, contribution, example, and evidence scope.
+- Added the separate hardware/ML tutorial project's lesson index and a complete grouped repository directory.
+- Replaced repository preview-image cards with readable text descriptions, first tasks, and maturity labels.
+- Added a catalog snapshot export/check workflow so the website and independent project READMEs share purpose and scope metadata.

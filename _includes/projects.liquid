@@ -1,3 +1,16 @@
+{% if project.portfolio_id %}
+{% assign entry = site.data.portfolio.projects | where: 'path', project.portfolio_id | first %}
+<div class="col mb-3">
+  <div class="card h-100 hoverable">
+    <div class="card-body">
+      <h3 class="h5"><a href="{{ project.url | relative_url }}">{{ project.title | escape }}</a></h3>
+      <p>{{ project.description | escape }}</p>
+      <p class="small"><span class="border rounded px-2 py-1">{{ entry.status_label | escape }}</span></p>
+      <a href="{{ project.url | relative_url }}">Example and project story</a> · <a href="{{ entry.url }}">Source</a>
+    </div>
+  </div>
+</div>
+{% else %}
 <div class="col">
   <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
     <div class="card h-100 hoverable">
@@ -33,3 +46,4 @@
     </div>
   </a>
 </div>
+{% endif %}

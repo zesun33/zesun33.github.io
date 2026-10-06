@@ -418,3 +418,22 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed contribution guidelines.
 - **al-folio Theme**: https://github.com/alshedivat/al-folio
 - **GitHub Pages**: https://docs.github.com/en/pages
 - **Jekyll-Scholar**: https://github.com/inukshuk/jekyll-scholar
+
+## Portfolio showcase
+
+The homepage highlights three projects, the Projects page links to six featured project stories and the tutorial series, and Repositories renders the complete grouped portfolio. The directory uses text cards rather than external GitHub preview images. Scope labels distinguish usable tools, measured experiments, exercises, architecture drafts, and plans.
+
+`_data/portfolio.json` and `_data/repositories.yml` are snapshots exported from the separate `personal-projects/projects.json` catalog. Refresh them after catalog changes:
+
+```bash
+cd ../personal-projects
+python3 scripts/export_website.py --website ../personal-website
+python3 scripts/export_website.py --website ../personal-website --check
+cd ../personal-website
+npx prettier --write _data/portfolio.json _data/repositories.yml
+npm run format:check
+```
+
+The export check compares JSON content independently of whitespace. Commit catalog metadata in the parent repository and website snapshots/pages in this website repository. The tutorial has its own repository and history. A website build works from its committed snapshot without cloning the catalog or private learning files.
+
+Featured pages use `portfolio_id` to select a shared introduction via `_includes/portfolio_project.liquid`. Keep the problem/contribution/example/evidence narrative in each page and change shared purpose/status in the catalog. Validate the rendered homepage, `/projects/`, `/repositories/`, featured pages, and tutorial page in a local Jekyll preview before publication. Run `python3 _scripts/check_portfolio.py` for snapshot and featured-page consistency.

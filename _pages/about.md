@@ -60,6 +60,14 @@ My research centers on **brain-inspired computing architectures** and **memory-c
 - Researching **spintronics** and **non-volatile memory (NVM)** technologies
 - Advancing **device-circuit co-design** methodologies
 
+### Build with my open-source projects
+
+My engineering projects connect reproducible hardware development with measured ML performance. Start with a passing hardware simulation, a checked GPU comparison, or a small neuromorphic reference-model trace.
+
+{% include portfolio_featured.liquid %}
+
+[Explore project stories]({{ '/projects/' | relative_url }}#open-source-tools) · [Follow step-by-step tutorials]({{ '/projects/hw-ml-tutorials/' | relative_url }}) · [Browse all repositories]({{ '/repositories/' | relative_url }})
+
 ### Academic Background
 
 I am currently pursuing a **Doctor of Philosophy (PhD) in Electrical Engineering** at **Pennsylvania State University** in the **[NeuroAI Lab](https://sites.psu.edu/sengupta/)** (advisor: Dr. Abhronil Sengupta), focusing on **neuromorphic computing** and **brain-inspired AI hardware**. My doctoral research centers on developing novel **astromorphic computing architectures** that integrate astrocyte-neuron interactions to enhance machine learning efficiency and long-context processing capabilities.
