@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Hardware and ML tutorials
-description: Eight consecutive lessons with commands, runnable examples, deliberate failures, expected results, and troubleshooting.
+description: Practical hardware and ML lessons, university course references, and a Windows guide for learning one step at a time.
 importance: 0
 category: Open-source tools
 portfolio_id: hw-ml-tutorials
@@ -13,6 +13,14 @@ published: true
 This separate tutorial project connects the tools through small engineering attempts. Each lesson explains the problem, prerequisites, commands, expected output, and limits. Begin with a self-checking hardware example; move to GPU experiments or reference-model behavior when those match your goals.
 
 {% include portfolio_project.liquid %}
+
+## Learn at your own pace
+
+Start with the [Windows setup guide](https://github.com/zesun33/hw-ml-tutorials/blob/main/WINDOWS.md) to inspect WSL, get the tutorial files, and run a Python-only documentation check. Add the simulation and MCP runtime when the selected lesson needs it.
+
+The [resource library](https://github.com/zesun33/hw-ml-tutorials/blob/main/resources/README.md) connects all portfolio project types to courses, official documentation, examples, papers, and videos. Its [university directory](https://github.com/zesun33/hw-ml-tutorials/blob/main/resources/universities.md) includes public CMU and Stanford GitHub starters, MIT OCW, Berkeley, DTU, and EPFL material, with access and adaptation notes.
+
+The guided [GCD → dot-product accelerator → processor path](https://github.com/zesun33/hw-ml-tutorials/blob/main/courses/university-asic/README.md) begins with the GCD specification. These new course implementations are upcoming work. Each step follows explanation, prediction, execution, and result interpretation.
 
 ## Choose a lesson
 
