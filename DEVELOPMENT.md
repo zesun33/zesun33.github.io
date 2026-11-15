@@ -437,3 +437,9 @@ npm run format:check
 The export check compares JSON content independently of whitespace. Commit catalog metadata in the parent repository and website snapshots/pages in this website repository. The tutorial has its own repository and history. A website build works from its committed snapshot without cloning the catalog or private learning files.
 
 Featured pages use `portfolio_id` to select a shared introduction via `_includes/portfolio_project.liquid`. Keep the problem/contribution/example/evidence narrative in each page and change shared purpose/status in the catalog. Validate the rendered homepage, `/projects/`, `/repositories/`, featured pages, and tutorial page in a local Jekyll preview before publication. Run `python3 _scripts/check_portfolio.py` for snapshot and featured-page consistency.
+
+## CV reviewer service
+
+The CV’s **Professional Service and Affiliations** section separates peer review from academic appointments. Maintain reviewer records in `assets/json/resume.json` (`volunteer`) and mirror them in the `professional_service` entry of `_data/cv.yml`. Both rendering paths use `_includes/cv/professional_service.liquid`.
+
+Each reviewer record describes one actual service year: set `position` to `Reviewer`, use the same year for `startDate` and `endDate`, and link `url` to the official journal or conference page. Keep the same venue name across years; the table groups those records into one linked venue row with distinct years. Do not infer an ongoing appointment from a review assignment. Academic committee roles retain their actual date ranges below the table.

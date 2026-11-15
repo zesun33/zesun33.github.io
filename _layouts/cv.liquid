@@ -48,6 +48,8 @@ layout: default
                 {% include cv/nested_list.liquid %}
               {% elsif entry.type == 'time_table' %}
                 {% include cv/time_table.liquid %}
+              {% elsif entry.type == 'professional_service' %}
+                {% include cv/professional_service.liquid entries=entry.contents %}
               {% elsif entry.type == 'list_groups' %}
                 {% include cv/list_groups.liquid %}
               {% else %}
@@ -102,7 +104,13 @@ layout: default
           {% if data[0] == 'meta' or data[1].size == 0 %} {% continue %} {% endif %}
           <a class="anchor" id="{{ data[0] }}"></a>
           <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">{{ data[0] | capitalize }}</h3>
+            <h3 class="card-title font-weight-medium">
+              {% if data[0] == 'volunteer' %}
+                Professional Service and Affiliations
+              {% else %}
+                {{ data[0] | capitalize }}
+              {% endif %}
+            </h3>
             <div>
               {% case data[0] %}
                 {% when 'basics' %}

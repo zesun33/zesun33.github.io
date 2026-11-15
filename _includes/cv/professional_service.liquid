@@ -1,0 +1,56 @@
+{% assign reviewers = include.entries | where: 'position', 'Reviewer' %}
+{% assign appointments = include.entries | where_exp: 'service', "service.position != 'Reviewer'" %}
+
+{% if reviewers.size > 0 %}
+  {% assign venues = reviewers | group_by: 'organization' %}
+  <h4 class="mt-2 mb-3">Peer review</h4>
+  <table class="table table-sm mb-0" style="color: var(--global-text-color)" aria-label="Peer review venues and years" data-reviewer-service>
+    <thead>
+      <tr>
+        <th scope="col">Venue</th>
+        <th scope="col" class="text-nowrap">Years</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for venue in venues %}
+        {% assign publication = venue.items | first %}
+        {% assign years = venue.items | map: 'startDate' | uniq | sort %}
+        <tr>
+          <td>
+            {% if publication.url %}
+              <a href="{{ publication.url }}" style="color: inherit; text-decoration: underline; text-underline-offset: 0.15em" target="_blank" rel="noopener noreferrer">
+                {{- venue.name | escape -}}
+              </a>
+            {% else %}
+              {{ venue.name | escape }}
+            {% endif %}
+          </td>
+          <td class="text-nowrap">{{ years | join: ', ' }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+{% endif %}
+
+{% if appointments.size > 0 %}
+  <h4 class="mt-4 mb-3">Academic service</h4>
+  <ul class="list-unstyled mb-0" data-academic-service>
+    {% for appointment in appointments %}
+      <li class="mb-2">
+        {{ appointment.position | escape }},
+        {% if appointment.url %}
+          <a href="{{ appointment.url }}" target="_blank" rel="noopener noreferrer">{{ appointment.organization | escape }}</a>
+        {% else %}
+          {{ appointment.organization | escape }}
+        {% endif %}
+        {% if appointment.startDate %}
+          {% assign start_date = appointment.startDate | split: '-' | slice: 0, 2 | join: '.' %}
+          {% assign end_date = appointment.endDate | split: '-' | slice: 0, 2 | join: '.' | default: 'Present' %}
+          <span class="text-muted text-nowrap">
+            · {{ start_date }}{% if start_date != end_date %}–{{ end_date }}{% endif %}
+          </span>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}

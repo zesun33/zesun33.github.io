@@ -374,40 +374,84 @@
   ],
   "volunteer": [
     {
-      "organization": "NeurIPS",
+      "organization": "Conference on Neural Information Processing Systems (NeurIPS)",
       "position": "Reviewer",
       "startDate": "2026",
-      "summary": "Conference on Neural Information Processing Systems (NeurIPS)"
+      "summary": "Conference on Neural Information Processing Systems (NeurIPS)",
+      "url": "https://neurips.cc/Conferences/2026",
+      "endDate": "2026"
     },
     {
-      "organization": "IOP Physica Scripta",
+      "organization": "IEEE Open Journal of Circuits and Systems (OJCAS)",
       "position": "Reviewer",
       "startDate": "2026",
-      "summary": "Peer reviewer for IOP Physica Scripta"
+      "endDate": "2026",
+      "summary": "IEEE Open Journal of Circuits and Systems",
+      "url": "https://ieee-cas.org/publication/OJCAS"
     },
     {
-      "organization": "IEEE MWSCAS",
+      "organization": "IEEE Transactions on Emerging Topics in Computing (TETC)",
       "position": "Reviewer",
       "startDate": "2026",
-      "summary": "IEEE International Midwest Symposium on Circuits and Systems (MWSCAS)"
+      "endDate": "2026",
+      "summary": "IEEE Transactions on Emerging Topics in Computing",
+      "url": "https://www.computer.org/csdl/journal/ec/"
     },
     {
-      "organization": "IEEE TNNLS",
+      "organization": "Neuromorphic Computing and Engineering (IOP)",
+      "position": "Reviewer",
+      "startDate": "2026",
+      "endDate": "2026",
+      "summary": "Peer reviewer for IOP Neuromorphic Computing and Engineering",
+      "url": "https://iopscience.iop.org/journal/2634-4386"
+    },
+    {
+      "organization": "Engineering Research Express (IOP)",
+      "position": "Reviewer",
+      "startDate": "2026",
+      "endDate": "2026",
+      "summary": "Peer reviewer for IOP Engineering Research Express",
+      "url": "https://iopscience.iop.org/journal/2631-8695"
+    },
+    {
+      "organization": "Physica Scripta (IOP)",
+      "position": "Reviewer",
+      "startDate": "2026",
+      "summary": "Peer reviewer for IOP Physica Scripta",
+      "url": "https://iopscience.iop.org/journal/1402-4896",
+      "endDate": "2026"
+    },
+    {
+      "organization": "IEEE International Midwest Symposium on Circuits and Systems (MWSCAS)",
+      "position": "Reviewer",
+      "startDate": "2026",
+      "summary": "IEEE International Midwest Symposium on Circuits and Systems (MWSCAS)",
+      "url": "https://ieee-cas.org/event/conference/2026-ieee-international-midwest-symposium-circuits-and-systems",
+      "endDate": "2026"
+    },
+    {
+      "organization": "IEEE Transactions on Neural Networks and Learning Systems (TNNLS)",
       "position": "Reviewer",
       "startDate": "2025",
-      "summary": "IEEE Transactions on Neural Networks and Learning Systems (TNNLS)"
+      "summary": "IEEE Transactions on Neural Networks and Learning Systems (TNNLS)",
+      "url": "https://cis.ieee.org/publications/t-neural-networks-and-learning-systems",
+      "endDate": "2025"
     },
     {
       "organization": "Design Automation Conference (DAC)",
       "position": "Reviewer",
       "startDate": "2025",
-      "summary": "Design Automation Conference (DAC)"
+      "summary": "Design Automation Conference (DAC)",
+      "url": "https://www.dac.com/",
+      "endDate": "2025"
     },
     {
-      "organization": "IEEE MWSCAS",
+      "organization": "IEEE International Midwest Symposium on Circuits and Systems (MWSCAS)",
       "position": "Reviewer",
       "startDate": "2025",
-      "summary": "IEEE International Midwest Symposium on Circuits and Systems (MWSCAS)"
+      "summary": "IEEE International Midwest Symposium on Circuits and Systems (MWSCAS)",
+      "url": "https://ieee-cas.org/event/conference/2026-ieee-international-midwest-symposium-circuits-and-systems",
+      "endDate": "2025"
     },
     {
       "organization": "Pennsylvania State University",
